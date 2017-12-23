@@ -1,0 +1,100 @@
+.mountain-line {
+	fill: none;
+	stroke: steelblue;
+	stroke-width: 2px;
+}
+
+.mountain-line.hover {
+	stroke: red;
+	cursor: pointer;
+}
+
+.mountain-area {
+	fill:lightsteelblue;;
+}
+
+.mountain-area.hover{
+  fill: lightsteelblue;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.cover {
+	position: relative;
+	width: 100%;
+	  height:100vh;
+	background-image: url("../images/background-lossy-cropped.gif");
+
+
+}
+.headings .title {
+	text-align: center;
+    position: absolute;
+    top: 15%;
+    right: 275px;
+    z-index: 3;
+    color: #FFF;
+    font-size: 50px;
+
+}
+
+.cover .filter {
+	background-color: black;
+	width: 100%;
+	height: 30%;
+	opacity: 0.5;
+	position: absolute;
+	top: 70%;
+	z-index: 2;
+	font-family: 'Merriweather', serif;
+}
+.cover .headings {
+
+	width: 100%;
+	height: 30%;
+	
+	position: absolute;
+	top: 70%;
+	z-index: 3;
+	font-family: 'Merriweather', serif;
+}
+
+
+
+.cover .headings .dashline {
+	text-align: center;
+    position: absolute;
+    top: 50%;
+    right: 355px;
+    z-index: 3;
+    color: #FFF;
+    font-size: 20px;
+    width: 200px;
+
+}
+.headings .subhead {
+	text-align: center;
+    position: absolute;
+   	top: 65%;
+    right: 295px;
+    z-index: 3;
+    color: #FFF;
+    font-size: 20px;
+    width: 335px;
+
+}
+
+.parallax {
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+	background-color: #171613;
+}
+
+
