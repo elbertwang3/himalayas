@@ -97,4 +97,16 @@ body, html {
 	background-color: #171613;
 }
 
+.peakssvg {
+	display: block;
+	margin: auto;
+}
+
+.mountain-path {
+	stroke: #fff;
+}
+
+.mountain-dot {
+	fill: #FF4500;
+}
 
