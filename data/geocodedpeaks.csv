@@ -36,7 +36,7 @@
 34,APPROXIMATE,"Dhawalagiri, Nepal",ChIJycgVMoT9vTkRxZN_0MqjZzQ,Dhaulagiri V,28.611176,83.5070203,1,,OK,"administrative_area_level_2,political"
 35,GEOMETRIC_CENTER,"Narayan Ma Vi Galli, Kushma 33400, Nepal",ChIJSeDjxsrmlTkRdIcKABhhd2Q,Dhaulagiri VI,28.2219457,83.6782318,2,33400,OK,route
 36,APPROXIMATE,"Dhampus 33700, Nepal",ChIJDwHvD3rulTkRmxlVTIbRntk,Dhampus,28.798,83.605,1,33700,OK,"locality,political"
-37,APPROXIMATE,"Dogari, Madhya Pradesh 486886, India",ChIJK6BrM2SriDkRoYRwMaLcGSo,Dogari,23.914902,82.2909146,3,486886,OK,"locality,political"
+37,APPROXIMATE,"Dogari, Madhya Pradesh 486886, India",ChIJK6BrM2SriDkRoYRwMaLcGSo,Dogari,28.767222,83.100833,3,486886,OK,"locality,political"
 38,,,,Pemthang Karpo Ri,,,0,,ZERO_RESULTS,
 39,APPROXIMATE,"Dorje Lhakpa, Golche, Nepal",ChIJTS6H4zpD6jkR-RJhuNHKXR8,Dorje Lhakpa,28.1741666,85.7791666,1,,OK,"establishment,natural_feature"
 40,GEOMETRIC_CENTER,"Gokyo Ri Marg, Khumjung 56000, Nepal",ChIJtXciCJOm6TkRN8P9zP-2654,Drangnag Ri,27.9563128,86.6878836,1,56000,OK,route
@@ -56,8 +56,8 @@
 54,,,,Gandharva Chuli,28.53833,83.96,0,,ZERO_RESULTS,
 55,APPROXIMATE,"Gangapurna, 33500, Nepal",ChIJ1zwrz7whvjkRL6G_qZCrPn4,Gangapurna,28.605,83.9633333,1,33500,OK,"establishment,natural_feature"
 56,APPROXIMATE,"Gauri Sankar, 45500, Nepal",ChIJbW0Mj16B6TkRRntZizeuw0Q,Gaurishankar,27.95,86.3333333,1,45500,OK,"establishment,natural_feature"
-57,ROOFTOP,"10901 SW 15th St, Yukon, OK 73099, USA",ChIJKzCJRCcJsocRGGaNJmwCjTg,Ghustang North,35.4506304,-97.7147636,1,73099,OK,"establishment,point_of_interest,school"
-58,APPROXIMATE,"Mustang, OK 73064, USA",ChIJuXMJkcMLsocRWssJ7wKDDKw,Ghustang South,35.384226,-97.7244867,1,73064,OK,"locality,political"
+57,ROOFTOP,"10901 SW 15th St, Yukon, OK 73099, USA",ChIJKzCJRCcJsocRGGaNJmwCjTg,Ghustang North,28.680556,83.247778,1,73099,OK,"establishment,point_of_interest,school"
+58,APPROXIMATE,"Mustang, OK 73064, USA",ChIJuXMJkcMLsocRWssJ7wKDDKw,Ghustang South,28.672222,83.246389,1,73064,OK,"locality,political"
 59,,,,Matathumba,,,0,,ZERO_RESULTS,
 60,,,,Ghyuthumba Main,,,0,,ZERO_RESULTS,
 61,APPROXIMATE,"Gimmigela Chuli, Lelep 57500, Nepal",ChIJUQLlGPNX5jkRYh36k22rOIY,Gimmigela Chuli East,27.733333,88.15,1,57500,OK,"establishment,natural_feature"
@@ -202,7 +202,7 @@
 200,,,,Serku Dolma,,,0,,ZERO_RESULTS,
 201,APPROXIMATE,"Kalakankar, Uttar Pradesh 229408, India",ChIJtfhgCW8YmzkRnXJULTRPlA0,Nalakankar South,30.266667,81.435556,1,229408,OK,"locality,political"
 202,,,,Changwathang,30.326667,81.885,0,,ZERO_RESULTS,
-203,,,,Takphu Himal,,,0,,ZERO_RESULTS,
+203,,,,Takphu Himal,30.283889,81.417778,0,,ZERO_RESULTS,
 204,,,,Malanphulan,27.807772,86.866896,0,,ZERO_RESULTS,
 205,APPROXIMATE,Lhotse,ChIJpRBEqI1U6DkRbC8oXKc-sVs,Lhotse Middle,27.961089,86.938023,1,,OK,"establishment,natural_feature"
 206,,,,Simnang Himal,28.51651,84.64495,0,,ZERO_RESULTS,
@@ -220,88 +220,88 @@
 218,APPROXIMATE,"Khong Khong Basti, Assam 782446, India",ChIJ--vhW15uRTcRvvqxd0Dcnj8,Khatung Khang,28.660556,84.019306,1,782446,OK,"locality,political"
 219,ROOFTOP,"123 Washington Blvd, Montebello, CA 90640, USA",ChIJDQ2w8crPwoARs_NXhSzVBMg,Chago,27.926053,87.054029,1,90640,OK,"establishment,food,point_of_interest,restaurant"
 220,,,,Numri,,,0,,ZERO_RESULTS,
-221,RANGE_INTERPOLATED,"41 Peak Blvd, Muskogee, OK, USA",Eh80MSBQZWFrIEJsdmQsIE11c2tvZ2VlLCBPSywgVVNB,Peak 41,35.7112053,-95.3778442,7,,OK,street_address
+221,RANGE_INTERPOLATED,"41 Peak Blvd, Muskogee, OK, USA",Eh80MSBQZWFrIEJsdmQsIE11c2tvZ2VlLCBPSywgVVNB,Peak 41,27.774,86.909,7,,OK,street_address
 222,APPROXIMATE,"Kyajo Ri, Namche 56000, Nepal",ChIJCz84-jen6TkR2UlkepCIpow,Kyazo Ri,27.9070584,86.6381836,1,56000,OK,"establishment,natural_feature"
-223,APPROXIMATE,"Pandra, Jharkhand, India",ChIJiQ-oMqTg9DkRH5Ol9DO4bcU,Pandra,23.3930125,85.2735406,1,,OK,"locality,political"
-224,ROOFTOP,"91 Randhurst Village Dr #117, Mt Prospect, IL 60056, USA",ChIJBzMepiC6D4gRkysMewhKfTc,Danga,42.0844025,-87.9327542,2,60056,OK,"establishment,health,point_of_interest"
+223,APPROXIMATE,"Pandra, Jharkhand, India",ChIJiQ-oMqTg9DkRH5Ol9DO4bcU,Pandra,27.864,87.993 ,1,,OK,"locality,political"
+224,ROOFTOP,"91 Randhurst Village Dr #117, Mt Prospect, IL 60056, USA",ChIJBzMepiC6D4gRkysMewhKfTc,Danga,27.816,87.977,2,60056,OK,"establishment,health,point_of_interest"
 225,,,,Pokharkang,,,0,,ZERO_RESULTS,
-226,APPROXIMATE,"Nangpai Gosum, Xigaze 56000, Nepal",ChIJMSq66iy96TkRI-85rxg9IOQ,Nangpai Gosum I,28.072222,86.614444,1,56000,OK,"establishment,natural_feature"
-227,,,,Khangri Shar,,,0,,ZERO_RESULTS,
-228,APPROXIMATE,"Khangri, Rajasthan, India",ChIJKwPtQ--LQjkRF421UlG-19w,Khangri West,25.3579116,73.1644628,1,,OK,"locality,political"
-229,,,,Purbung Himal,,,0,,ZERO_RESULTS,
-230,GEOMETRIC_CENTER,"Tashi Line, Zhuanghe Shi, Dalian Shi, Liaoning Sheng, China",ChIJKWwkfMsGKl4RJpFrynWQ5Eg,Tashi Kang,39.9661092,123.2184395,2,,OK,"establishment,health,pharmacy,point_of_interest,store"
+226,APPROXIMATE,"Nangpai Gosum, Xigaze 56000, Nepal",ChIJMSq66iy96TkRI-85rxg9IOQ,Nangpai Gosum I,28.07358,86.614393,1,56000,OK,"establishment,natural_feature"
+227,,,,Khangri Shar,28.02,86.812,0,,ZERO_RESULTS,
+228,APPROXIMATE,"Khangri, Rajasthan, India",ChIJKwPtQ--LQjkRF421UlG-19w,Khangri West,28.019241,86.790461,1,,OK,"locality,political"
+229,,,,Purbung Himal,28.802,84.018,0,,ZERO_RESULTS,
+230,GEOMETRIC_CENTER,"Tashi Line, Zhuanghe Shi, Dalian Shi, Liaoning Sheng, China",ChIJKWwkfMsGKl4RJpFrynWQ5Eg,Tashi Kang,28.853,83.629,2,,OK,"establishment,health,pharmacy,point_of_interest,store"
 231,APPROXIMATE,"Tengi Ragi Tau, Namche, Nepal",ChIJ_4IzQRN16TkRg9ca5fitCMg,Tengi Ragi Tau,27.8575,86.5541666,1,,OK,"establishment,natural_feature"
 232,APPROXIMATE,"Kyashar, Chaurikharka 56000, Nepal",ChIJ8x9YXIcD6TkRIKnJnG7FO4k,Kyashar,27.755,86.8224999,1,56000,OK,"establishment,natural_feature"
-233,,,,Nirekha,,,0,,ZERO_RESULTS,
+233,,,,Nirekha,27.977568,86.762939,0,,ZERO_RESULTS,
 234,,,,Norbu Kang,,,0,,ZERO_RESULTS,
 235,,,,Lunchhung Kamo East,,,0,,ZERO_RESULTS,
-236,,,,Linkhu Chuli Shar,,,0,,ZERO_RESULTS,
-237,,,,Linkhu Chuli Nup,,,0,,ZERO_RESULTS,
-238,,,,Panalotapa,,,0,,ZERO_RESULTS,
-239,,,,Shalbachum,,,0,,ZERO_RESULTS,
-240,,,,Khumbutse,,,0,,ZERO_RESULTS,
+236,,,,Linkhu Chuli Shar,27.808787,86.540882,0,,ZERO_RESULTS,
+237,,,,Linkhu Chuli Nup,27.805,86.524,0,,ZERO_RESULTS,
+238,,,,Panalotapa,27.805444,86.570056,0,,ZERO_RESULTS,
+239,,,,Shalbachum,28.272778,85.633333,0,,ZERO_RESULTS,
+240,,,,Khumbutse,28.021179,86.872616,0,,ZERO_RESULTS,
 241,,,,Boktoh,,,0,,ZERO_RESULTS,
 242,ROOFTOP,"Levičnikova ulica 11, 1000 Ljubljana, Slovenia",ChIJ6aHyHUnNekcRrCW5e1rBi0I,Mojca,46.0739612,14.4731914,2,1000,OK,"establishment,point_of_interest,school"
 243,APPROXIMATE,"Palung, 44100, Nepal",ChIJJxJJdTgw6zkRYQDlDUQNrfU,Palung,27.6441006,85.0701001,1,44100,OK,"political,sublocality,sublocality_level_1"
-244,ROOFTOP,"640 S Queen St, Dover, DE 19904, USA",ChIJh_RzQ6t8x4kRK-hj702oeew,Tutse,39.151705,-75.528835,1,19904,OK,"doctor,establishment,health,point_of_interest"
+244,ROOFTOP,"640 S Queen St, Dover, DE 19904, USA",ChIJh_RzQ6t8x4kRK-hj702oeew,Tutse,27.771944,87.101389,1,19904,OK,"doctor,establishment,health,point_of_interest"
 245,GEOMETRIC_CENTER,"Nuptse Marga, Kathmandu 44600, Nepal",ChIJWRAj7pEZ6zkR9aXrD47juqs,Nuptse East I,27.6897528,85.3432413,1,44600,OK,route
 246,ROOFTOP,"M-2-22, City Mall, Jalan Lintas, Taman Milik 1, 88300 Kota Kinabalu, Sabah, Malaysia",ChIJa75MbA9pOzIRVke7lw6DX-0,Amotsang,5.961804,116.096606,2,88300,OK,"clothing_store,establishment,point_of_interest,store"
-247,,,,Yansa Tsenji,,,0,,ZERO_RESULTS,
+247,,,,Yansa Tsenji,28.256389,85.611111,0,,ZERO_RESULTS,
 248,,,,Himjung,,,0,,ZERO_RESULTS,
-249,ROOFTOP,"67/59 ตำบล แม่น้ำ Tambon Mae Nam, Amphoe Ko Samui, Chang Wat Surat Thani 84320, Thailand",ChIJ1ayqwFT3VDARAitzalR2UPM,Amphu I,9.5687644,100.0013672,1,84320,OK,"establishment,lodging,point_of_interest"
-250,,,,Chabuk,,,0,,ZERO_RESULTS,
-251,ROOFTOP,"98 Courtneypark Dr E, Mississauga, ON L5T 2Y3, Canada",ChIJ7y3DTXg_K4gR6IjsbV_FXUU,Chako,43.6378699,-79.692795,1,L5T 2Y3,OK,"establishment,food,point_of_interest,restaurant"
+249,ROOFTOP,"67/59 ตำบล แม่น้ำ Tambon Mae Nam, Amphoe Ko Samui, Chang Wat Surat Thani 84320, Thailand",ChIJ1ayqwFT3VDARAitzalR2UPM,Amphu I,27.871033,86.955577,1,84320,OK,"establishment,lodging,point_of_interest"
+250,,,,Chabuk,27.9,88.0833,0,,ZERO_RESULTS,
+251,ROOFTOP,"98 Courtneypark Dr E, Mississauga, ON L5T 2Y3, Canada",ChIJ7y3DTXg_K4gR6IjsbV_FXUU,Chako,28.8805,84.2847,1,L5T 2Y3,OK,"establishment,food,point_of_interest,restaurant"
 252,,,,Dome Kang,,,0,,ZERO_RESULTS,
 253,,,,Ghhanyala Hies,,,0,,ZERO_RESULTS,
 254,,,,Hunku,,,0,,ZERO_RESULTS,
-255,,,,Janak Chuli,,,0,,ZERO_RESULTS,
-256,APPROXIMATE,Kabru,ChIJm1vXqMVe5jkREblicwWjDso,Kabru South,27.6341666,88.1183333,1,,OK,"establishment,natural_feature"
-257,APPROXIMATE,Kabru,ChIJm1vXqMVe5jkREblicwWjDso,Kabru Main,27.6341666,88.1183333,1,,OK,"establishment,natural_feature"
-258,APPROXIMATE,"Lashari, Pakistan",ChIJCcBPfgJ3GDkR6Ulfs0tSX68,Lashar I,31.0596839,73.5211286,1,,OK,"locality,political"
-259,GEOMETRIC_CENTER,"Street No. 2, Bahawalpur, Pakistan",ChIJW7jZwJOQOzkR3q9AV6qdfAk,Lashar II,29.4047674,71.6989556,2,,OK,route
+255,,,,Janak Chuli,27.872,88.091,0,,ZERO_RESULTS,
+256,APPROXIMATE,Kabru,ChIJm1vXqMVe5jkREblicwWjDso,Kabru South,27.608664,88.111515,1,,OK,"establishment,natural_feature"
+257,APPROXIMATE,Kabru,ChIJm1vXqMVe5jkREblicwWjDso,Kabru Main,27.62,88.124,1,,OK,"establishment,natural_feature"
+258,APPROXIMATE,"Lashari, Pakistan",ChIJCcBPfgJ3GDkR6Ulfs0tSX68,Lashar I,27.896,88.054,1,,OK,"locality,political"
+259,GEOMETRIC_CENTER,"Street No. 2, Bahawalpur, Pakistan",ChIJW7jZwJOQOzkR3q9AV6qdfAk,Lashar II,27.887,88.065,2,,OK,route
 260,APPROXIMATE,"Nangpai Gosum, Xigaze 56000, Nepal",ChIJMSq66iy96TkRI-85rxg9IOQ,Nangpai Gosum II,28.072222,86.614444,1,56000,OK,"establishment,natural_feature"
-261,,,,Nangamari I,,,0,,ZERO_RESULTS,
+261,,,,Nangamari I,27.910556,87.868056,0,,ZERO_RESULTS,
 262,APPROXIMATE,"Panbari, West Bengal, India",ChIJxW8kjPqL4zkR87KrovXi8GA,Panbari,26.7005024,88.8525139,2,,OK,"locality,political"
-263,,,,Phungi Himal,,,0,,ZERO_RESULTS,
-264,,,,Mariyang,,,0,,ZERO_RESULTS,
-265,,,,Takargo,,,0,,ZERO_RESULTS,
-266,,,,Thulagi,,,0,,ZERO_RESULTS,
+263,,,,Phungi Himal,28.554444,84.485833,0,,ZERO_RESULTS,
+264,,,,Mariyang,29.693056,82.890278,0,,ZERO_RESULTS,
+265,,,,Takargo,27.876,86.509,0,,ZERO_RESULTS,
+266,,,,Thulagi,28.528124,84.520693,0,,ZERO_RESULTS,
 267,,,,Jomsom Himal,,,0,,ZERO_RESULTS,
 268,,,,Bamongo,,,0,,ZERO_RESULTS,
-269,GEOMETRIC_CENTER,"Hong Kong, The Peak, 山頂山頂道118號山頂廣場1樓16-18號鋪",ChIJqQ1sgHMABDQRHy_67yNuJE4,Chaw Peak,22.2703023,114.1497963,2,,OK,"establishment,jewelry_store,point_of_interest,store"
+269,GEOMETRIC_CENTER,"Hong Kong, The Peak, 山頂山頂道118號山頂廣場1樓16-18號鋪",ChIJqQ1sgHMABDQRHy_67yNuJE4,Chaw Peak,27.909444,87.943611,2,,OK,"establishment,jewelry_store,point_of_interest,store"
 270,APPROXIMATE,"Dingjung, Namche 56000, Nepal",ChIJ581cj56g6TkRTo7qh5TWAiE,Dingjung North,27.8877043,86.6365459,1,56000,OK,"neighborhood,political"
-271,,,,Kang Nagchugo,,,0,,ZERO_RESULTS,
-272,APPROXIMATE,"Kambong, The Gambia",ChIJ66ksV4Ft6A4Rgx5e-RRWXKs,Kambong,13.214572,-16.105745,2,,OK,"neighborhood,political"
+271,,,,Kang Nagchugo,27.906,86.442,0,,ZERO_RESULTS,
+272,APPROXIMATE,"Kambong, The Gambia",ChIJ66ksV4Ft6A4Rgx5e-RRWXKs,Kambong,28.668611,83.313333,2,,OK,"neighborhood,political"
 273,APPROXIMATE,"Khumjung, Nepal",ChIJ8Z_m7Xap6TkR2kPKWrH9p3U,Khamjung,27.9343193,86.7818523,1,,OK,"locality,political"
-274,,,,Kyungka Ri 1,,,0,,ZERO_RESULTS,
-275,,,,Kyungka Ri 2,,,0,,ZERO_RESULTS,
-276,,,,Kojichuwa Chuli,,,0,,ZERO_RESULTS,
-277,,,,Chhiv Himal,,,0,,ZERO_RESULTS,
-278,,,,Langmoche Ri,,,0,,ZERO_RESULTS,
-279,,,,Lachama Chuli,,,0,,ZERO_RESULTS,
-280,,,,Panpoche 1,,,0,,ZERO_RESULTS,
-281,RANGE_INTERPOLATED,"2 Panoche Rd, Paicines, CA 95043, USA",EiUyIFBhbm9jaGUgUmQsIFBhaWNpbmVzLCBDQSA5NTA0MywgVVNB,Panpoche 2,36.7288991,-121.2789164,1,95043,OK,street_address
+274,,,,Kyungka Ri 1,28.325833,85.661667,0,,ZERO_RESULTS,
+275,,,,Kyungka Ri 2,28.303333,85.667222,0,,ZERO_RESULTS,
+276,,,,Kojichuwa Chuli,29.867,82.643,0,,ZERO_RESULTS,
+277,,,,Chhiv Himal,28.874,84.16,0,,ZERO_RESULTS,
+278,,,,Langmoche Ri,27.865556,86.612222,0,,ZERO_RESULTS,
+279,,,,Lachama Chuli,30.135556,82.199444,0,,ZERO_RESULTS,
+280,,,,Panpoche 1,28.628819,84.681699,0,,ZERO_RESULTS,
+281,RANGE_INTERPOLATED,"2 Panoche Rd, Paicines, CA 95043, USA",EiUyIFBhbm9jaGUgUmQsIFBhaWNpbmVzLCBDQSA5NTA0MywgVVNB,Panpoche 2,28.614167,84.686944,1,95043,OK,street_address
 282,ROOFTOP,"90 Broad St, Red Bank, NJ 07701, USA",ChIJF9m79DcwwokRYk77AEPoMbM,Phole,40.3490993,-74.065613,1,07701,OK,"establishment,food,point_of_interest,restaurant"
-283,ROOFTOP,"5201 NJ-38, Merchantville, NJ 08109, USA",ChIJEQTkRmPJxokRy4Z9khqpQD0,Phu Kang,39.9363469,-75.0657232,1,08109,OK,"establishment,food,point_of_interest,restaurant"
-284,,,,Langchung Khang,,,0,,ZERO_RESULTS,
-285,ROOFTOP,"4 Peak Ln, Hillsborough Township, NJ 08844, USA",ChIJs8M224Lrw4kRVCcGSPyNsf8,Peak 4,40.5322149,-74.6761615,3,08844,OK,premise
+283,ROOFTOP,"5201 NJ-38, Merchantville, NJ 08109, USA",ChIJEQTkRmPJxokRy4Z9khqpQD0,Phu Kang,28.793056,84.4475,1,08109,OK,"establishment,food,point_of_interest,restaurant"
+284,,,,Langchung Khang,27.8564,88.1782,0,,ZERO_RESULTS,
+285,ROOFTOP,"4 Peak Ln, Hillsborough Township, NJ 08844, USA",ChIJs8M224Lrw4kRVCcGSPyNsf8,Peak 4,27.826944,87.050833,3,08844,OK,premise
 286,GEOMETRIC_CENTER,"2nd St S, Nampa, ID, USA",ChIJX195BhVMrlQRRQljEiMVS_E,Nampa II,43.5737603,-116.5544842,4,,OK,route
 287,GEOMETRIC_CENTER,"3rd St S, Nampa, ID 83651, USA",ChIJDUt59mVMrlQRec_1XxRsCWg,Nampa III,43.5769169,-116.5612337,4,83651,OK,route
 288,ROOFTOP,"229 W Greenhurst Rd, Nampa, ID 83686, USA",ChIJXVEH4VtJrlQRgrdgq5rg_yE,Nampa South,43.5470287,-116.5760386,1,83686,OK,"establishment,point_of_interest,school"
 289,,,,Sobithongie,,,0,,ZERO_RESULTS,
 290,APPROXIMATE,"Shershon, 56900, Nepal",ChIJ7cwBT0j36DkR4UQrbnRXMUg,Shershon,27.80959,87.080844,1,56900,OK,"neighborhood,political"
-291,,,,Swaksa Kang,,,0,,ZERO_RESULTS,
+291,,,,Swaksa Kang,29.6875,82.86,0,,ZERO_RESULTS,
 292,APPROXIMATE,"Tilja, Uttar Pradesh 272125, India",ChIJsyl0474pkTkRXnpA8LAQuZc,Tilje,26.8748608,82.932677,1,272125,OK,"locality,political"
 293,ROOFTOP,"R. Cap. Antônio Rosa, 409 - Jardim Paulistano, São Paulo - SP, 01443-010, Brazil",ChIJpRzwnXhXzpQRv4woXaSpEd4,Tsartse,-23.567422,-46.6850746,1,01443-010,OK,"establishment,point_of_interest"
 294,APPROXIMATE,"Yakawakang, Tanki Manang 33500, Nepal",ChIJUaui6-89vjkROv1iheCJXcU,Yakawa Kang,28.8044437,83.9437866,1,33500,OK,"establishment,natural_feature"
-295,,,,Yaupa,,,0,,ZERO_RESULTS,
-296,ROOFTOP,"2000 Dwight Way, Berkeley, CA 94704, USA",ChIJJSZaC4N-hYARHGxzt9jvyOU,Til Kang,37.8635386,-122.2696236,1,94704,OK,"establishment,health,point_of_interest"
+295,,,,Yaupa,27.833611,87.128889,0,,ZERO_RESULTS,
+296,ROOFTOP,"2000 Dwight Way, Berkeley, CA 94704, USA",ChIJJSZaC4N-hYARHGxzt9jvyOU,Til Kang,30.27,81.414722,1,94704,OK,"establishment,health,point_of_interest"
 297,,,,Yokopahar,,,0,,ZERO_RESULTS,
 298,,,,Saldim West,,,0,,ZERO_RESULTS,
-299,ROOFTOP,"5511 Orangethorpe Ave, La Palma, CA 90623, USA",ChIJOT8tOGks3YARzJzPLJoWpfQ,Samdo,33.8589215,-118.0369451,1,90623,OK,"bar,cafe,establishment,food,point_of_interest,restaurant"
+299,ROOFTOP,"5511 Orangethorpe Ave, La Palma, CA 90623, USA",ChIJOT8tOGks3YARzJzPLJoWpfQ,Samdo,28.636111,84.696944,1,90623,OK,"bar,cafe,establishment,food,point_of_interest,restaurant"
 300,,,,Purkhung,,,0,,ZERO_RESULTS,
 301,,,,Dzasampatse,,,0,,ZERO_RESULTS,
-302,,,,Swelokhan,,,0,,ZERO_RESULTS,
+302,,,,Swelokhan,28.728056,84.645833,0,,ZERO_RESULTS,
 303,APPROXIMATE,"Mustang Peak, California 95360, USA",ChIJm75X2BjCkYARZo5Hv1ecadw,Mustang Peak,37.1853142,-121.3607023,1,95360,OK,"establishment,natural_feature"
 304,APPROXIMATE,"Jinjang, Metro Prima, 52100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",ChIJl1pSYj9GzDERf7kI8gXgbxo,Jinjang,3.211033,101.642303,1,52100,OK,"neighborhood,political"
 305,,,,Jobo Rinjang,,,0,,ZERO_RESULTS,
@@ -310,15 +310,15 @@
 308,APPROXIMATE,"Dhaulagiri, Mudi 33200, Nepal",ChIJDZtku1P7vTkRO3Ho_tKROcQ,Dhaulagari,28.6984652,83.4873496,1,33200,OK,"establishment,natural_feature"
 309,,,,Lhayul Peak,,,0,,ZERO_RESULTS,
 310,APPROXIMATE,"Merra, West Bengal 721121, India",ChIJR-xRuKTp9zkRC9QDQsev7YM,Merra,22.8510197,87.2531263,1,721121,OK,"locality,political"
-311,,,,Pabuk Kang,,,0,,ZERO_RESULTS,
-312,,,,Yanme Kang,,,0,,ZERO_RESULTS,
+311,,,,Pabuk Kang,27.949722,87.843889,0,,ZERO_RESULTS,
+312,,,,Yanme Kang,27.946111,87.850556,0,,ZERO_RESULTS,
 313,,,,Danphe Shail,,,0,,ZERO_RESULTS,
 314,GEOMETRIC_CENTER,"248, 1st Main, A V Road, Near-Victoriya Hospital Chamarajpet Bengaluru,, Karnatak, Chamrajpet, Bengaluru, Karnataka 560018, India",ChIJUYfVS_8VrjsRxwjKqmY0PjQ,Ganesh VII,12.9596651,77.5698687,3,560018,OK,"establishment,moving_company,point_of_interest,storage"
 315,,,,Pharilapcha,,,0,,ZERO_RESULTS,
 316,APPROXIMATE,"Thorong La, Tanki Manang 33500, Nepal",ChIJ4dYEtow9vjkRr6zdc2LGjEI,Thorong Peak,28.7933777,83.938669,1,33500,OK,"establishment,natural_feature"
 317,,,,Chamar Kang,,,0,,ZERO_RESULTS,
 318,,,,Nupche Kang,,,0,,ZERO_RESULTS,
-319,,,,Punchen Himal,,,0,,ZERO_RESULTS,
+319,,,,Punchen Himal,28.661111,85.146667,0,,ZERO_RESULTS,
 320,APPROXIMATE,"Kangkuru, 8481, South Africa",ChIJs0bhmDPZnh4R34ZEzLYLsak,Kang Kuru,-27.3391858,23.8562429,1,8481,OK,"locality,political"
 321,ROOFTOP,"315 E Prince Rd, Tucson, AZ 85705, USA",ChIJd9sgqt5z1oYRf8x9SXJFoAs,Amphu Middle,32.2722409,-110.967501,1,85705,OK,"establishment,point_of_interest,school"
 322,,,,Lugula,,,0,,ZERO_RESULTS,
@@ -338,8 +338,8 @@
 336,,,,Lunag Ri,,,0,,ZERO_RESULTS,
 337,,,,Jasemba Goth,,,0,,ZERO_RESULTS,
 338,GEOMETRIC_CENTER,"1 Jalan Anak Bukit, #L1-CA2 Bukit Timah Plaza, Singapore 588996",ChIJs12GA4kQ2jERHpp_wOoQRBM,Gojung,1.3386093,103.7786083,1,588996,OK,"establishment,food,point_of_interest,store"
-339,,,,Nangamari II,,,0,,ZERO_RESULTS,
-340,,,,Dragmorpa Ri,,,0,,ZERO_RESULTS,
+339,,,,Nangamari II,27.891389,87.866667,0,,ZERO_RESULTS,
+340,,,,Dragmorpa Ri,28.325278,85.666111,0,,ZERO_RESULTS,
 341,GEOMETRIC_CENTER,"Shaokang Street, Qianzhen District, Kaohsiung City, Taiwan 806",ChIJK0UC6WMDbjQReBS8lFldVyk,Syaokang,22.6091664,120.3137196,1,806,OK,route
 342,,,,Bijora Hiunchuli,,,0,,ZERO_RESULTS,
 343,,,,Chhuboche,,,0,,ZERO_RESULTS,
@@ -353,7 +353,7 @@
 351,,,,Pangbuk North,,,0,,ZERO_RESULTS,
 352,APPROXIMATE,"Mustangbhot Himal, Zhongba, Xigaze, China, 33100",ChIJfcKeTKdXvjkRIZjh7UVqpB0,Mustang Himal,29.2438889,84.1277778,1,33100,OK,"establishment,natural_feature"
 353,GEOMETRIC_CENTER,"Boat Harbour NSW 2316, Australia",ChIJJ7Udjs2Cc2sR6-XoNpj8BYU,Mansail,-32.78846,152.1095319,1,2316,OK,"bus_station,establishment,point_of_interest,transit_station"
-354,,,,Chhochenphu Himal,,,0,,ZERO_RESULTS,
+354,,,,Chhochenphu Himal,27.831944,87.767222,0,,ZERO_RESULTS,
 355,GEOMETRIC_CENTER,"86/20 ซอยหอพักคุณหญิงอิศรา ถนนงามวงศ์วาน ซอยงามวงศ์วาน 46, ลาดยาว, จตุจักร, Bangkok 10900, Thailand",ChIJY8aAXOac4jARx49VBachRLo,Tankya I,13.843544,100.565647,1,10900,OK,"establishment,food,grocery_or_supermarket,point_of_interest,store"
 356,,,,Gorakh Khang,,,0,,ZERO_RESULTS,
 357,ROOFTOP,"6401 France Ave S, Minneapolis, MN 55435, USA",ChIJqZad0rom9ocROGwxD-IENUk,Raungsiyar,44.8862125,-93.3269189,2,55435,OK,"doctor,establishment,health,point_of_interest"
@@ -424,7 +424,7 @@
 422,ROOFTOP,"3001 S Academy Blvd, Colorado Springs, CO 80916, USA",ChIJ_9P7Oa5FE4cRnZokk2afX08,Rolmi,38.7880989,-104.7560135,1,80916,OK,"establishment,place_of_worship,point_of_interest"
 423,,,,Aichyn,,,0,,ZERO_RESULTS,
 424,APPROXIMATE,"Ardang Lekthe, Assam 782470, India",ChIJX8K3xd54RjcRgBY7aKmWJWI,Ardang,26.25679,93.780739,1,782470,OK,"locality,political"
-425,,,,Lungchhung,,,0,,ZERO_RESULTS,
+425,,,,Lungchhung,27.533333,87.783333,0,,ZERO_RESULTS,
 426,APPROXIMATE,"Khung, Nepal",ChIJS84gM8E2ljkRq0Eqi2gIXy4,Khung,28.1975552,83.0200245,1,,OK,"locality,political"
 427,,,,Chandi Himal,,,0,,ZERO_RESULTS,
 428,GEOMETRIC_CENTER,"Gf5, Akshar Complex, Near Shivranjani Cross Road, Satellite, Satellite, Shivranjani, Jodhpur, Ahmedabad, Gujarat 380015, India",ChIJodFHNs6EXjkRG9RYqsnU0Qo,Kali Himal,23.0243818,72.5285421,1,380015,OK,"clothing_store,establishment,point_of_interest,store"
@@ -432,10 +432,10 @@
 430,,,,Ek Rate Danda,,,0,,ZERO_RESULTS,
 431,,,,Ghyun Himal I,,,0,,ZERO_RESULTS,
 432,APPROXIMATE,"Gorakh Hill Station, Pakistan",ChIJ91B6acilyj4R6uI9Y7BCbfs,Gorakh Himal,26.8493325,67.1507202,1,,OK,"establishment,natural_feature"
-433,ROOFTOP,"2379 E Colorado Blvd, Pasadena, CA 91107, USA",ChIJf-DJb6jcwoARy9_8TVKXGPg,Hongku,34.146665,-118.1008604,1,91107,OK,"dentist,establishment,health,point_of_interest"
+433,ROOFTOP,"2379 E Colorado Blvd, Pasadena, CA 91107, USA",ChIJf-DJb6jcwoARy9_8TVKXGPg,Hongku,27.826,86.977,1,91107,OK,"dentist,establishment,health,point_of_interest"
 434,APPROXIMATE,Karko 791002,ChIJSUB3ohKqajcR2yB51dbV7zE,Karko,28.593559,94.996162,5,791002,OK,"locality,political"
 435,,,,Karsang Kang,,,0,,ZERO_RESULTS,
-436,APPROXIMATE,"Khayang, Manipur 795142, India",ChIJpUH05QNFSDcRpUzkW91VGdE,Khayang,25.0656414,94.5979307,2,795142,OK,"locality,political"
+436,APPROXIMATE,"Khayang, Manipur 795142, India",ChIJpUH05QNFSDcRpUzkW91VGdE,Khayang,28.633611,84.715278,2,795142,OK,"locality,political"
 437,,,,Gyalzen Peak,28.183056,85.838333,0,,ZERO_RESULTS,
 438,,,,Lungsampa,28.026111,86.621944,0,,ZERO_RESULTS,
 439,APPROXIMATE,"Mera 627200, Romania",ChIJUxs1DNs_tEAR7UZ4ukcTLAU,Mera South,27.70916,86.868289,2,627200,OK,"locality,political"
@@ -453,6 +453,6 @@
 451,ROOFTOP,"6901 Stockton Blvd # 330, Sacramento, CA 95823, USA",ChIJCenPVW7FmoARS8bEG-TQ9HM,Kimshung,28.2725,85.552778,1,95823,OK,"establishment,jewelry_store,point_of_interest,store"
 452,GEOMETRIC_CENTER,"Royal Centre Suite 1750, 1055 West Georgia Street, Vancouver, BC V6E 3P3, Canada",ChIJ7yDfYH9xhlQRY9fOAkaNro8,Pawar Central,49.285307,-123.121589,1,V6E 3P3,OK,"establishment,point_of_interest"
 453,GEOMETRIC_CENTER,"Ulitsa Na Goru Lyubvi, Abakan, Khakasiya Republits, Russia",ChIJ0zGI-kMiLF0RvrlLcCq7Pd8,Nagoru,28.815833,84.281944,4,,OK,route
-454,,,,Saldim,,,0,,ZERO_RESULTS,
+454,,,,Saldim,27.821389,87.173056,0,,ZERO_RESULTS,
 455,,,,Langtang Yubra,28.27722222,85.56861111,0,,ZERO_RESULTS,
 456,,,,Larkya Peak,28.66361111,84.53555556,0,,ZERO_RESULTS,
