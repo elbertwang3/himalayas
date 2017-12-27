@@ -19,6 +19,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    max-width: 1440px;
 }
 
 .cover {
@@ -94,7 +95,8 @@ body, html {
 }
 
 .content {
-	background-color: #171613;
+
+
 }
 
 .peakssvg {
@@ -107,7 +109,8 @@ body, html {
 }
 
 .mountain-dot {
-	fill: #FF4500;
+	fill: #C0C0C0;
+	opacity: 0.5;
 }
 
 .tooltip {
@@ -120,11 +123,17 @@ body, html {
     color: #353535;
     visibility: hidden;
     pointer-events: none;
-    border: 1px solid rgba(193, 193, 193, 0.8);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
-    background: white;
-    padding: 0.75em;
+   
+    background: black;
+    padding: 0.4em;
     height: auto;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border-radius: 5px;
+    opacity: 0.6;
 }
 
 .mountain-path {
@@ -134,21 +143,24 @@ body, html {
 
 
 .mountain-line {
-	stroke: #FF4500;
+	stroke: #C0C0C0;
 	stroke-width: 1.5px;
+	stroke-linecap: round;
+	opacity: 0;
 }
 
-.mountain-group {
+.mountain-line.mountain-group {
 	stroke: #C0C0C0;
 	opacity: 0.3;
 }
 
-.mountain-selected {
+.mountain-line.mountain-group.mountain-selected {
 	stroke: #FF4500;
-	opacity: 1;
+	
 }
 
 .mountain-line.mountain-selected {
+	opacity: 0.8;
 	stroke-width: 3px;
 }
 
@@ -161,13 +173,13 @@ body, html {
 
 	padding-top: 5rem;
 	display: block;
-    max-width: 20rem;
+    max-width: 15rem;
     margin: 0 auto;
     border-bottom: 1px solid #fff;
     position: relative;
 }
 #myinput {
-		font-family: 'Roboto';
+	font-family: 'Roboto';
 	background: 0 0;
     width: 100%;
     border: none;
@@ -177,3 +189,59 @@ body, html {
 
 }
 
+.find__icon {
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    vertical-align: middle;
+    margin: 0;
+    pointer-events: none;
+    opacity: .7;
+    transition: opacity .25s;
+    width: 20px;
+    height: 26px;
+   }
+
+.find__icon svg {
+    width: 20px;
+    height: 26px;
+    fill: #fff;
+}
+
+.tooltip-header {
+	color: #C0C0C0;
+
+}
+
+.peaks {
+		background-color: #171613;
+	position: relative;
+}
+
+.annotations .labels {
+	font-family: "Roboto";
+  text-transform: uppercase;
+  fill: white;
+  font-size: 12px;
+  font-weight:900;
+  opacity: 0.8;
+}
+
+.annotations .summit-info {
+	font-family: "Roboto";
+	font-size: 12px;
+	fill: white;
+
+}
+
+p.prose {
+	font-family: "Merriweather";
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 10rem;
+    padding: 1rem;
+    text-align: left;
+    color: white;
+
+}

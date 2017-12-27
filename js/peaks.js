@@ -58,18 +58,23 @@ function ready(error,peaks,jsonmap) {
 
 	peaklines = peakssvg.append('g')
 			.attr("class", "peaklines")
+	
+	annotations = peakssvg.append('g')
+			.attr("class", "annotations")
+			.attr("transform", "translate(" +  0.85* peakswidth +", " + 0.15*peaksheight +")");
 
 	himals = new Set()
 	filteredpeaks = peaks.filter(function(d) { return (d['latitude'] != "") && (d['longitude'] != ""); })
-	peakstocomplete = filteredpeaks.map(function(d) { return {label: d['PKNAME'], value: d['LOCATION']}})
-	console.log(peakstocomplete)
+	peakstocomplete = filteredpeaks.map(function(d) { return d['PKNAME']; })
+	peakrangemap = {}
+	for (var i = 0; i < filteredpeaks.length; i++) {
+		peakrangemap[filteredpeaks[i]['PKNAME']] = filteredpeaks[i]
+	}
 	new Awesomplete(input, {
 		list: peakstocomplete
 	});
-	console.log(peaks.length)
-	console.log(filteredpeaks.length)
+
 	outofboundspeaks = filteredpeaks.filter(function(d) { return (d['latitude'] < 27) || (d['latitude'] > 31) || (d['longitude'] < 80) || (d['longitude'] > 89); })
-	console.log(outofboundspeaks);
 	
 	mountaing = mountainsg.selectAll("g")
 		.data(filteredpeaks)
@@ -82,6 +87,8 @@ function ready(error,peaks,jsonmap) {
 			noparen += "-range"
 			var peakname = replaceAll(d['PKNAME'], " ", "-")
 		 	data = d;
+		 	d3.selectAll(".mountain-line").classed("mountain-group", false);
+		 	d3.selectAll(".mountain-line").classed('mountain-selected', false)
 		 	d3.selectAll("." + noparen).classed("mountain-group", true);
 		 	d3.selectAll("." + peakname).classed('mountain-selected', true)
 		 	mouseOverEvents(data,d3.select(this));
@@ -96,13 +103,13 @@ function ready(error,peaks,jsonmap) {
 		 	data = d;
 		 	d3.selectAll("." + noparen).classed("mountain-group", false);
 		 	d3.selectAll("." + peakname).classed('mountain-selected', false)
-		 	mouseOutEvents(data,d3.select(this));
+		 	mouseOutEvents(d3.select(this));
 
 		}) 
+
 	mountaing
 		.append("circle")
 		.attr("class", function(d) {
-			//himals.add(d['LOCATION'].replace(/ *\([^)]*\) */g, "").trim())
 			var noparen = d['LOCATION'].replace(/ *\([^)]*\) */g, "").trim();
 			noparen = replaceAll(noparen, " ", "-")
 			noparen += "-range"
@@ -110,17 +117,8 @@ function ready(error,peaks,jsonmap) {
 			return "mountain-dot " + noparen + " " + peakname;
 		})
 		.attr("r", 1.5)
-		.attr("transform", function(d) {
-		 	//console.log(projection(d['longitude']))
-		 	//console.log(projection(d['latitude']))
-		 	if (isNaN(projection(d['latitude'])[0]) || isNaN(projection(d['longitude'])[0])) {
-		 		//console.log(d['PKNAME']);
-		 	}
-		    return "translate(" + projection([
-		      d['longitude'],
-		      d['latitude']
-		    ]) + ")";
-		})
+		.attr('cx', function(d) { coordinate = projection([d['longitude'],d['latitude']]); return coordinate[0]; })
+		.attr('cy', function(d) { coordinate = projection([d['longitude'],d['latitude']]); return coordinate[1]; })
 		
 	mountaing
 		.append("line")
@@ -137,17 +135,51 @@ function ready(error,peaks,jsonmap) {
 		.attr('y2', function(d) { coordinate = projection([d['longitude'],d['latitude']]); return coordinate[1] - peakScale(d['HEIGHTM']); })
 		.attr("opacity",0)
 
-	console.log(himals)
+
 	document.getElementById('myinput').addEventListener("awesomplete-select", function(event) {
-	    console.log(event.text.label)
-	   	console.log(event.text.value);
-	   	var noparen = event.text.value.replace(/ *\([^)]*\) */g, "").trim();
+
+	   	var noparen = peakrangemap[event.text.label]['LOCATION'].replace(/ *\([^)]*\) */g, "").trim();
 			noparen = replaceAll(noparen, " ", "-")
 			noparen += "-range"
 			var peakname = replaceAll(event.text.label, " ", "-")
 	    d3.selectAll("." + noparen).classed("mountain-group", true);
 		 	d3.selectAll("." + peakname).classed('mountain-selected', true)
+		 	mouseOverEvents(peakrangemap[event.text.label],d3.select(this));
 	});
+	document.getElementById('myinput').addEventListener("awesomplete-open", function(event) {
+		 d3.selectAll(".mountain-line").classed("mountain-group", false);
+		 	d3.selectAll(".mountain-line").classed('mountain-selected', false)
+		 	mouseOutEvents(d3.select(this));
+
+	  
+	});
+
+	var annotation = annotations.selectAll("g")
+		.data(["First summiters", "First summit date"])
+		.enter()
+		.append('g')
+
+		.attr("transform", function(d,i) { return "translate(0," + i * 70 +")"})
+		
+	annotation
+		.append("text")
+		.attr("text-anchor", "end")
+			.attr("class", "labels")
+		.text(function(d) { return d;})
+
+	summitinfo = annotation
+			.append("text")
+			.attr("class", "summit-info")
+			.attr("text-anchor", "end")
+			.attr("transform", "translate(0,12)")
+			.text("Mouse over peaks for more information")
+			
+		
+			
+
+
+
+
 	function mouseOverEvents(data, element) {
     	tooltip.selectAll("div").remove();
 
@@ -156,25 +188,46 @@ function ready(error,peaks,jsonmap) {
 
       	tooltipheader = tooltipcontainer.append("div")
 						.attr("class", "tooltip-header")
-						.text(data['PKNAME'])
+						.text(data['PKNAME'] + ", " + data['LOCATION'].replace(/ *\([^)]*\) */g, "").trim() + ", " + data['HEIGHTM'].replace(/\B(?=(\d{3})+(?!\d))/g, ",")+"m")
+					
+		
+		summitinfo
+			.text(function(d,i) { 
+		
+				if (i==0) {
+
+					return data['PSUMMITERS'];
+				}
+				else {
+					if (data['PYEAR'] == 0) {
+						return "Unclimbed"
+					}
+					return data['PSMTDATE'] + ", " + data['PYEAR'];
+				}
+			})
+			.attr("dy", "1em")
+			.call(wrap, 325);
+
 		tooltip
           .style("visibility","visible")
           .style("top",function(d){
             /*if(viewportWidth < 450 || mobile){
               return "250px";
             }*/
-            return (d3.event.pageY-40) +"px"
+
+            return projection([data['longitude'],data['latitude']])[1] - peakScale(data['HEIGHTM']) +"px"
           })
           .style("left",function(d){
             /*if(viewportWidth < 450 || mobile){
               return "0px";
             }*/
-            return (d3.event.pageX+30) +"px";
+            
+            return  projection([data['longitude'],data['latitude']])[0] + 100+"px"
           })
 
 	}
 
-	function mouseOutEvents(data, element) {
+	function mouseOutEvents(element) {
     	/*if (!mobile) {
 	    	gannotation.selectAll(".annotation-number").remove();
 	    	gannotation.append('text')
@@ -199,3 +252,41 @@ function ready(error,peaks,jsonmap) {
 function replaceAll(str, find, replace) {
     return str.replace(new RegExp(find, 'g'), replace);
 }
+
+function wrap(text, width) {
+
+  text.each(function() {
+    var text = d3.select(this),
+        words = text.text().split(/\s+/).reverse(),
+        word,
+        line = [],
+        lineNumber = 0,
+        lineHeight = 1.1, // ems
+        y = text.attr("y"),
+        dy = parseFloat(text.attr("dy")),
+        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", 0 + "em");
+    while (word = words.pop()) {
+      line.push(word);
+      tspan.text(line.join(" "));
+      if (tspan.node().getComputedTextLength() > width) {
+        line.pop();
+        tspan.text(line.join(" "));
+        line = [word];
+        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", lineNumber * lineHeight + dy + "em").text(word);
+      }
+    }
+  });
+}
+
+var peakschart = $(".peakssvg"),
+    peaksaspect = peakschart.width() / peakschart.height(),
+     peakscontainer = peakschart.parent();
+$(window).on("resize", function() {
+
+   var targetWidth = peakscontainer.width();
+   if (targetWidth > 1200) {
+      targetWidth = 1200;
+   }
+    peakschart.attr("width", targetWidth);
+    peakschart.attr("height", Math.round(targetWidth / peaksaspect));
+}).trigger("resize");
