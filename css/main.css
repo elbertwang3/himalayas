@@ -1,4 +1,4 @@
-.mountain-line {
+/*.mountain-line {
 	fill: none;
 	stroke: steelblue;
 	stroke-width: 2px;
@@ -7,7 +7,7 @@
 .mountain-line.hover {
 	stroke: red;
 	cursor: pointer;
-}
+}*/
 
 .mountain-area {
 	fill:lightsteelblue;;
@@ -108,5 +108,47 @@ body, html {
 
 .mountain-dot {
 	fill: #FF4500;
+}
+
+.tooltip {
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 14px;
+    z-index: 1000000000;
+    text-align: left;
+    width: auto;
+    color: #353535;
+    visibility: hidden;
+    pointer-events: none;
+    border: 1px solid rgba(193, 193, 193, 0.8);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    background: white;
+    padding: 0.75em;
+    height: auto;
+}
+
+.mountain-path {
+	fill: #171613;
+	stroke: #000;
+}
+
+
+.mountain-line {
+	stroke: #FF4500;
+	stroke-width: 1.5px;
+}
+
+.mountain-group {
+	stroke: #C0C0C0;
+	opacity: 0.3;
+}
+
+.mountain-selected {
+	stroke: #FF4500;
+	opacity: 1;
+}
+
+.mountain-line.mountain-selected {
+	stroke-width: 3px;
 }
 
