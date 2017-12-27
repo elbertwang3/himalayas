@@ -152,3 +152,20 @@ body, html {
 	stroke-width: 3px;
 }
 
+.awesomplete {
+
+
+}
+#myinput {
+	display: block;
+	margin: 0 auto;
+	    width: 12em;
+    padding: .1em .3em;
+    border: 0;
+    border: 1px solid hsl(35, 80%, 60%);
+    background: hsla(0,0%,100%,.2);
+    border-radius: .3em;
+    box-shadow: 0.05em 0.1em 0.3em rgba(0,0,0,.3) inset;
+
+}
+

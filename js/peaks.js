@@ -2,6 +2,7 @@ peaksdiv = d3.select(".peaks"),
 peakswidth = 1200,
 peaksheight = 600,
 peaksmargin = {top: 30, bottom: 30, left: 30, right: 30},
+input = document.getElementById("myinput");
 peakssvg = peaksdiv.append('svg')
 	.attr('class', 'peakssvg')
 	.attr('width', peakswidth)
@@ -15,16 +16,14 @@ var tooltip = d3.select(".peaks")
     });
 var peakScale = d3.scaleLinear()
 					.domain([5000,8850])
-					.range([0,100])
+					.range([0,150])
 d3.queue()
     .defer(d3.csv, "data/geocodedpeaksfinal.csv")
     .defer(d3.json, "data/nepal.json")
     .await(ready);
 
 function ready(error,peaks,jsonmap) {
-	console.log(error)
-	console.log(peaks);
-	console.log(jsonmap);
+
     var projection = d3.geoMercator()
 	    .scale(1)
 	    .translate([0, 0]);
@@ -34,8 +33,6 @@ function ready(error,peaks,jsonmap) {
 	    .projection(projection);
 
 	// Compute the bounds of a feature of interest, then derive scale & translate.
-	console.log(peakswidth)
-	console.log(peaksheight);
 	var b = path.bounds(jsonmap),
 	    s = .8 / Math.max((b[1][0] - b[0][0]) / peakswidth, (b[1][1] - b[0][1]) / peaksheight),
 	    t = [(peakswidth - s * (b[1][0] + b[0][0])) / 2, (peaksheight - s * (b[1][1] + b[0][1])) / 2];
@@ -64,6 +61,11 @@ function ready(error,peaks,jsonmap) {
 
 	himals = new Set()
 	filteredpeaks = peaks.filter(function(d) { return (d['latitude'] != "") && (d['longitude'] != ""); })
+	peakstocomplete = filteredpeaks.map(function(d) { return d['PKNAME']})
+	console.log(peakstocomplete)
+	new Awesomplete(input, {
+		list: peakstocomplete
+	});
 	console.log(peaks.length)
 	console.log(filteredpeaks.length)
 	outofboundspeaks = filteredpeaks.filter(function(d) { return (d['latitude'] < 27) || (d['latitude'] > 31) || (d['longitude'] < 80) || (d['longitude'] > 89); })
@@ -129,7 +131,7 @@ function ready(error,peaks,jsonmap) {
 			var peakname = replaceAll(d['PKNAME'], " ", "-")
 			return "mountain-line " + noparen + " " + peakname;
 		})
-		.attr('x1', function(d) { coordinate = projection([d['longitude'],d['latitude']]); console.log(coordinate); return coordinate[0]; })
+		.attr('x1', function(d) { coordinate = projection([d['longitude'],d['latitude']]); return coordinate[0]; })
 		.attr('y1', function(d) { coordinate = projection([d['longitude'],d['latitude']]); return coordinate[1]; })
 		.attr('x2', function(d) { coordinate = projection([d['longitude'],d['latitude']]); return coordinate[0]; })
 		.attr('y2', function(d) { coordinate = projection([d['longitude'],d['latitude']]); return coordinate[1] - peakScale(d['HEIGHTM']); })
