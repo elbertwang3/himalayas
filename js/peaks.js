@@ -61,7 +61,7 @@ function ready(error,peaks,jsonmap) {
 
 	himals = new Set()
 	filteredpeaks = peaks.filter(function(d) { return (d['latitude'] != "") && (d['longitude'] != ""); })
-	peakstocomplete = filteredpeaks.map(function(d) { return d['PKNAME']})
+	peakstocomplete = filteredpeaks.map(function(d) { return {label: d['PKNAME'], value: d['LOCATION']}})
 	console.log(peakstocomplete)
 	new Awesomplete(input, {
 		list: peakstocomplete
@@ -138,7 +138,16 @@ function ready(error,peaks,jsonmap) {
 		.attr("opacity",0)
 
 	console.log(himals)
-
+	document.getElementById('myinput').addEventListener("awesomplete-select", function(event) {
+	    console.log(event.text.label)
+	   	console.log(event.text.value);
+	   	var noparen = event.text.value.replace(/ *\([^)]*\) */g, "").trim();
+			noparen = replaceAll(noparen, " ", "-")
+			noparen += "-range"
+			var peakname = replaceAll(event.text.label, " ", "-")
+	    d3.selectAll("." + noparen).classed("mountain-group", true);
+		 	d3.selectAll("." + peakname).classed('mountain-selected', true)
+	});
 	function mouseOverEvents(data, element) {
     	tooltip.selectAll("div").remove();
 

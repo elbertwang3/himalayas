@@ -156,16 +156,24 @@ body, html {
 
 
 }
-#myinput {
+
+.finder {
+
+	padding-top: 5rem;
 	display: block;
-	margin: 0 auto;
-	    width: 12em;
-    padding: .1em .3em;
-    border: 0;
-    border: 1px solid hsl(35, 80%, 60%);
-    background: hsla(0,0%,100%,.2);
-    border-radius: .3em;
-    box-shadow: 0.05em 0.1em 0.3em rgba(0,0,0,.3) inset;
+    max-width: 20rem;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+    position: relative;
+}
+#myinput {
+		font-family: 'Roboto';
+	background: 0 0;
+    width: 100%;
+    border: none;
+    outline: 0;
+    font-size: 1em;
+    color: #fff;
 
 }
 
