@@ -162,14 +162,14 @@ body, html {
 }
 
 .mountain-path {
-	fill: #171613;
+	fill: #201f1b;
 	stroke: #000;
 }
 
 
 .mountain-line {
 	stroke: #C0C0C0;
-	stroke-width: 1.5px;
+	stroke-width: 3px;
 	stroke-linecap: round;
 	opacity: 0;
 }
@@ -240,7 +240,7 @@ body, html {
 }
 
 .peaks {
-		background-color: #171613;
+		background-color: #201f1b;
 	position: relative;
 }
 
@@ -269,9 +269,9 @@ p {
 	display: block;
 	margin: 0 auto;
 	font-family: "Merriweather";
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.7;
-    max-width: 30rem;
+    max-width: 35rem;
     padding: 1rem;
     text-align: left;
     color: black;

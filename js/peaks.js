@@ -26,7 +26,7 @@ var projection = d3.geoMercator()
 	var path = d3.geoPath()
 	    .projection(projection);
 d3.queue()
-    .defer(d3.csv, "data/geocodedpeaksfinal.csv")
+    .defer(d3.csv, "data/geocodedpeaksfinal2.csv")
     .defer(d3.json, "data/nepal.json")
     .await(ready);
 
