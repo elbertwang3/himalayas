@@ -4,6 +4,7 @@ peaksheight = 600,
 peaksmargin = {top: 30, bottom: 30, left: 30, right: 30},
 input = document.getElementById("myinput");
 peakssvg = peaksdiv.append('svg')
+ .attr("viewBox", "0 0 " + (peakswidth) + " " + (peaksheight))
 	.attr('class', 'peakssvg')
 	.attr('width', peakswidth)
 	.attr('height', peaksheight)
@@ -17,6 +18,13 @@ var tooltip = d3.select(".peaks")
 var peakScale = d3.scaleLinear()
 					.domain([5000,8850])
 					.range([0,150])
+var projection = d3.geoMercator()
+	    .scale(1)
+	    .translate([0, 0]);
+
+	// Create a path generator.
+	var path = d3.geoPath()
+	    .projection(projection);
 d3.queue()
     .defer(d3.csv, "data/geocodedpeaksfinal.csv")
     .defer(d3.json, "data/nepal.json")
@@ -24,17 +32,11 @@ d3.queue()
 
 function ready(error,peaks,jsonmap) {
 
-    var projection = d3.geoMercator()
-	    .scale(1)
-	    .translate([0, 0]);
-
-	// Create a path generator.
-	var path = d3.geoPath()
-	    .projection(projection);
+    
 
 	// Compute the bounds of a feature of interest, then derive scale & translate.
 	var b = path.bounds(jsonmap),
-	    s = .8 / Math.max((b[1][0] - b[0][0]) / peakswidth, (b[1][1] - b[0][1]) / peaksheight),
+	    s = .95 / Math.max((b[1][0] - b[0][0]) / peakswidth, (b[1][1] - b[0][1]) / peaksheight),
 	    t = [(peakswidth - s * (b[1][0] + b[0][0])) / 2, (peaksheight - s * (b[1][1] + b[0][1])) / 2];
 	 
 	  
@@ -61,7 +63,7 @@ function ready(error,peaks,jsonmap) {
 	
 	annotations = peakssvg.append('g')
 			.attr("class", "annotations")
-			.attr("transform", "translate(" +  0.85* peakswidth +", " + 0.15*peaksheight +")");
+			.attr("transform", "translate(" +  0.95* peakswidth +", " + 0.15*peaksheight +")");
 
 	himals = new Set()
 	filteredpeaks = peaks.filter(function(d) { return (d['latitude'] != "") && (d['longitude'] != ""); })
@@ -159,7 +161,7 @@ function ready(error,peaks,jsonmap) {
 		.enter()
 		.append('g')
 
-		.attr("transform", function(d,i) { return "translate(0," + i * 70 +")"})
+		.attr("transform", function(d,i) { return "translate(0," + i * 100 +")"})
 		
 	annotation
 		.append("text")
@@ -173,6 +175,7 @@ function ready(error,peaks,jsonmap) {
 			.attr("text-anchor", "end")
 			.attr("transform", "translate(0,12)")
 			.text("Mouse over peaks for more information")
+			.attr("dy", "0.5em")
 			
 		
 			
@@ -264,7 +267,7 @@ function wrap(text, width) {
         lineHeight = 1.1, // ems
         y = text.attr("y"),
         dy = parseFloat(text.attr("dy")),
-        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", 0 + "em");
+        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", 0.5 + "em");
     while (word = words.pop()) {
       line.push(word);
       tspan.text(line.join(" "));
@@ -289,4 +292,13 @@ $(window).on("resize", function() {
    }
     peakschart.attr("width", targetWidth);
     peakschart.attr("height", Math.round(targetWidth / peaksaspect));
+    /*var b = path.bounds(jsonmap),
+	    s = .95 / Math.max((b[1][0] - b[0][0]) / targetWidth, (b[1][1] - b[0][1]) / (targetWidth / peaksaspect)),
+	    t = [(targetWidth - s * (b[1][0] + b[0][0])) / 2, ((targetWidth / peaksaspect) - s * (b[1][1] + b[0][1])) / 2];
+	 
+	  
+	// Update the projection to use computed scale & translate.
+	projection
+	    .scale(s)
+	    .translate(t); */
 }).trigger("resize");
