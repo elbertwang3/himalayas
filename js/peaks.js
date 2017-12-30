@@ -1,13 +1,15 @@
-peaksdiv = d3.select(".peaks"),
-peakswidth = 1200,
-peaksheight = 600,
+peaksdiv = d3.select(".peakcontainer"),
+peakswidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
+peaksheight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) - 50,
 peaksmargin = {top: 30, bottom: 30, left: 30, right: 30},
 input = document.getElementById("myinput");
+
 peakssvg = peaksdiv.append('svg')
  .attr("viewBox", "0 0 " + (peakswidth) + " " + (peaksheight))
 	.attr('class', 'peakssvg')
 	.attr('width', peakswidth)
 	.attr('height', peaksheight)
+
 var tooltip = d3.select(".peaks")
     .append("div")
     .attr("class","tooltip")
@@ -36,10 +38,10 @@ function ready(error,peaks,jsonmap) {
 
 	// Compute the bounds of a feature of interest, then derive scale & translate.
 	var b = path.bounds(jsonmap),
-	    s = .95 / Math.max((b[1][0] - b[0][0]) / peakswidth, (b[1][1] - b[0][1]) / peaksheight),
+	    s = .9 / Math.max((b[1][0] - b[0][0]) / peakswidth, (b[1][1] - b[0][1]) / peaksheight),
 	    t = [(peakswidth - s * (b[1][0] + b[0][0])) / 2, (peaksheight - s * (b[1][1] + b[0][1])) / 2];
 	 
-	  
+
 	// Update the projection to use computed scale & translate.
 	projection
 	    .scale(s)
@@ -63,7 +65,7 @@ function ready(error,peaks,jsonmap) {
 	
 	annotations = peakssvg.append('g')
 			.attr("class", "annotations")
-			.attr("transform", "translate(" +  0.95* peakswidth +", " + 0.15*peaksheight +")");
+			.attr("transform", "translate(" +  0.875* peakswidth +", " + 0.15*peaksheight +")");
 
 	himals = new Set()
 	filteredpeaks = peaks.filter(function(d) { return (d['latitude'] != "") && (d['longitude'] != ""); })
@@ -218,14 +220,14 @@ function ready(error,peaks,jsonmap) {
               return "250px";
             }*/
 
-            return projection([data['longitude'],data['latitude']])[1] - peakScale(data['HEIGHTM']) +"px"
+            return projection([data['longitude'],data['latitude']])[1] - peakScale(data['HEIGHTM']) - 40 + "px"
           })
           .style("left",function(d){
             /*if(viewportWidth < 450 || mobile){
               return "0px";
             }*/
             
-            return  projection([data['longitude'],data['latitude']])[0] + 100+"px"
+            return  projection([data['longitude'],data['latitude']])[0]-40 +"px"
           })
 
 	}
@@ -287,8 +289,8 @@ var peakschart = $(".peakssvg"),
 $(window).on("resize", function() {
 
    var targetWidth = peakscontainer.width();
-   if (targetWidth > 1200) {
-      targetWidth = 1200;
+   if (targetWidth > window.innerWidth) {
+      targetWidth = window.innerWidth;
    }
     peakschart.attr("width", targetWidth);
     peakschart.attr("height", Math.round(targetWidth / peaksaspect));

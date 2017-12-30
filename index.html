@@ -7,6 +7,8 @@
 	    <meta name="description" content="The Himalayas">
 	    <meta name="author" content="Elbert Wang">
 	    <meta http-equiv="pragma" content="no-cache" />
+	     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.43.0/mapbox-gl.css' rel='stylesheet' />
 
 	    <title>The Himalayas</title>
 	    <link href="css/main.css" rel="stylesheet">
@@ -14,6 +16,7 @@
 	    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
 	    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,900" rel="stylesheet">
 	    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700|Open+Sans:400,700" rel="stylesheet">
+	   
 	    
 	</head>
   	<body>
@@ -32,19 +35,33 @@
       	<div class='intro prose'><p> For every Himalayan summit climbed by a mountaineer, there is a so-called "second summit": an interview with Elizabeth Hawley, the keeper of the Himalayas. In 1960, the American-born journalist returned to Kathmandu, Nepal after first visiting on a round-the-world trip a year prior. She has never left. She started out working as a reporter for Reuters, and since then, she has become the world's premier authority on Himalayan mountaineering, the first to keep meticulous records on every peak and every mountaineer that has dared to attempt them. For those who claim to have made it to the top, Hawley will ask detailed questions about the expedition team, the route, what the summit looked like. From past photographs and decades of experience, Hawley can smell half-truths from those who didn't quite make it all the way.</p>
 
       	<p>In 1991, American Richard Salibury was planning an expedition to Annapurna IV and met Hawley when she interviewed him as the team's leader. A computer scientist from UMichigan, Salisbury was impressed by the exhaustive records she kept and suggested she publish them as a database. After countless hours of work by two Nepali data entry clerks, the two published the database in 2004 through a CD-ROM format, charging $70 per copy. In 2017, the Himalayan Database became a non-profit, allowing the database to be distributed online for free. Today, the database holds information about over 450 peaks and 9600 expeditions. It is a culmination of a life's work.
-      </p></div>
+      </p>
+  <h2>The Peaks</h2>
+	      		<p > Below are all of the peaks in the Himalayan Database. I wanted to visualize the height and location of each peak, and show each peak within the context of its mountain range. There are some notable exceptions, including eight-thousanders K2, Nanga Parbat, and Gasherbrum. Hawley chose to record peaks exclusively in the Nepalese Himalaya, which excludes peaks in neighboring China, Pakistan, and India.   </p></div>
       	<!--<p class="prose">Hello I am elizabeth hawley</p>-->
       	<div class="peaks">	
+      		
       		<div class="finder">
       			<input id="myinput" placeholder="Enter a peak...">
       			<div class="find__icon">
 					<svg class="search-icon-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve"><g><path fill="" d="M84.755,64.56c12.914-12.914,12.914-33.927,0-46.841c-12.913-12.915-33.927-12.915-46.842,0     c-11.272,11.273-12.706,28.717-4.297,41.559l-22.72,22.72c-2.625,2.626-2.611,6.909,0.03,9.551s6.926,2.654,9.55,0.03     l22.72-22.72C56.038,77.266,73.481,75.834,84.755,64.56z M44.955,57.52c-9.032-9.032-9.032-23.727,0-32.76     c9.031-9.031,23.727-9.031,32.758,0c9.031,9.033,9.031,23.728,0,32.76C68.682,66.55,53.986,66.55,44.955,57.52z"></path></g>
 					</svg>
 				</div>
+				
       		</div>
+      		<div class="peakcontainer">
+				</div>
+      	</div>
+      	<div class='prose'>
+      		<h2>Where the mountaineers come from</h2>
+      		<p> For every Himalayan summit climbed by a mountaineer, there is a so-called "second summit": an interview with Elizabeth Hawley, the keeper of the Himalayas. In 1960, the American-born journalist returned to Kathmandu, Nepal after first visiting on a round-the-world trip a year prior. She has never left. She started out working as a reporter for Reuters, and since then, she has become the world's premier authority on Himalayan mountaineering, the first to keep meticulous records on every peak and every mountaineer that has dared to attempt them. For those who claim to have made it to the top, Hawley will ask detailed questions about the expedition team, the route, what the summit looked like. From past photographs and decades of experience, Hawley can smell half-truths from those who didn't quite make it all the way.</p>
+      	</div>
+      	<div class="countries">
+      		<div id="countriesmap"></div>
       	</div>
       
   		  <!--<div class="beforesummit"></div>-->
+
       </div>
 
 
@@ -55,6 +72,7 @@
 		<script src="https://d3js.org/topojson.v2.min.js"></script>
 		<!--<script src="js/main.js"></script>-->
 		<script src="js/peaks.js"></script>
+		<script src="js/countries.js"></script>
 
 		<!--<script src="js/beforesummit.js"></script>-->
 

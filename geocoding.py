@@ -37,18 +37,18 @@ API_KEY = 'AIzaSyDVY2gfyRxBceJNN6bFESkKMpqPsRnnhSM'
 # Backoff time sets how many minutes to wait between google pings when your API limit is hit
 BACKOFF_TIME = 30
 # Set your output file name here.
-output_filename = 'data/geocodedpeaks.csv'
+output_filename = 'data/geocodedmembers.csv'
 # Set your input file here
-input_filename = "data/peaks.csv"
+input_filename = "data/members.csv"
 # Specify the column name in your input data that contains addresses here
-address_column_name = "PKNAME"
+address_column_name = "RESIDENCE"
 # Return Full Google Results? If True, full JSON results from Google are included in output
 RETURN_FULL_RESULTS = False
 
 #------------------ DATA LOADING --------------------------------
 
 # Read the data to a Pandas Dataframe
-data = pd.read_csv(input_filename, encoding='utf8')
+data = pd.read_csv(input_filename, encoding='utf-8')
 
 if address_column_name not in data.columns:
 	raise ValueError("Missing Address column in input data")
@@ -60,7 +60,7 @@ addresses = data[address_column_name].tolist()
 # **** DEMO DATA / IRELAND SPECIFIC! ****
 # We know that these addresses are in Ireland, and there's a column for county, so add this for accuracy. 
 # (remove this line / alter for your own dataset)
-addresses = (data[address_column_name] + ', Nepal').tolist()
+#addresses = (data[address_column_name] + ',' + data['County'] + ',Ireland').tolist()
 
 
 #------------------	FUNCTION DEFINITIONS ------------------------
@@ -102,7 +102,7 @@ def get_google_results(address, api_key=None, return_full_response=False):
     else:    
         answer = results['results'][0]
         output = {
-            "formatted_address" : answer.get('formatted_address'),
+            "formatted_address" : answer.get('formatted_address').encode('utf-8'),
             "latitude": answer.get('geometry').get('location').get('lat'),
             "longitude": answer.get('geometry').get('location').get('lng'),
             "accuracy": answer.get('geometry').get('location_type'),
