@@ -14,15 +14,23 @@ const CONFIG = {
   devtool: 'source-map',
 
   module: {
-    rules: [{
+    rules: [
+    {
       // Compile ES2015 using buble
-      test: /\.js$/,
+      test: /\.js$/, 
       loader: 'buble-loader',
       include: [resolve('.')],
       exclude: [/node_modules/],
       options: {
         objectAssign: 'Object.assign'
       }
+    },
+    {
+        test: /\.css$/,
+        use: [
+          { loader: "style-loader" },
+          { loader: "css-loader" }
+        ]
     }]
   },
 
@@ -36,7 +44,7 @@ const CONFIG = {
 
   // Optional: Enables reading mapbox token from environment variable
   plugins: [
-    new webpack.EnvironmentPlugin(['MapboxAccessToken'])
+    new webpack.EnvironmentPlugin({MapboxAccessToken:'pk.eyJ1IjoiZWxiZXJ0d2FuZyIsImEiOiJjajk3dmw4amUwYmV2MnFydzl3NDIyaGFpIn0.46xwSuceSuv2Fkeqyiy0JQ'})
   ]
 };
 

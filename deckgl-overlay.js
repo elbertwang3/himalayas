@@ -32,12 +32,14 @@ export default class DeckGLOverlay extends Component {
       latitude: 30.0339,
       zoom: 1.6,
       maxZoom: 15,
+      minZoom: 1.6,
       pitch: 20,
       bearing: -10
     };
   }
 
   constructor(props) {
+    console.log(props)
     super(props);
     this.state = {
       arcs: this._getArcs(props)
@@ -53,20 +55,30 @@ export default class DeckGLOverlay extends Component {
     }
   }
 
-  _getArcs({data, selectedFeature}) {
-    console.log(data)
-    if (!data || !selectedFeature) {
+  _getArcs(props) {
+    const {data, year} = props;
+    console.log(data);
+    console.log(year)
+    if (!data) {
       return null;
     }
-
-    const {flows, centroid} = selectedFeature.properties;
-    console.log(Object.keys(flows))
-    const arcs = Object.keys(data).map(toId => {
+    console.log("year " + year + "in DeckGL")
+    console.log(year.toString())
+    var yeardata = data.filter(function(d) {
+  return d['MYEAR'] == year.toString();
+});
+    console.log(yeardata);
+    
+    //const {flows, centroid} = selectedFeature.properties;
+    const arcs = Object.keys(yeardata).map(toId => {
       const f = data[toId];
+      var longitude = parseFloat(f['longitude'])
+      var latitude = parseFloat(f['latitude'])
+      var target = [longitude, latitude]
       return {
         source: [84.1240,28.3949],
-        target: f.properties.centroid,
-        value: flows[toId]
+        target: target,
+  
       };
     });
 
@@ -111,6 +123,7 @@ export default class DeckGLOverlay extends Component {
       new ArcLayer({
         id: 'arc',
         data: arcs,
+        opacity: 0.3,
         getSourcePosition: d => d.source,
         getTargetPosition: d => d.target,
         //getSourceColor: d => (d.gain > 0 ? inFlowColors : outFlowColors)[d.quantile],
