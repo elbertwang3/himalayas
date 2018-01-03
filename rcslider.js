@@ -13,6 +13,7 @@ export default class SliderClass  extends Component {
 	
 	
 	constructor(props) {
+		console.log(props);
     	super(props);
     	
 	   
@@ -24,13 +25,15 @@ export default class SliderClass  extends Component {
 
 	render() {
 		
-		const wrapperStyle = { width: 400, margin: 50 };
+		const wrapperStyle = { width: 400, margin: '30 auto', display: 'block'};
 		
 		
 		return (<div>
 		    <div style={wrapperStyle}>
-		      <p>Slider with custom handle</p>
-		      <SliderWithTooltip min={1963} max={2004} defaultValue={2004} step={1}  tipFormatter={percentFormatter} onChange={this.props._onSliderChange} onAfterChange={this.props._onAfterChange} />
+		      <p>Slide to change year</p>
+		      <SliderWithTooltip min={1963} max={2004} defaultValue={2004} step={1}  tipFormatter={percentFormatter} 
+		      onChange={this.props.onChange} onAfterChange={this.props.onAfterChange} 
+		       trackStyle={{ backgroundColor: 'grey'}} />
 		    </div>
 		    
 		  </div>)

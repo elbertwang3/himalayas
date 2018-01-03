@@ -39,7 +39,6 @@ export default class DeckGLOverlay extends Component {
   }
 
   constructor(props) {
-    console.log(props)
     super(props);
     this.state = {
       arcs: this._getArcs(props)
@@ -47,8 +46,7 @@ export default class DeckGLOverlay extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.data !== this.props.data ||
-        nextProps.selectedFeature !== this.props.selectedFeature) {
+    if ((nextProps.year !== this.props.year) || (nextProps.data !== this.props.data)) {
       this.setState({
         arcs: this._getArcs(nextProps)
       });
@@ -57,17 +55,15 @@ export default class DeckGLOverlay extends Component {
 
   _getArcs(props) {
     const {data, year} = props;
-    console.log(data);
-    console.log(year)
+
     if (!data) {
       return null;
     }
-    console.log("year " + year + "in DeckGL")
-    console.log(year.toString())
+
     var yeardata = data.filter(function(d) {
   return d['MYEAR'] == year.toString();
 });
-    console.log(yeardata);
+
     
     //const {flows, centroid} = selectedFeature.properties;
     const arcs = Object.keys(yeardata).map(toId => {
@@ -102,6 +98,7 @@ export default class DeckGLOverlay extends Component {
   }
 
   render() {
+    console.log("deck-gl rerendered")
     const {viewport, strokeWidth, data} = this.props;
     const {arcs} = this.state;
 

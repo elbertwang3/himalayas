@@ -296,13 +296,38 @@ h2 {
 #countriesdiv {
 	display: block;
 	margin: 0 auto;
+	max-width: 1220px;
 
 
 
-	width: 1220px;
-	height: 650px;
+
+}
+.rc-slider {
+
+
+
+}
+/*.mapboxcontainer { 
+	display: block;
+	margin: 0 auto;
+	max-width: 1220px;
+	height: 500px; 
 }
 
+.mapboxcontainer2 { 
+	display: block;
+	margin: 0 auto;
+	max-width: 1220px;
+	height: 500px; 
+}
+
+
+[data-reactroot] { 
+	display: block;
+	margin: 0 auto;
+	max-width: 1220px;
+	height: 650px; 
+}*/
 
 
 @media only screen and (max-width: 600px) { 

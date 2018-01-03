@@ -63,18 +63,17 @@ class Root extends Component {
   }
 
   _onSliderChange(value) {
-    console.log("plzzzzzz?????")
-      log(value);
-      
+    this.setState({year:
+        value
+      });
   }
     
   _onAfterChange(value) {
-      console.log(value); //eslint-disable-line
       this.setState({year:
         value
       });
-      console.log("hello")
-      console.log(this.state)
+      
+     
   }
 
   _onViewportChange(viewport) {
@@ -85,11 +84,11 @@ class Root extends Component {
 
   render() {
     const {viewport, data,year} = this.state;
-
+    
     return (
       <div>
       <SliderClass onChange={this._onSliderChange.bind(this)} onAfterChange={this._onAfterChange.bind(this)}/>
-      <MapGL
+      <MapGL 
         {...viewport}
         onViewportChange={this._onViewportChange.bind(this)}
         mapboxApiAccessToken={MAPBOX_TOKEN}>
