@@ -88,7 +88,7 @@ chart2();  // render the chart*/
 		for (var i = 0; i < dates.length; i++) {
 			month = dates[i].month;
 			day = dates[i].day;
-			year = "2016"
+			year = "2006"
 			datestring = year+'-'+month+"-"+day
 			counts = parseInt(dates[i].counts);
 			date = new Date(datestring)
