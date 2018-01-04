@@ -3,7 +3,7 @@ peakswidth = Math.max(document.documentElement.clientWidth, window.innerWidth ||
 peaksheight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) - 50,
 peaksmargin = {top: 30, bottom: 30, left: 30, right: 30},
 input = document.getElementById("myinput");
-
+himals = ['Unclassified', 'Annapurna', 'Api', 'Damodar', 'Dhaulagiri', 'Ganesh', 'Janak', 'Jongsang', 'Jugal', 'Kangchenjunga', 'Kanjiroba', 'Kanti Palchung', 'Khumbu', 'Langtang', 'Makalu', 'Manaslu', 'Mukut Mustang', 'Nalakanakar', 'Peri', 'Rolwaling', 'Saipal']
 peakssvg = peaksdiv.append('svg')
  .attr("viewBox", "0 0 " + (peakswidth) + " " + (peaksheight))
 	.attr('class', 'peakssvg')
@@ -28,7 +28,7 @@ var projection = d3.geoMercator()
 	var path = d3.geoPath()
 	    .projection(projection);
 d3.queue()
-    .defer(d3.csv, "data/geocodedpeaksfinal2.csv")
+    .defer(d3.csv, "data/geocodedpeaks.csv")
     .defer(d3.json, "data/nepal.json")
     .await(ready);
 
@@ -67,7 +67,7 @@ function ready(error,peaks,jsonmap) {
 			.attr("class", "annotations")
 			.attr("transform", "translate(" +  0.875* peakswidth +", " + 0.15*peaksheight +")");
 
-	himals = new Set()
+	//himals = new Set()
 	filteredpeaks = peaks.filter(function(d) { return (d['latitude'] != "") && (d['longitude'] != ""); })
 	peakstocomplete = filteredpeaks.map(function(d) { return d['PKNAME']; })
 	peakrangemap = {}
@@ -86,26 +86,22 @@ function ready(error,peaks,jsonmap) {
 		.append("g")
 		.attr("class", "mountain-g")
 		.on("mouseover", function(d) {
-			var noparen = d['LOCATION'].replace(/ *\([^)]*\) */g, "").trim();
-			noparen = replaceAll(noparen, " ", "-")
-			noparen += "-range"
+			var himal = replaceAll(himals[d['HIMAL']] + " range", " ", "-")
 			var peakname = replaceAll(d['PKNAME'], " ", "-")
 		 	data = d;
 		 	d3.selectAll(".mountain-line").classed("mountain-group", false);
 		 	d3.selectAll(".mountain-line").classed('mountain-selected', false)
-		 	d3.selectAll("." + noparen).classed("mountain-group", true);
+		 	d3.selectAll("." + himal).classed("mountain-group", true);
 		 	d3.selectAll("." + peakname).classed('mountain-selected', true)
 		 	mouseOverEvents(data,d3.select(this));
 		
 
 		})
 		.on("mouseout", function(d) {
-			var noparen = d['LOCATION'].replace(/ *\([^)]*\) */g, "").trim();
-			noparen = replaceAll(noparen, " ", "-")
-			noparen += "-range"
+			var himal = replaceAll(himals[d['HIMAL']] + " range", " ", "-")
 			var peakname = replaceAll(d['PKNAME'], " ", "-")
 		 	data = d;
-		 	d3.selectAll("." + noparen).classed("mountain-group", false);
+		 	d3.selectAll("." + himal).classed("mountain-group", false);
 		 	d3.selectAll("." + peakname).classed('mountain-selected', false)
 		 	mouseOutEvents(d3.select(this));
 
@@ -114,11 +110,9 @@ function ready(error,peaks,jsonmap) {
 	mountaing
 		.append("circle")
 		.attr("class", function(d) {
-			var noparen = d['LOCATION'].replace(/ *\([^)]*\) */g, "").trim();
-			noparen = replaceAll(noparen, " ", "-")
-			noparen += "-range"
+			var himal = replaceAll(himals[d['HIMAL']] + " range", " ", "-")
 			var peakname = replaceAll(d['PKNAME'], " ", "-")
-			return "mountain-dot " + noparen + " " + peakname;
+			return "mountain-dot " + himal + " " + peakname;
 		})
 		.attr("r", 1.5)
 		.attr('cx', function(d) { coordinate = projection([d['longitude'],d['latitude']]); return coordinate[0]; })
@@ -127,11 +121,9 @@ function ready(error,peaks,jsonmap) {
 	mountaing
 		.append("line")
 		.attr("class", function(d) {
-			var noparen = d['LOCATION'].replace(/ *\([^)]*\) */g, "").trim();
-			noparen = replaceAll(noparen, " ", "-")
-			noparen += "-range"
+			var himal = replaceAll(himals[d['HIMAL']] + " range", " ", "-")
 			var peakname = replaceAll(d['PKNAME'], " ", "-")
-			return "mountain-line " + noparen + " " + peakname;
+			return "mountain-line " + himal + " " + peakname;
 		})
 		.attr('x1', function(d) { coordinate = projection([d['longitude'],d['latitude']]); return coordinate[0]; })
 		.attr('y1', function(d) { coordinate = projection([d['longitude'],d['latitude']]); return coordinate[1]; })
@@ -142,11 +134,9 @@ function ready(error,peaks,jsonmap) {
 
 	document.getElementById('myinput').addEventListener("awesomplete-select", function(event) {
 
-	   	var noparen = peakrangemap[event.text.label]['LOCATION'].replace(/ *\([^)]*\) */g, "").trim();
-			noparen = replaceAll(noparen, " ", "-")
-			noparen += "-range"
+	   	var himal = replaceAll(himals[peakrangemap[event.text.label]['HIMAL']] + " range", " ", "-");
 			var peakname = replaceAll(event.text.label, " ", "-")
-	    d3.selectAll("." + noparen).classed("mountain-group", true);
+	    d3.selectAll("." + himal).classed("mountain-group", true);
 		 	d3.selectAll("." + peakname).classed('mountain-selected', true)
 		 	mouseOverEvents(peakrangemap[event.text.label],d3.select(this));
 	});
@@ -193,7 +183,7 @@ function ready(error,peaks,jsonmap) {
 
       	tooltipheader = tooltipcontainer.append("div")
 						.attr("class", "tooltip-header")
-						.text(data['PKNAME'] + ", " + data['LOCATION'].replace(/ *\([^)]*\) */g, "").trim() + ", " + data['HEIGHTM'].replace(/\B(?=(\d{3})+(?!\d))/g, ",")+"m")
+						.text(data['PKNAME'] + ", " + himals[data['HIMAL']] + " Himal" + ", " + data['HEIGHTM'].replace(/\B(?=(\d{3})+(?!\d))/g, ",")+"m")
 					
 		
 		summitinfo
@@ -207,7 +197,7 @@ function ready(error,peaks,jsonmap) {
 					if (data['PYEAR'] == 0) {
 						return "Unclimbed"
 					}
-					return data['PSMTDATE'] + ", " + data['PYEAR'];
+					return data['firstsummitdate'];
 				}
 			})
 			.attr("dy", "1em")

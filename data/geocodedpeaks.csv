@@ -1,458 +1,458 @@
-,accuracy,formatted_address,google_place_id,input_string,latitude,longitude,number_of_results,postcode,status,type
-0,APPROXIMATE,"Ama Dablam, Khumjung 56000, Nepal",ChIJPSR3_fQA6TkRCwmkOk-rmqE,Ama Dablam,27.8618748,86.8611631,1,56000,OK,"establishment,natural_feature"
-1,,,,Amphu Gyabjen,27.878611,86.871389,0,,ZERO_RESULTS,
-2,APPROXIMATE,"Annapurna, Narchyang, Nepal",ChIJ94QfBUQcvjkR-zkLX9K-HJQ,Annapurna I,28.596111,83.820278,1,,OK,"establishment,natural_feature"
-3,APPROXIMATE,"Annapurna II, Pisang 33500, Nepal",ChIJ_RjyDu6HlTkR57RJ_hTlGtA,Annapurna II,28.535,84.1224999,1,33500,OK,"establishment,natural_feature"
-4,APPROXIMATE,"Annapurna III, Machhapuchchhre 33700, Nepal",ChIJaRhQjuEgvjkRncMG76M7Y1M,Annapurna III,28.585,83.9908333,1,33700,OK,"establishment,natural_feature"
-5,APPROXIMATE,"Annapurna, Narchyang, Nepal",ChIJ94QfBUQcvjkR-zkLX9K-HJQ,Annapurna IV,28.596111,83.820278,1,,OK,"establishment,natural_feature"
-6,ROOFTOP,"119 Park Ave, Summit, NJ 07901, USA",ChIJ94Rt2U6uw4kRQMwSee8guMk,Annapurna I - East Smt,40.7134615,-74.3502379,2,07901,OK,"establishment,gym,health,point_of_interest"
-7,,,,Annapurna I - Middle Smt,,,0,,ZERO_RESULTS,
-8,APPROXIMATE,"Annapurna Dakshin, Ghandruk 33700, Nepal",ChIJFSxT2zL2lTkR6_cz4PlfALk,Annapurna South,28.5183333,83.8058333,1,33700,OK,"establishment,natural_feature"
-9,ROOFTOP,"1108 E Main St, Clarion, PA 16214, USA",ChIJZZG2M8jMzIkR3nSzkNd0UQo,Api Main,30.004167,80.933333,2,16214,OK,"car_repair,establishment,point_of_interest,store"
-10,ROOFTOP,"2933 W Prospect Rd, Ashtabula, OH 44004, USA",ChIJo0mI_SAgMogRU2Mwl9JEwZs,Api West,30,80.932222,1,44004,OK,"car_repair,establishment,point_of_interest,store"
-11,APPROXIMATE,"Baruntse, 56000, Nepal",ChIJCZMmL0v_6DkRIklSh6sXSb0,Baruntse,27.8719444,86.9819444,1,56000,OK,"establishment,natural_feature"
-12,ROOFTOP,"Buddha Stupa, Sundhara Marg, Kathmandu 44600, Nepal",ChIJlSglTdob6zkRS-ibXx3xM9w,Baudha,27.7213281,85.3614973,1,44600,OK,"art_gallery,establishment,point_of_interest"
-13,,,,Bhemdang Ri,28.273611,85.665556,0,,ZERO_RESULTS,
-14,,,,Bhrikuti,28.918889,84.1475,0,,ZERO_RESULTS,
-15,APPROXIMATE,"Bobaye, Central African Republic",ChIJZfJQz5H6whARZoFDHWvPmtA,Bobaye,29.958321,81.021302,1,,OK,"locality,political"
-16,APPROXIMATE,"Chamlang, 56900, Nepal",ChIJaaBXMfb76DkRGF8zsd4IC-E,Chamlang,27.775,86.9791666,1,56900,OK,"establishment,natural_feature"
-17,APPROXIMATE,"Chang La Pass, 194201",ChIJA5wgUYAH_jgRXAgdlT4W_e8,Changla,30.303056,82.128889,1,194201,OK,"establishment,natural_feature"
-18,GEOMETRIC_CENTER,"Chamar Cir, Kannapolis, NC 28081, USA",ChIJYzk6HSwEVIgRYT9A_V3TNWE,Chamar North,28.555278,84.945278,1,28081,OK,route
-19,,,,Cheo Himal,28.764444,84.451667,0,,ZERO_RESULTS,
-20,APPROXIMATE,Cho Oyu,ChIJF7M9Rpe86TkRzw_BkfEukiQ,Cho Oyu,28.0972891,86.658475,1,,OK,"establishment,natural_feature"
-21,,,,Chobuje,27.880556,86.4925,0,,ZERO_RESULTS,
-22,APPROXIMATE,"Cholatse, Khumjung 56000, Nepal",ChIJZ39YikOo6TkR4incCrJTg8c,Cholatse,27.885,86.771667,1,56000,OK,"establishment,natural_feature"
-23,APPROXIMATE,"Cho Polu, 56900, Nepal",ChIJi-ghZd9V6DkR5-rXZMVeoSc,Cho Polu,27.919167,86.981944,1,56900,OK,"establishment,natural_feature"
-24,APPROXIMATE,"Chulu, Malawi",ChIJF-abmS67HhkRBmWTWG5a6pk,Chulu Central,28.74138889,84.02805556,1,,OK,"locality,political"
-25,,,,Chukyima Go,27.832433,86.450005,0,,ZERO_RESULTS,
-26,,,,Churen Himal Central,28.735,83.216,0,,ZERO_RESULTS,
-27,APPROXIMATE,"Chulu East, Tanki Manang 33500, Nepal",ChIJd-pCFEk7vjkRq2Cuup82ugw,Chulu West,28.7358333,84.0341666,1,33500,OK,"establishment,natural_feature"
-28,GEOMETRIC_CENTER,"Gajhandi Rd, Gujhandi, Jharkhand 825409, India",ChIJtYHNYgkN8zkR26IIXTVLwjQ,Taple Shikhar,27.750833,88.15,2,825409,OK,"establishment,hindu_temple,place_of_worship,point_of_interest"
-29,APPROXIMATE,"Changtse, Tingri, Xigaze, China",ChIJO5bOOilT6DkRMiTKQztToAE,Changtse,28.0258333,86.9091666,1,,OK,"establishment,natural_feature"
-30,APPROXIMATE,"Dhaulagiri I, Mudi 33200, Nepal",ChIJdW02ZE77vTkRFYPLewLO5pQ,Dhaulagiri I,28.6966666,83.4941666,1,33200,OK,"establishment,natural_feature"
-31,APPROXIMATE,"Dhaulagiri II, Mudi 21400, Nepal",ChIJ82xF6xnvvTkRzloT5ZyXMuo,Dhaulagiri II,28.7633333,83.3883333,2,21400,OK,"establishment,natural_feature"
-32,GEOMETRIC_CENTER,"Cumbre Dhaulagiri, León, Gto., Mexico",ChIJ17pSebfBK4QRjORu_J0cOjc,Dhaulagiri III,28.754444,83.379444,1,,OK,route
-33,GEOMETRIC_CENTER,"Anand Vihar, Kaushambi, Ghaziabad, Uttar Pradesh 201012, India",ChIJ1VbXKTD7DDkRodSjXQnzoGI,Dhaulagiri IV,28.738611,83.315278,1,201012,OK,"establishment,point_of_interest,premise"
-34,APPROXIMATE,"Dhawalagiri, Nepal",ChIJycgVMoT9vTkRxZN_0MqjZzQ,Dhaulagiri V,28.734444,83.365556,1,,OK,"administrative_area_level_2,political"
-35,GEOMETRIC_CENTER,"Narayan Ma Vi Galli, Kushma 33400, Nepal",ChIJSeDjxsrmlTkRdIcKABhhd2Q,Dhaulagiri VI,28.708333,83.275278,2,33400,OK,route
-36,APPROXIMATE,"Dhampus 33700, Nepal",ChIJDwHvD3rulTkRmxlVTIbRntk,Dhampus,28.798,83.605,1,33700,OK,"locality,political"
-37,APPROXIMATE,"Dogari, Madhya Pradesh 486886, India",ChIJK6BrM2SriDkRoYRwMaLcGSo,Dogari,28.767222,83.100833,3,486886,OK,"locality,political"
-38,,,,Pemthang Karpo Ri,28.249167,85.750556,0,,ZERO_RESULTS,
-39,APPROXIMATE,"Dorje Lhakpa, Golche, Nepal",ChIJTS6H4zpD6jkR-RJhuNHKXR8,Dorje Lhakpa,28.1741666,85.7791666,1,,OK,"establishment,natural_feature"
-40,GEOMETRIC_CENTER,"Gokyo Ri Marg, Khumjung 56000, Nepal",ChIJtXciCJOm6TkRN8P9zP-2654,Drangnag Ri,27.9563128,86.6878836,1,56000,OK,route
-41,APPROXIMATE,"Drohmo, Lelep 57500, Nepal",ChIJaafogBtU5jkRVb1d8BiBlSU,Drohmo,27.8241666,88.1024999,1,57500,OK,"establishment,natural_feature"
-42,APPROXIMATE,"Everest, KS 66424, USA",ChIJD9qR-M_Cv4cRLabaTHHjjns,Everest,27.988056,86.925278,1,66424,OK,"locality,political"
-43,ROOFTOP,"660 Howard St, San Francisco, CA 94105, USA",ChIJsfbADX2AhYARso30kEbG2yc,Fang,28.578131,83.80133,1,94105,OK,"bar,establishment,food,point_of_interest,restaurant"
-44,,,,Firnkopf,29.89306,81.43139,0,,ZERO_RESULTS,
-45,,,,Firnkopf West,29.883333,81.433333,0,,ZERO_RESULTS,
-46,APPROXIMATE,"Gamma Peak, Washington 98241, USA",ChIJAzdRh3kmm1QRts5_bEeaEoo,Gama Peak,28.716739, 83.277093,1,98241,OK,"establishment,natural_feature"
-47,ROOFTOP,"Ganesh Apartment, GF-16, Ring Rd, Khamla Square, Kotwal Nagar, Khamla, Nagpur, Maharashtra 440025, India",ChIJC5wfQIK_1DsRg-61skkk5PE,Ganesh I,28.391526,85.127064,10,440025,OK,street_address
-48,ROOFTOP,"Ganesh Building, Dr Baba Saheb Ambedkar Rd, Gautam Nagar, Dadar, Mumbai, Maharashtra 400014, India",ChIJ95b7it3O5zsRGdXItP7hlGo,Ganesh III,28.335278,85.122,8,400014,OK,premise
-49,APPROXIMATE,"Ganesh II, Kerauja, Nepal",ChIJZ4nQ08ix6jkRiTqbggedg2U,Ganesh II,28.379,85.057,2,,OK,"establishment,natural_feature"
-50,GEOMETRIC_CENTER,"Ganesh Pl, Durham, NC 27705, USA",ChIJZTXYhljnrIkRUWAlBT7SzRo,Ganesh IV,28.346,85.08,1,27705,OK,route
-51,ROOFTOP,"5303 Harry Hines Blvd, Dallas, TX 75390, USA",ChIJpSuTIwOcToYREfOG5t7sc-Q,Ganesh V,28.332,85.159,1,75390,OK,"doctor,establishment,health,point_of_interest"
-52,,,,Ganesh VI,28.371,85.062,0,,ZERO_RESULTS,
-53,,,,Ganchenpo,27.7236,85.5247,0,,ZERO_RESULTS,
-54,,,,Gandharva Chuli,28.53833,83.96,0,,ZERO_RESULTS,
-55,APPROXIMATE,"Gangapurna, 33500, Nepal",ChIJ1zwrz7whvjkRL6G_qZCrPn4,Gangapurna,28.605,83.9633333,1,33500,OK,"establishment,natural_feature"
-56,APPROXIMATE,"Gauri Sankar, 45500, Nepal",ChIJbW0Mj16B6TkRRntZizeuw0Q,Gaurishankar,27.95,86.3333333,1,45500,OK,"establishment,natural_feature"
-57,ROOFTOP,"10901 SW 15th St, Yukon, OK 73099, USA",ChIJKzCJRCcJsocRGGaNJmwCjTg,Ghustang North,28.680556,83.247778,1,73099,OK,"establishment,point_of_interest,school"
-58,APPROXIMATE,"Mustang, OK 73064, USA",ChIJuXMJkcMLsocRWssJ7wKDDKw,Ghustang South,28.672222,83.246389,1,73064,OK,"locality,political"
-59,,,,Matathumba,,,0,,ZERO_RESULTS,
-60,,,,Ghyuthumba Main,,,0,,ZERO_RESULTS,
-61,APPROXIMATE,"Gimmigela Chuli, Lelep 57500, Nepal",ChIJUQLlGPNX5jkRYh36k22rOIY,Gimmigela Chuli East,27.733333,88.15,1,57500,OK,"establishment,natural_feature"
-62,APPROXIMATE,"Gimmigela Chuli, Lelep 57500, Nepal",ChIJUQLlGPNX5jkRYh36k22rOIY,Gimmigela Chuli,27.733333,88.15,1,57500,OK,"establishment,natural_feature"
-63,APPROXIMATE,"Dome Glacier, Washington, USA",ChIJ043sp00ym1QRsFCc9hqqi-M,Glacier Dome,28.390278,83.891111,1,,OK,"establishment,natural_feature"
-64,APPROXIMATE,"Gurja Himal, Mudi 33200, Nepal",ChIJq2MSP1zyvTkRj6bjxv3TTJY,Gurja Himal,28.6666667,83.3,1,33200,OK,"establishment,natural_feature"
-65,APPROXIMATE,"Gurkarpo Ri, Xigaze, Nepal",ChIJS0b2RchC6jkRSTrizptNMdY,Gurkarpo Ri,28.2091666,85.775,1,,OK,"establishment,natural_feature"
-66,APPROXIMATE,Gyachung Kang,ChIJccfZWnWw6TkROa5HIaDVrFc,Gyachung Kang,28.098056,86.742222,1,,OK,"establishment,natural_feature"
-67,,,,Gyajikang,26.735,84.36778,0,,ZERO_RESULTS,
-68,,,,Leonpo Gang East,,,0,,ZERO_RESULTS,
-69,APPROXIMATE,"Himalchuli, Sirdibas, Nepal",ChIJ2RD5vLhdlTkRBnfeFtqgTYE,Himalchuli East,28.435556,84.642222,1,,OK,"establishment,natural_feature"
-70,APPROXIMATE,"Himlung, Fu, Nepal",ChIJnaV0eJTPvzkRdu5DeBFUyjg,Himlung Himal,28.7716666,84.4225,1,,OK,"establishment,natural_feature"
-71,APPROXIMATE,"Himalchuli, Sirdibas, Nepal",ChIJ2RD5vLhdlTkRBnfeFtqgTYE,Himalchuli North,28.449722,84.606389,1,,OK,"establishment,natural_feature"
-72,,,,Rani Peak,,,0,,ZERO_RESULTS,
-73,APPROXIMATE,"Himalchuli, Sirdibas, Nepal",ChIJ2RD5vLhdlTkRBnfeFtqgTYE,Himalchuli West,28.435278,84.618611,1,,OK,"establishment,natural_feature"
-74,APPROXIMATE,"Hiunchuli, Ghandruk 33700, Nepal",ChIJCxdAP5n1lTkRJZyPWVqoZkw,Hiunchuli,28.5106334,83.8480566,1,33700,OK,"establishment,natural_feature"
-75,APPROXIMATE,"Hongku Chuli, 56900, Nepal",ChIJGeA0Omz56DkRb13E0lqtzHc,Hongku Chuli,27.8175,87.0091666,1,56900,OK,"establishment,natural_feature"
-76,ROOFTOP,"508 Prior Ave N, St Paul, MN 55104, USA",ChIJcfU3RKsss1IRcrCG975BrLM,Hongde,28.84528,83.4875,1,55104,OK,"establishment,health,point_of_interest"
-77,APPROXIMATE,"Imja Tse, Khumjung 56000, Nepal",ChIJZy08Mw9V6DkRZKPCippUHrc,Imjatse,27.9241989,86.9373035,1,56000,OK,"establishment,natural_feature"
-78,,,,Jagdula,28.326944,82.591944,0,,ZERO_RESULTS,
-79,APPROXIMATE,"Kumbhakarna, Lelep 57500, Nepal",ChIJRwuZS_Va5jkR80gF1tQCwYw,Jannu,27.6816666,88.0441666,1,57500,OK,"establishment,natural_feature"
-80,APPROXIMATE,"Jethi Bahurani, Kanda 10500, Nepal",ChIJESDGP7cJpDkRF_n59m0VB-M,Jethi Bahurani,29.8816666,81.0408333,1,10500,OK,"establishment,natural_feature"
-81,APPROXIMATE,Jongsong Peak,ChIJQyW5wRtV5jkRjk_Rw-PmfiQ,Jongsang,27.8815937,88.1352391,1,,OK,"establishment,natural_feature"
-82,APPROXIMATE,"Junction Peak, California 93526, USA",ChIJ5xnzxLnrv4AROaCLImtM4k0,Junction Peak,27.949388, 86.983059,1,93526,OK,"establishment,natural_feature"
-83,APPROXIMATE,Kabru,ChIJm1vXqMVe5jkREblicwWjDso,Kabru Dome,27.60749569,88.11035589,1,,OK,"establishment,natural_feature"
-84,APPROXIMATE,Kabru,ChIJm1vXqMVe5jkREblicwWjDso,Kabru North,27.619167,88.124444,1,,OK,"establishment,natural_feature"
-85,APPROXIMATE,"Kagmara, Jharkhand, India",ChIJodWftOW98DkR4gnNJhm8c4k,Kagmara I,29.138889,82.761111,1,,OK,"locality,political"
-86,,,,Kande Hiunchuli North  I,29.411871,82.558904,0,,ZERO_RESULTS,
-87,,,,Kande Hiunchuli North  II,,,0,,ZERO_RESULTS,
-88,APPROXIMATE,"Kangbachen, Lelep 57500, Nepal",ChIJyS7RkN1Z5jkR9Ac5bCcoHH0,Kangbachen,27.7166,88.1105,1,57500,OK,"establishment,natural_feature"
-89,APPROXIMATE,"Kangchendzönga-Mittelgipfel, Yamfudin, 737116",ChIJ7VxwMmpY5jkRuXEUuhUL4tk,Kangchenjunga Central,27.7025,88.156944,1,737116,OK,"establishment,natural_feature"
-90,,,,Kande Hiunchuli,29.411871,82.558904,0,,ZERO_RESULTS,
-91,APPROXIMATE,Kangchenjunga,ChIJU4iVF0pY5jkRTG3ch4BEb3E,Kangchenjunga,27.709722,88.155556,1,,OK,"establishment,natural_feature"
-92,APPROXIMATE,Kangchenjunga,ChIJU4iVF0pY5jkRTG3ch4BEb3E,Kangchenjunga South,27.691944,88.156944,1,,OK,"establishment,natural_feature"
-93,APPROXIMATE,"Karyolung, 56000, Nepal",ChIJgay7IwUN6TkR6vcS3wL64HE,Karyolung,27.7350085,86.610766,1,56000,OK,"establishment,natural_feature"
-94,,,,Kangchung Nup,,,0,,ZERO_RESULTS,
-95,GEOMETRIC_CENTER,"325 Provincial Rd, Fangcheng Qu, Fangchenggang Shi, Guangxi Zhuangzuzizhiqu, China",ChIJWZLEPzw1SzER3L8yUWh6pvg,Naya Kanga,28.15,85.59722,2,,OK,"establishment,point_of_interest"
-96,APPROXIMATE,"Kang Guru, Tachi Bagarchhap 33500, Nepal",ChIJhW1DTGXTvzkRZ-jdap_blds,Kang Guru,28.6575,84.301389,1,33500,OK,"establishment,natural_feature"
-97,,,,Khatang,27.757836,86.595671,0,,ZERO_RESULTS,
-98,,,,Khongma Tse,27.944034,86.838729,0,,ZERO_RESULTS,
-99,APPROXIMATE,"Kanjeralwa, Phoksundo 21400, Nepal",ChIJc6HhZ9f_vDkRGVU25y6a8TQ,Kanjeralwa,29.2325,82.8741666,1,21400,OK,"establishment,natural_feature"
-100,APPROXIMATE,"Kanjiroba, Kaigaun 21400, Nepal",ChIJYy6OX23mvDkRagMntxOrI24,Kanjiroba North,29.3758333,82.6375,1,21400,OK,"establishment,natural_feature"
-101,APPROXIMATE,"Kanjiroba, Kaigaun 21400, Nepal",ChIJYy6OX23mvDkRagMntxOrI24,Kanjiroba South,29.3758333,82.6375,1,21400,OK,"establishment,natural_feature"
-102,ROOFTOP,"30/1 Soi Phatthana 1, Tambon Tha Ruea, Amphoe Pak Phanang, Chang Wat Nakhon Si Thammarat 80140, Thailand",ChIJ0yNpl1LgUjARragZhh0XScI,Kotang,27.564247,88.080535,1,80140,OK,"establishment,health,point_of_interest"
-103,APPROXIMATE,"Kangtega, 56000, Nepal",ChIJqUbymqYG6TkRGRCUJkAw0ts,Kangtega,27.7995451,86.8075976,1,56000,OK,"establishment,natural_feature"
-104,,,,Kangtsune,,,0,,ZERO_RESULTS,
-105,APPROXIMATE,"Kusum Kanguru, Chaurikharka 56000, Nepal",ChIJuwMF6eUE6TkRJ7lQuQt_QcY,Kusum Kanguru,27.730556,86.790833,1,56000,OK,"establishment,natural_feature"
-106,,,,Kwangde,27.8,86.616667,0,,ZERO_RESULTS,
-107,APPROXIMATE,"Lamjung Himal, Chame 33500, Nepal",ChIJByAraDKBlTkRX4WqvHhc5ko,Lamjung Himal,28.4894444,84.1891667,1,33500,OK,"establishment,natural_feature"
-108,APPROXIMATE,"Langtang Lirung, Langtang 45000, Nepal",ChIJi7lNJHGL6jkRZIlmltg0lv4,Langtang Lirung,28.2558333,85.5175,1,45000,OK,"establishment,natural_feature"
-109,APPROXIMATE,"Langtang Ri, Nyalam, Xigaze, China",ChIJ8aHIan1j6jkRHST_7tIbF38,Langtang Ri,28.3816666,85.6833333,2,,OK,"establishment,natural_feature"
-110,,,,Leonpo Gang,28.2025,85.817778,0,,ZERO_RESULTS,
-111,,,,Lha Shamma,29.22583,82.74722,0,,ZERO_RESULTS,
-112,APPROXIMATE,Lhotse,ChIJpRBEqI1U6DkRbC8oXKc-sVs,Lhotse,27.9626373,86.933615,1,,OK,"establishment,natural_feature"
-113,,,,Mukut Himal,28.84333,83.4975,0,,ZERO_RESULTS,
-114,GEOMETRIC_CENTER,"Licheng, Changzhi, Shanxi, China",ChIJeyJqcyDe3jURYp3woMqUiZg,Langpo,27.85333,88.1975,2,,OK,"establishment,point_of_interest"
-115,APPROXIMATE,"Lobuche, Khumjung 56000, Nepal",ChIJhx6T8iKp6TkReWFvN11CKgY,Lobuje East,27.9595,86.789944,1,56000,OK,"establishment,natural_feature"
-116,APPROXIMATE,"Lobuche, Khumjung 56000, Nepal",ChIJhx6T8iKp6TkReWFvN11CKgY,Lobuje West,27.9595,86.789944,1,56000,OK,"establishment,natural_feature"
-117,APPROXIMATE,"Lo-tzu-sha Feng, Khumjung 56000, Nepal",ChIJtaFZgFpU6DkRZa1R1jEBHSw,Lhotse Shar,27.95,86.95,1,56000,OK,"establishment,natural_feature"
-118,,,,Langshisa Ri,28.2169,85.7136,0,,ZERO_RESULTS,
-119,APPROXIMATE,"Machhapuchhare, Machhapuchchhre 33700, Nepal",ChIJuRUNusSKlTkRLvsKHQ7wKvo,Machhapuchhare,28.504374,83.9470482,1,33700,OK,"establishment,natural_feature"
-120,,,,Bhairab Takura,28.198056,84.774444,0,,ZERO_RESULTS,
-121,APPROXIMATE,"Ma-k'a-lu-pei Feng, Tingri, Xigaze, China",ChIJjZN4OClY6DkRHIh_VrGFukc,Makalu II,27.9333333,87.0666667,1,,OK,"establishment,natural_feature"
-122,APPROXIMATE,Makalu,ChIJH0HXfX5Y6DkRbAbpoRZHENs,Makalu,27.8860217,87.0911891,1,,OK,"establishment,natural_feature"
-123,APPROXIMATE,"Manaslu, Samagaun, Nepal",ChIJJbo08sRhlTkRYQXsY655exQ,Manaslu,28.5497107,84.5596768,1,,OK,"establishment,natural_feature"
-124,APPROXIMATE,"Manaslu, Samagaun, Nepal",ChIJJbo08sRhlTkRYQXsY655exQ,Manaslu North,28.5497107,84.5596768,1,,OK,"establishment,natural_feature"
-125,ROOFTOP,"50 Woodrow Wilson Dr, Edison, NJ 08820, USA",ChIJgQ433Li3w4kRNsdGiYnzMV4,Manapathi,28.64667, 83.45111,1,08820,OK,"establishment,point_of_interest"
-126,APPROXIMATE,"Mardi himal, 33700, Nepal",ChIJ9zH2vC-LlTkRjQrs_sbM3Uc,Mardi Himal,28.4857285,83.9373754,1,33700,OK,"establishment,natural_feature"
-127,APPROXIMATE,"Mera Peak, 56000, Nepal",ChIJZW3WrsYC6TkRKAjcsmr5SLY,Mera Peak,27.7090249,86.8677807,1,56000,OK,"establishment,natural_feature"
-128,GEOMETRIC_CENTER,"Lengjing St, Haishu Qu, Ningbo Shi, Zhejiang Sheng, China, 315000",ChIJR_Vc-a18TTQRRgiek-E5nlk,Mingbo Ri,27.84472,86.82167,1,315000,OK,"clothing_store,establishment,point_of_interest,store"
-129,APPROXIMATE,"Kalakankar, Uttar Pradesh 229408, India",ChIJtfhgCW8YmzkRnXJULTRPlA0,Nalakankar North,30.3575,81.39944,1,229408,OK,"locality,political"
-130,APPROXIMATE,"Nampa, ID, USA",ChIJKfGXTmlMrlQRUkoycWOGGa4,Nampa,30.00444,80.994522,1,,OK,"locality,political"
-131,APPROXIMATE,"Nupchu, Olangchung Gola 57500, Nepal",ChIJAw1Z9l9J5jkRGqRTojqZMSo,Nupchu,27.8153083,87.914683,1,57500,OK,"establishment,natural_feature"
-132,APPROXIMATE,"Nemjung, Nar, Nepal",ChIJrYQ2gxjQvzkRky-dsG6kiYE,Nemjung,28.7366666,84.4175,1,,OK,"establishment,natural_feature"
-133,ROOFTOP,"4418 Rosecrown Ct, Fort Collins, CO 80526, USA",ChIJ_QYbH4hLaYcRgnIpAg4meOA,Nepal Peak,27.776802,88.182927,1,80526,OK,"establishment,point_of_interest,travel_agency"
-134,,,,Ngojumba Kang II,28.106,86.706,0,,ZERO_RESULTS,
-135,,,,Ngojumba Kang I,28.105875,86.684203,0,,ZERO_RESULTS,
-136,APPROXIMATE,"Nilgiris, Tamil Nadu, India",ChIJjdfztYS9qDsRiK5wDWn_tlo,Nilgiri Central,28.678154,83.735729,1,,OK,"administrative_area_level_2,political"
-137,,,,Nilgiri North,28.69,83.745,0,,ZERO_RESULTS,
-138,ROOFTOP,"3021 Markham Rd #50, Scarborough, ON M1X 1L8, Canada",ChIJqbppENnW1IkRUWl49QlPo5Q,Nilgiri South,28.654845,83.729893,2,M1X 1L8,OK,"establishment,food,point_of_interest,restaurant"
-139,APPROXIMATE,"Numbur, Takasindu 45400, Nepal",ChIJH8mTLjBz6TkRcoJgGJL14e8,Numbur,27.7541666,86.5724999,1,45400,OK,"establishment,natural_feature"
-140,APPROXIMATE,"Nuptse, Khumjung 56000, Nepal",ChIJMewuqEOr6TkRS-t4AOjB3Ck,Nuptse,27.9672192,86.8855391,1,56000,OK,"establishment,natural_feature"
-141,,,,Ohmi Kangri,27.896905,87.964158,0,,ZERO_RESULTS,
-142,,,,Ombak Himal,,,0,,ZERO_RESULTS,
-143,APPROXIMATE,"Paldor, 45000, Nepal",ChIJQ1-oZDG56jkRzz74mq-aa5c,Paldor,28.2769444,85.1838889,1,45000,OK,"establishment,natural_feature"
-144,,,,Pangbuk Ri,28.006,86.52,0,,ZERO_RESULTS,
-145,,,,Parchamo,27.8375,86.54722,0,,ZERO_RESULTS,
-146,,,,Patrasi Himal,29.411871,82.558904,0,,ZERO_RESULTS,
-147,,,,Pethangtse,27.957424,87.015253,0,,ZERO_RESULTS,
-148,,,,Phurbi Chhyachu,28.132269,85.869166,0,,ZERO_RESULTS,
-149,APPROXIMATE,"Pima, AZ 85543, USA",ChIJEa0HKwvi14YRWXqrfNbATMU,Pimu,27.89694,86.55444,1,85543,OK,"locality,political"
-150,APPROXIMATE,"Pisang 33500, Nepal",ChIJp0iyo3opvjkRASQLhK18BQI,Pisang,28.5936253,84.1435136,1,33500,OK,"locality,political"
-151,ROOFTOP,"29 Peak St, Lake Ronkonkoma, NY 11779, USA",ChIJVezxYoxH6IkRaaNMGSyghhw,Peak 29,28.503333,84.5675,2,11779,OK,premise
-152,GEOMETRIC_CENTER,"South Peak, Laguna Niguel, CA 92677, USA",EihTb3V0aCBQZWFrLCBMYWd1bmEgTmlndWVsLCBDQSA5MjY3NywgVVNB,Pointed Peak,,,1,92677,OK,route
-153,APPROXIMATE,"Pokalde, Khumjung 56000, Nepal",ChIJOTw1azCq6TkRvd-q3q8i0oM,Pokalde,27.925,86.833333,1,56000,OK,"establishment,natural_feature"
-154,,,,Ombigaichen,27.852816,86.883436,0,,ZERO_RESULTS,
-155,APPROXIMATE,"Pumori, Khumjung 56000, Nepal",ChIJfVn-DiGs6TkRFQivGAVaJK8,Pumori,28.0089896,86.8253374,1,56000,OK,"establishment,natural_feature"
-156,APPROXIMATE,"Putha Hiunchuli, Ranmamaikot 21400, Nepal",ChIJa1Si_myRvTkRJhBRJsdZqxI,Putha Hiunchuli,28.7475,83.1458333,1,21400,OK,"establishment,natural_feature"
-157,APPROXIMATE,"Pyramid Peak, Colorado 81611, USA",ChIJgb28_jBAQIcRgt4vU146wbQ,Pyramid Peak,27.821,88.173,1,81611,OK,"establishment,natural_feature"
-158,,,,Raksha Urai,29.95,81.116667,0,,ZERO_RESULTS,
-159,,,,Ramdung,27.8525,86.415711,0,,ZERO_RESULTS,
-160,GEOMETRIC_CENTER,"Moo 5, Ban Hong, Tambon Ongkharak, Amphoe Pho Thong, Ang Thong, 14120, ตำบล องครักษ์ อำเภอ โพธิ์ทอง อ่างทอง 14120, Thailand",ChIJfWu9Oukc4jARdaHM1NmAGcY,Rathong,27.593333,88.086667,1,14120,OK,"establishment,place_of_worship,point_of_interest"
-161,GEOMETRIC_CENTER,"Roc Noir, 30570 Valleraugue, France",ChIJUU71ClqMsxIRF0mnlJPZCFg,Roc Noir,28.613422,83.871471,2,30570,OK,route
-162,,,,Rokapi,29.8493,81.0405,0,,ZERO_RESULTS,
-163,APPROXIMATE,"Saipal, Muchu 10500, Nepal",ChIJd_ddsfR_pDkRrWr5FtpD0ww,Saipal East Humla,29.8891666,81.4941666,1,10500,OK,"establishment,natural_feature"
-164,APPROXIMATE,"Saipal, Muchu 10500, Nepal",ChIJd_ddsfR_pDkRrWr5FtpD0ww,Saipal,29.8891666,81.4941666,1,10500,OK,"establishment,natural_feature"
-165,ROOFTOP,"3500 E 4th St, Long Beach, CA 90814, USA",ChIJ6xjubK8x3YARS2XjjBVHBoU,Shartse,27.9493,86.9832,1,90814,OK,"establishment,point_of_interest"
-166,GEOMETRIC_CENTER,"Block 12, House 33A, Camp, New, New Aruna Colony, Majnu Ka Tilla, New Aruna Nagar, New Delhi, Delhi 110054, India",ChIJ32oWXsX9DDkRkKBZa-k42ho,Shartse II,27.955604,86.96472,1,110054,OK,"establishment,food,point_of_interest,restaurant"
-167,,,,Shey Shikhar,29.286944,82.796389,0,,ZERO_RESULTS,
-168,APPROXIMATE,"Singu Chuli, Ghandruk 33700, Nepal",ChIJj_oO_AcfvjkR9SNkAq41Kpg,Singu Chuli,28.583333,83.9,1,33700,OK,"establishment,natural_feature"
-169,GEOMETRIC_CENTER,"DDC Rd, Musikot 22000, Nepal",ChIJydOXAUFbvTkRsGDW8dLlef0,Sisne Himal,28.6283938,82.4573654,1,22000,OK,"bus_station,establishment,point_of_interest,transit_station"
-170,GEOMETRIC_CENTER,"Chinsurah R S, Hooghly, West Bengal 712101, India",ChIJY53aaweU-DkRrZ3Qwp3dGV8,Sita Chuchura,28.786,83.4781,2,712101,OK,"establishment,hindu_temple,place_of_worship,point_of_interest"
-171,ROOFTOP,"410 NW 14th Ave, Portland, OR 97209, USA",ChIJ6xTIlfgJlVQRO2bymm3QQ2I,Snow Peak,,,2,97209,OK,"clothing_store,establishment,point_of_interest,store"
-172,APPROXIMATE,"Sphinx, MT 59027, USA",ChIJ36C5sUfeT1MRvCw85OEhxas,Sphinx,27.825,88.188,1,59027,OK,"locality,political"
-173,,,,Sharphu I,27.752222,87.916944,0,,ZERO_RESULTS,
-174,GEOMETRIC_CENTER,"88, Rabindra Sarani, Rabindra Sarani, Ram Bagan, Kolkata, West Bengal 700073, India",ChIJh935sst3AjoReQVuTby97Xo,Surma-Sarovar North,29.65,81.07,1,700073,OK,"clothing_store,establishment,point_of_interest,store"
-175,APPROXIMATE,"Taboche, Khumjung 56000, Nepal",ChIJDSGZaM2p6TkR1xMtnVTOlK8,Tawoche,27.9038889,86.7716667,1,56000,OK,"establishment,natural_feature"
-176,APPROXIMATE,Kirat Chuli,ChIJn_O5Fu_45jkReeAo4up1V34,Kirat Chuli,27.7883333,88.1958333,1,,OK,"establishment,natural_feature"
-177,APPROXIMATE,"Thamserku, 56000, Nepal",ChIJS7Wa7SsE6TkRcEX8jvQHRFU,Thamserku,27.7895215,86.7856208,1,56000,OK,"establishment,natural_feature"
-178,APPROXIMATE,"Tharpu Chuli, Ghandruk 33700, Nepal",ChIJByzg0jAevjkRD-icW-1pJjw,Tharpu Chuli,28.5528997,83.881259,1,33700,OK,"establishment,natural_feature"
-179,APPROXIMATE,"Tilicho Lake, Khangsar 33500, Nepal",ChIJ5w3IIoUZvjkRyisploijZjs,Tilicho,28.683333,83.856667,1,33500,OK,"establishment,natural_feature"
-180,,,,Talung,27.655037,88.131023,0,,ZERO_RESULTS,
-181,APPROXIMATE,"North Tongu, Ghana",ChIJaU3lDKwnIRARFYGg8rE-fWo,Tongu,,,1,,OK,"administrative_area_level_2,political"
-182,APPROXIMATE,"Tripura Hiunchuli, Kaigaun 21400, Nepal",ChIJdY47PE37vDkRdItukCTO0eE,Tripura Hiunchuli,29.3266666,82.7358333,1,21400,OK,"establishment,natural_feature"
-183,,,,Tso Karpo Kang,29.368611,82.781667,0,,ZERO_RESULTS,
-184,APPROXIMATE,"Tukuche, Nepal",ChIJh6P1CCgGvjkReMRrS-EjccM,Tukuche,28.7768018,83.570964,1,,OK,"locality,political"
-185,,,,Urkinmang,28.211667,85.669167,0,,ZERO_RESULTS,
-186,,,,Anidesh Chuli,27.854444,88.197778,0,,ZERO_RESULTS,
-187,ROOFTOP,"74 Sarabongdong-gil, Geonip-dong, Cheju, Jeju-do, South Korea",ChIJBdbgpEDjDDURzYvEtgnodYc,Tsaurabong Peak,28.695278,83.372778,1,690-050,OK,"establishment,point_of_interest"
-188,APPROXIMATE,Jalung Kang,ChIJ3UKSHDdY5jkRJGyibMOk2Ks,Yalung Kang,27.7052,88.1367,1,,OK,"establishment,natural_feature"
-189,,,,Pasang Lhamu Chuli,28.073333,86.614167,0,,ZERO_RESULTS,
-190,APPROXIMATE,"Ratna Chuli, Xigaze, Nepal",ChIJf0WKTWvJvzkRnmgzmjVG1Is,Ratna Chuli,28.8641666,84.375,1,,OK,"establishment,natural_feature"
-191,GEOMETRIC_CENTER,"26 Veer Savarkar Block 663, Aggarwal Chamber III IV Floor, Vikas Marg, Shakarpur, Shakarpur, Block A, Shakarpur, New Delhi, Delhi 110054, India",ChIJRQtaUq38DDkRSJVAsRaiWHw,Kanti Himal,29.835833,82.647778,1,110054,OK,"establishment,lawyer,point_of_interest"
-192,APPROXIMATE,"Ramthang, Sikkim 737119, India",ChIJKT0QdHC85jkROqUMTY4ZYdA,Ramtang,27.413198,88.548332,1,737119,OK,"locality,political"
-193,APPROXIMATE,"Lingtren, Xigaze, Nepal",ChIJi4H9G1Os6TkREC_D6sISQ9M,Lingtren,28.027778,86.855,1,,OK,"establishment,natural_feature"
-194,,,,Tengkoma,27.809,88.074,0,,ZERO_RESULTS,
-195,,,,Ramtang Chang,27.766,88.084,0,,ZERO_RESULTS,
-196,APPROXIMATE,"Churen Himal, Gurja Khani 21400, Nepal",ChIJl2a5HFOSvTkRyGC7exbhYqM,Churen Himal East,28.735,83.2166666,1,21400,OK,"establishment,natural_feature"
-197,,,,Churen Himal West,28.731755,83.210059,0,,ZERO_RESULTS,
-198,,,,Chhukung Ri,27.926057,86.879196,0,,ZERO_RESULTS,
-199,,,,Kangtokal,28.801389,83.168889,0,,ZERO_RESULTS,
-200,,,,Serku Dolma,,,0,,ZERO_RESULTS,
-201,APPROXIMATE,"Kalakankar, Uttar Pradesh 229408, India",ChIJtfhgCW8YmzkRnXJULTRPlA0,Nalakankar South,30.266667,81.435556,1,229408,OK,"locality,political"
-202,,,,Changwathang,30.326667,81.885,0,,ZERO_RESULTS,
-203,,,,Takphu Himal,30.283889,81.417778,0,,ZERO_RESULTS,
-204,,,,Malanphulan,27.802778,86.872222,0,,ZERO_RESULTS,
-205,APPROXIMATE,Lhotse,ChIJpRBEqI1U6DkRbC8oXKc-sVs,Lhotse Middle,27.961089,86.938023,1,,OK,"establishment,natural_feature"
-206,,,,Simnang Himal,28.51651,84.64495,0,,ZERO_RESULTS,
-207,APPROXIMATE,"Hungchhi, Xigaze 56000, Nepal",ChIJH6q6Fpmv6TkRgy0PXKviwa4,Hungchhi,28.035,86.7583333,1,56000,OK,"establishment,natural_feature"
-208,ROOFTOP,"205 Monticello Rd, Charlottesville, VA 22902, USA",ChIJ86UIySCGs4kRfXW0m8HgeYU,Lampo,28.497983,85.157144,1,22902,OK,"establishment,food,point_of_interest,restaurant"
-209,,,,Chhukung Tse,27.938982,86.87466,0,,ZERO_RESULTS,
-210,,,,Dzanye,27.906111,88.026667,0,,ZERO_RESULTS,
-211,,,,Gaugiri,29.046,84.188,0,,ZERO_RESULTS,
-212,,,,Tengkangpoche,27.803968,86.59647,0,,ZERO_RESULTS,
-213,,,,Arniko Chuli,29.176389,83.656944,0,,ZERO_RESULTS,
-214,,,,Saribung,28.885,84.172,0,,ZERO_RESULTS,
-215,GEOMETRIC_CENTER,"La ville au Bois, 77160 Saint-Hilliers, France",ChIJPzHu5Ms170cRgTYas_qZZrc,Ghenge Liru,28.245833,85.422778,1,77160,OK,"establishment,point_of_interest"
-216,,,,Naulekh,27.686667,86.9,0,,ZERO_RESULTS,
-217,,,,Chekigo,27.832,86.45,0,,ZERO_RESULTS,
-218,APPROXIMATE,"Khong Khong Basti, Assam 782446, India",ChIJ--vhW15uRTcRvvqxd0Dcnj8,Khatung Khang,28.660556,84.019306,1,782446,OK,"locality,political"
-219,ROOFTOP,"123 Washington Blvd, Montebello, CA 90640, USA",ChIJDQ2w8crPwoARs_NXhSzVBMg,Chago,27.926053,87.054029,1,90640,OK,"establishment,food,point_of_interest,restaurant"
-220,,,,Numri,28.022222,86.800833,0,,ZERO_RESULTS,
-221,RANGE_INTERPOLATED,"41 Peak Blvd, Muskogee, OK, USA",Eh80MSBQZWFrIEJsdmQsIE11c2tvZ2VlLCBPSywgVVNB,Peak 41,27.774,86.909,7,,OK,street_address
-222,APPROXIMATE,"Kyajo Ri, Namche 56000, Nepal",ChIJCz84-jen6TkR2UlkepCIpow,Kyazo Ri,27.9070584,86.6381836,1,56000,OK,"establishment,natural_feature"
-223,APPROXIMATE,"Pandra, Jharkhand, India",ChIJiQ-oMqTg9DkRH5Ol9DO4bcU,Pandra,27.864,87.993 ,1,,OK,"locality,political"
-224,ROOFTOP,"91 Randhurst Village Dr #117, Mt Prospect, IL 60056, USA",ChIJBzMepiC6D4gRkysMewhKfTc,Danga,27.816,87.977,2,60056,OK,"establishment,health,point_of_interest"
-225,,,,Pokharkang,,,0,,ZERO_RESULTS,
-226,APPROXIMATE,"Nangpai Gosum, Xigaze 56000, Nepal",ChIJMSq66iy96TkRI-85rxg9IOQ,Nangpai Gosum I,28.07358,86.614393,1,56000,OK,"establishment,natural_feature"
-227,,,,Khangri Shar,28.02,86.812,0,,ZERO_RESULTS,
-228,APPROXIMATE,"Khangri, Rajasthan, India",ChIJKwPtQ--LQjkRF421UlG-19w,Khangri West,28.019241,86.790461,1,,OK,"locality,political"
-229,,,,Purbung Himal,28.802,84.018,0,,ZERO_RESULTS,
-230,GEOMETRIC_CENTER,"Tashi Line, Zhuanghe Shi, Dalian Shi, Liaoning Sheng, China",ChIJKWwkfMsGKl4RJpFrynWQ5Eg,Tashi Kang,28.853,83.629,2,,OK,"establishment,health,pharmacy,point_of_interest,store"
-231,APPROXIMATE,"Tengi Ragi Tau, Namche, Nepal",ChIJ_4IzQRN16TkRg9ca5fitCMg,Tengi Ragi Tau,27.8575,86.5541666,1,,OK,"establishment,natural_feature"
-232,APPROXIMATE,"Kyashar, Chaurikharka 56000, Nepal",ChIJ8x9YXIcD6TkRIKnJnG7FO4k,Kyashar,27.755,86.8224999,1,56000,OK,"establishment,natural_feature"
-233,,,,Nirekha,27.977568,86.762939,0,,ZERO_RESULTS,
-234,,,,Norbu Kang,29.117222,83.092778,0,,ZERO_RESULTS,
-235,,,,Lunchhung Kamo East,,,0,,ZERO_RESULTS,
-236,,,,Linkhu Chuli Shar,27.808787,86.540882,0,,ZERO_RESULTS,
-237,,,,Linkhu Chuli Nup,27.805,86.524,0,,ZERO_RESULTS,
-238,,,,Panalotapa,27.805444,86.570056,0,,ZERO_RESULTS,
-239,,,,Shalbachum,28.272778,85.633333,0,,ZERO_RESULTS,
-240,,,,Khumbutse,28.021179,86.872616,0,,ZERO_RESULTS,
-241,,,,Boktoh,27.620833,88.0075,0,,ZERO_RESULTS,
-242,ROOFTOP,"Levičnikova ulica 11, 1000 Ljubljana, Slovenia",ChIJ6aHyHUnNekcRrCW5e1rBi0I,Mojca,27.770833,88.051111,2,1000,OK,"establishment,point_of_interest,school"
-243,APPROXIMATE,"Palung, 44100, Nepal",ChIJJxJJdTgw6zkRYQDlDUQNrfU,Palung,27.6441006,85.0701001,1,44100,OK,"political,sublocality,sublocality_level_1"
-244,ROOFTOP,"640 S Queen St, Dover, DE 19904, USA",ChIJh_RzQ6t8x4kRK-hj702oeew,Tutse,27.771944,87.101389,1,19904,OK,"doctor,establishment,health,point_of_interest"
-245,GEOMETRIC_CENTER,"Nuptse Marga, Kathmandu 44600, Nepal",ChIJWRAj7pEZ6zkR9aXrD47juqs,Nuptse East I,27.6897528,85.3432413,1,44600,OK,route
-246,ROOFTOP,"M-2-22, City Mall, Jalan Lintas, Taman Milik 1, 88300 Kota Kinabalu, Sabah, Malaysia",ChIJa75MbA9pOzIRVke7lw6DX-0,Amotsang,28.835278,84.172222,2,88300,OK,"clothing_store,establishment,point_of_interest,store"
-247,,,,Yansa Tsenji,28.256389,85.611111,0,,ZERO_RESULTS,
-248,,,,Himjung,29.758056,84.417778,0,,ZERO_RESULTS,
-249,ROOFTOP,"67/59 ตำบล แม่น้ำ Tambon Mae Nam, Amphoe Ko Samui, Chang Wat Surat Thani 84320, Thailand",ChIJ1ayqwFT3VDARAitzalR2UPM,Amphu I,27.871033,86.955577,1,84320,OK,"establishment,lodging,point_of_interest"
-250,,,,Chabuk,27.9,88.0833,0,,ZERO_RESULTS,
-251,ROOFTOP,"98 Courtneypark Dr E, Mississauga, ON L5T 2Y3, Canada",ChIJ7y3DTXg_K4gR6IjsbV_FXUU,Chako,28.8805,84.2847,1,L5T 2Y3,OK,"establishment,food,point_of_interest,restaurant"
-252,,,,Dome Kang,27.877778,88.151111,0,,ZERO_RESULTS,
-253,,,,Ghhanyala Hies,27.895833,88.0825,0,,ZERO_RESULTS,
-254,,,,Hunku,27.806111,86.928056,0,,ZERO_RESULTS,
-255,,,,Janak Chuli,27.872,88.091,0,,ZERO_RESULTS,
-256,APPROXIMATE,Kabru,ChIJm1vXqMVe5jkREblicwWjDso,Kabru South,27.6341666,88.1183333,1,,OK,"establishment,natural_feature"
-257,APPROXIMATE,Kabru,ChIJm1vXqMVe5jkREblicwWjDso,Kabru Main,27.635,88.118333,1,,OK,"establishment,natural_feature"
-258,APPROXIMATE,"Lashari, Pakistan",ChIJCcBPfgJ3GDkR6Ulfs0tSX68,Lashar I,27.896,88.054,1,,OK,"locality,political"
-259,GEOMETRIC_CENTER,"Street No. 2, Bahawalpur, Pakistan",ChIJW7jZwJOQOzkR3q9AV6qdfAk,Lashar II,27.887,88.065,2,,OK,route
-260,APPROXIMATE,"Nangpai Gosum, Xigaze 56000, Nepal",ChIJMSq66iy96TkRI-85rxg9IOQ,Nangpai Gosum II,28.072222,86.614444,1,56000,OK,"establishment,natural_feature"
-261,,,,Nangamari I,27.910556,87.868056,0,,ZERO_RESULTS,
-262,APPROXIMATE,"Panbari, West Bengal, India",ChIJxW8kjPqL4zkR87KrovXi8GA,Panbari,26.7005024,88.8525139,2,,OK,"locality,political"
-263,,,,Phungi Himal,28.554444,84.485833,0,,ZERO_RESULTS,
-264,,,,Mariyang,29.693056,82.890278,0,,ZERO_RESULTS,
-265,,,,Takargo,27.876,86.509,0,,ZERO_RESULTS,
-266,,,,Thulagi,28.528124,84.520693,0,,ZERO_RESULTS,
-267,,,,Jomsom Himal,28.871944,84.158333,0,,ZERO_RESULTS,
-268,,,,Bamongo,27.909167,86.431944,0,,ZERO_RESULTS,
-269,GEOMETRIC_CENTER,"Hong Kong, The Peak, 山頂山頂道118號山頂廣場1樓16-18號鋪",ChIJqQ1sgHMABDQRHy_67yNuJE4,Chaw Peak,27.909444,87.943611,2,,OK,"establishment,jewelry_store,point_of_interest,store"
-270,APPROXIMATE,"Dingjung, Namche 56000, Nepal",ChIJ581cj56g6TkRTo7qh5TWAiE,Dingjung North,27.987778,86.516944,1,56000,OK,"neighborhood,political"
-271,,,,Kang Nagchugo,27.906,86.442,0,,ZERO_RESULTS,
-272,APPROXIMATE,"Kambong, The Gambia",ChIJ66ksV4Ft6A4Rgx5e-RRWXKs,Kambong,28.668611,83.313333,2,,OK,"neighborhood,political"
-273,APPROXIMATE,"Khumjung, Nepal",ChIJ8Z_m7Xap6TkR2kPKWrH9p3U,Khamjung,27.9343193,86.7818523,1,,OK,"locality,political"
-274,,,,Kyungka Ri 1,28.325833,85.661667,0,,ZERO_RESULTS,
-275,,,,Kyungka Ri 2,28.303333,85.667222,0,,ZERO_RESULTS,
-276,,,,Kojichuwa Chuli,29.867,82.643,0,,ZERO_RESULTS,
-277,,,,Chhiv Himal,28.874,84.16,0,,ZERO_RESULTS,
-278,,,,Langmoche Ri,27.865556,86.612222,0,,ZERO_RESULTS,
-279,,,,Lachama Chuli,30.135556,82.199444,0,,ZERO_RESULTS,
-280,,,,Panpoche 1,28.628819,84.681699,0,,ZERO_RESULTS,
-281,RANGE_INTERPOLATED,"2 Panoche Rd, Paicines, CA 95043, USA",EiUyIFBhbm9jaGUgUmQsIFBhaWNpbmVzLCBDQSA5NTA0MywgVVNB,Panpoche 2,28.614167,84.686944,1,95043,OK,street_address
-282,ROOFTOP,"90 Broad St, Red Bank, NJ 07701, USA",ChIJF9m79DcwwokRYk77AEPoMbM,Phole,27.686944,88.010278,1,07701,OK,"establishment,food,point_of_interest,restaurant"
-283,ROOFTOP,"5201 NJ-38, Merchantville, NJ 08109, USA",ChIJEQTkRmPJxokRy4Z9khqpQD0,Phu Kang,28.793056,84.4475,1,08109,OK,"establishment,food,point_of_interest,restaurant"
-284,,,,Langchung Khang,27.8564,88.1782,0,,ZERO_RESULTS,
-285,ROOFTOP,"4 Peak Ln, Hillsborough Township, NJ 08844, USA",ChIJs8M224Lrw4kRVCcGSPyNsf8,Peak 4,27.826944,87.050833,3,08844,OK,premise
-286,GEOMETRIC_CENTER,"2nd St S, Nampa, ID, USA",ChIJX195BhVMrlQRRQljEiMVS_E,Nampa II,30.0425,81.1075,4,,OK,route
-287,GEOMETRIC_CENTER,"3rd St S, Nampa, ID 83651, USA",ChIJDUt59mVMrlQRec_1XxRsCWg,Nampa III,29.982778,81.0175,4,83651,OK,route
-288,ROOFTOP,"229 W Greenhurst Rd, Nampa, ID 83686, USA",ChIJXVEH4VtJrlQRgrdgq5rg_yE,Nampa South,29.966667,81.016667,1,83686,OK,"establishment,point_of_interest,school"
-289,,,,Sobithongie,27.686389,88.028333,0,,ZERO_RESULTS,
-290,APPROXIMATE,"Shershon, 56900, Nepal",ChIJ7cwBT0j36DkR4UQrbnRXMUg,Shershon,27.80959,87.080844,1,56900,OK,"neighborhood,political"
-291,,,,Swaksa Kang,29.6875,82.86,0,,ZERO_RESULTS,
-292,APPROXIMATE,"Tilja, Uttar Pradesh 272125, India",ChIJsyl0474pkTkRXnpA8LAQuZc,Tilje,26.8748608,82.932677,1,272125,OK,"locality,political"
-293,ROOFTOP,"R. Cap. Antônio Rosa, 409 - Jardim Paulistano, São Paulo - SP, 01443-010, Brazil",ChIJpRzwnXhXzpQRv4woXaSpEd4,Tsartse,28.860278,83.649722,1,01443-010,OK,"establishment,point_of_interest"
-294,APPROXIMATE,"Yakawakang, Tanki Manang 33500, Nepal",ChIJUaui6-89vjkROv1iheCJXcU,Yakawa Kang,28.8044437,83.9437866,1,33500,OK,"establishment,natural_feature"
-295,,,,Yaupa,27.833611,87.128889,0,,ZERO_RESULTS,
-296,ROOFTOP,"2000 Dwight Way, Berkeley, CA 94704, USA",ChIJJSZaC4N-hYARHGxzt9jvyOU,Til Kang,30.27,81.414722,1,94704,OK,"establishment,health,point_of_interest"
-297,,,,Yokopahar,29.835278,81.110556,0,,ZERO_RESULTS,
-298,,,,Saldim West,27.824167,87.159167,0,,ZERO_RESULTS,
-299,ROOFTOP,"5511 Orangethorpe Ave, La Palma, CA 90623, USA",ChIJOT8tOGks3YARzJzPLJoWpfQ,Samdo,28.636111,84.696944,1,90623,OK,"bar,cafe,establishment,food,point_of_interest,restaurant"
-300,,,,Purkhung,28.814722,83.9925,0,,ZERO_RESULTS,
-301,,,,Dzasampatse,28.047,86.61,0,,ZERO_RESULTS,
-302,,,,Swelokhan,28.728056,84.645833,0,,ZERO_RESULTS,
-303,APPROXIMATE,"Mustang Peak, California 95360, USA",ChIJm75X2BjCkYARZo5Hv1ecadw,Mustang Peak,,,1,95360,OK,"establishment,natural_feature"
-304,APPROXIMATE,"Jinjang, Metro Prima, 52100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",ChIJl1pSYj9GzDERf7kI8gXgbxo,Jinjang,28.785278,84.035278,1,52100,OK,"neighborhood,political"
-305,,,,Jobo Rinjang,28.022222,86.800833,0,,ZERO_RESULTS,
-306,GEOMETRIC_CENTER,"Kyambura Game Reserve, Uganda",ChIJG70Vplit2BkRWtyc8U7A27E,Kyabura,27.902778,88.038889,1,,OK,"establishment,park,point_of_interest,premise"
-307,APPROXIMATE,"Khumlung, Assam 788830, India",ChIJORa2YzyoTzcRmHaspjk80Nw,Kumlung,28.9025,84.185,1,788830,OK,"locality,political"
-308,APPROXIMATE,"Dhaulagiri, Mudi 33200, Nepal",ChIJDZtku1P7vTkRO3Ho_tKROcQ,Dhaulagari,28.6984652,83.4873496,1,33200,OK,"establishment,natural_feature"
-309,,,,Lhayul Peak,29.976667,80.868333,0,,ZERO_RESULTS,
-310,APPROXIMATE,"Merra, West Bengal 721121, India",ChIJR-xRuKTp9zkRC9QDQsev7YM,Merra,27.741048,88.016798,1,721121,OK,"locality,political"
-311,,,,Pabuk Kang,27.949722,87.843889,0,,ZERO_RESULTS,
-312,,,,Yanme Kang,27.946111,87.850556,0,,ZERO_RESULTS,
-313,,,,Danphe Shail,29.672222,83.008889,0,,ZERO_RESULTS,
-314,GEOMETRIC_CENTER,"248, 1st Main, A V Road, Near-Victoriya Hospital Chamarajpet Bengaluru,, Karnatak, Chamrajpet, Bengaluru, Karnataka 560018, India",ChIJUYfVS_8VrjsRxwjKqmY0PjQ,Ganesh VII,,,3,560018,OK,"establishment,moving_company,point_of_interest,storage"
-315,,,,Pharilapcha,27.929167,86.683333,0,,ZERO_RESULTS,
-316,APPROXIMATE,"Thorong La, Tanki Manang 33500, Nepal",ChIJ4dYEtow9vjkRr6zdc2LGjEI,Thorong Peak,28.7933777,83.938669,1,33500,OK,"establishment,natural_feature"
-317,,,,Chamar Kang,,,0,,ZERO_RESULTS,
-318,,,,Nupche Kang,28.101389,86.605,0,,ZERO_RESULTS,
-319,,,,Punchen Himal,28.661111,85.146667,0,,ZERO_RESULTS,
-320,APPROXIMATE,"Kangkuru, 8481, South Africa",ChIJs0bhmDPZnh4R34ZEzLYLsak,Kang Kuru,28.9,84.188333,1,8481,OK,"locality,political"
-321,ROOFTOP,"315 E Prince Rd, Tucson, AZ 85705, USA",ChIJd9sgqt5z1oYRf8x9SXJFoAs,Amphu Middle,,,1,85705,OK,"establishment,point_of_interest,school"
-322,,,,Lugula,28.896111,84.261667,0,,ZERO_RESULTS,
-323,,,,Bhrikuti Shail,28.898,84.201,0,,ZERO_RESULTS,
-324,,,,Myagdi Matha,28.6642,83.323,0,,ZERO_RESULTS,
-325,APPROXIMATE,"09133 Tobar, Burgos, Spain",ChIJ8as4eoenSA0RvLdlhmyc4UE,Tobsar,28.594722,85.005278,1,09133,OK,"locality,political"
-326,,,,Dingjung Ri,27.973056,86.523333,0,,ZERO_RESULTS,
-327,ROOFTOP,"2206, Kamshet - Kundali Rd, Kamshet, Maharashtra 410405, India",ChIJyeSbq3eswjsRMCmnXHNLcHc,Dudh Kundali,29.223889,82.545556,1,410405,OK,"establishment,food,point_of_interest"
-328,,,,Kanta Gaton,29.103333,82.995833,0,,ZERO_RESULTS,
-329,GEOMETRIC_CENTER,"By Pass Road, Dhorra By Pass, Dhaurra Mafi, Dhorra, Jamalpur Ka Nagla, Aligarh, Uttar Pradesh 202001, India",ChIJkbp4ECKldDkR9qOT0gzoAUk,Kaptang,27.9270505,78.088879,1,202001,OK,"establishment,food,point_of_interest,store"
-330,ROOFTOP,"6027 S Sheridan Rd, Tulsa, OK 74145, USA",ChIJbfDRLYeStocR8hu2AF1Lxqk,Roma,29.798611,81.345278,1,74145,OK,"establishment,food,point_of_interest,restaurant"
-331,,,,Ripimo Shar,27.873056,86.518056,0,,ZERO_RESULTS,
-332,APPROXIMATE,"Tsushima, Japan",ChIJRY3L002daTURAoTvZbwvOCs,Tsisima,27.843611,88.152778,1,,OK,"establishment,natural_feature"
-333,ROOFTOP,"487 Glenbrook Rd, Stamford, CT 06906, USA",ChIJ93iTp7GhwokRJo3-cNDrXSc,Tawa,41.070085,-73.5200732,1,06906,OK,"establishment,food,point_of_interest,restaurant"
-334,ROOFTOP,"100 PA-413, Bristol, PA 19007, USA",ChIJlYtrY3ZOwYkRmWVJkVjwLBA,Urkema,28.166389,85.533611,1,19007,OK,"establishment,point_of_interest"
-335,APPROXIMATE,"Manampathi, Tamil Nadu 603403, India",ChIJ06neezjfUjoR-NvmBEv2nB4,Manapathi NW,28.645556,83.458333,1,603403,OK,"locality,political"
-336,,,,Lunag Ri,28.050556,86.551111,0,,ZERO_RESULTS,
-337,,,,Jasemba Goth,28.087222,86.605,0,,ZERO_RESULTS,
-338,GEOMETRIC_CENTER,"1 Jalan Anak Bukit, #L1-CA2 Bukit Timah Plaza, Singapore 588996",ChIJs12GA4kQ2jERHpp_wOoQRBM,Gojung,29.847895,82.622778,1,588996,OK,"establishment,food,point_of_interest,store"
-339,,,,Nangamari II,27.891389,87.866667,0,,ZERO_RESULTS,
-340,,,,Dragmorpa Ri,28.325278,85.666111,0,,ZERO_RESULTS,
-341,GEOMETRIC_CENTER,"Shaokang Street, Qianzhen District, Kaohsiung City, Taiwan 806",ChIJK0UC6WMDbjQReBS8lFldVyk,Syaokang,27.863889,87.919444,1,806,OK,route
-342,,,,Bijora Hiunchuli,29.291944,82.530833,0,,ZERO_RESULTS,
-343,,,,Chhuboche,28.720278,84.2375,0,,ZERO_RESULTS,
-344,GEOMETRIC_CENTER,"Lunar Ct, West Lafayette, IN 47906, USA",ChIJYxU7x3v8EogR5Pr_Zozy26s,Lunag West,40.480025,-86.9762858,1,47906,OK,route
-345,ROOFTOP,"6322 Brookside Plaza, Kansas City, MO 64113, USA",ChIJLQIMMw7vwIcRd16YUf_6sFE,Domo,27.8833,88.15.,1,64113,OK,"bar,establishment,food,point_of_interest,restaurant"
-346,GEOMETRIC_CENTER,"Lunar St, Scottsburg, IN 47170, USA",ChIJP1enwPvaa4gRDVaZdO3kNyU,Lunag II,38.7101984,-85.8010007,10,47170,OK,route
-347,,,,Triangle Peak,,,0,,ZERO_RESULTS,
-348,,,,Kasi Dalpha,29.283056,82.554722,0,,ZERO_RESULTS,
-349,APPROXIMATE,"Narphu, Bhutan",ChIJQ5E_XkqNWzcRn5Mbr16BzJI,Narphu,28.659722,84.174444,1,,OK,"locality,political"
-350,GEOMETRIC_CENTER,"Jessore Road, Madhyamgram, Vivekananda Nagar, Madhyamgram, Near Badu Road Crossing, West Bengal 700129, India",ChIJ8fvgsEWf-DkRIDmMGOuwIiY,Pota Himal North,28.775833,83.1975,1,700129,OK,"establishment,point_of_interest"
-351,,,,Pangbuk North,,,0,,ZERO_RESULTS,
-352,APPROXIMATE,"Mustangbhot Himal, Zhongba, Xigaze, China, 33100",ChIJfcKeTKdXvjkRIZjh7UVqpB0,Mustang Himal,29.286111,83.81,1,33100,OK,"establishment,natural_feature"
-353,GEOMETRIC_CENTER,"Boat Harbour NSW 2316, Australia",ChIJJ7Udjs2Cc2sR6-XoNpj8BYU,Mansail,29.301944,83.810278,1,2316,OK,"bus_station,establishment,point_of_interest,transit_station"
-354,,,,Chhochenphu Himal,27.831944,87.767222,0,,ZERO_RESULTS,
-355,GEOMETRIC_CENTER,"86/20 ซอยหอพักคุณหญิงอิศรา ถนนงามวงศ์วาน ซอยงามวงศ์วาน 46, ลาดยาว, จตุจักร, Bangkok 10900, Thailand",ChIJY8aAXOac4jARx49VBachRLo,Tankya I,29.706111,82.916944,1,10900,OK,"establishment,food,grocery_or_supermarket,point_of_interest,store"
-356,,,,Gorakh Khang,30.044167,82.3375,0,,ZERO_RESULTS,
-357,ROOFTOP,"6401 France Ave S, Minneapolis, MN 55435, USA",ChIJqZad0rom9ocROGwxD-IENUk,Raungsiyar,27.907778,86.559444,2,55435,OK,"doctor,establishment,health,point_of_interest"
-358,APPROXIMATE,"Landak Regency, West Kalimantan, Indonesia",ChIJc2KDMSIp_TERHg8Ta5ZrGrI,Langdak,27.916944,86.563611,2,,OK,"administrative_area_level_2,political"
-359,,,,Takargo East,27.871944,86.523333,0,,ZERO_RESULTS,
-360,,,,Omitso Go,27.915278,86.458056,0,,ZERO_RESULTS,
-361,,,,Chhopa Bamare,28.057222,86.091944,0,,ZERO_RESULTS,
-362,APPROXIMATE,Jalung Kang,ChIJ3UKSHDdY5jkRJGyibMOk2Ks,Yalung Kang West,27.706111,88.125556,1,,OK,"establishment,natural_feature"
-363,APPROXIMATE,Kangchenjunga,ChIJU4iVF0pY5jkRTG3ch4BEb3E,Kangchenjunga North,27.7024914,88.147535,1,,OK,"establishment,natural_feature"
-364,APPROXIMATE,"Kangbachen, Lelep 57500, Nepal",ChIJyS7RkN1Z5jkR9Ac5bCcoHH0,Kangbachen East,27.7166,88.1105,1,57500,OK,"establishment,natural_feature"
-365,,,,Herzog Peak,28.609167,83.860278,0,,ZERO_RESULTS,
-366,APPROXIMATE,"Gangapurna, 33500, Nepal",ChIJ1zwrz7whvjkRL6G_qZCrPn4,Gangapurna West,28.601111,83.943889,1,33500,OK,"establishment,natural_feature"
-367,,,,Chamar,28.555278,84.946667,0,,ZERO_RESULTS,
-368,,,,Nepal Gap Peak,27.746389,88.180833,0,,ZERO_RESULTS,
-369,APPROXIMATE,"Gauri Sankar, 45500, Nepal",ChIJbW0Mj16B6TkRRntZizeuw0Q,Gaurishankar South,27.95,86.3333333,1,45500,OK,"establishment,natural_feature"
-370,,,,Burke Kang,28.036944,86.773889,0,,ZERO_RESULTS,
-371,,,,Himlung East,28.769167,84.438889,0,,ZERO_RESULTS,
-372,APPROXIMATE,Yangra,ChIJi8CG2cm66jkR92TnM6OJTwg,Yangra Kangri South,28.346389,85.11,1,,OK,"establishment,natural_feature"
-373,,,,Nup La Kang,28.074167,86.766944,0,,ZERO_RESULTS,
-374,GEOMETRIC_CENTER,"Chumbu Rd, Chingola, Zambia",ChIJvzMNBtSobRkRYY_7s2U5eSg,Chumbu,28.018889,86.7925,1,,OK,route
-375,ROOFTOP,"5201 NJ-38, Merchantville, NJ 08109, USA",ChIJEQTkRmPJxokRy4Z9khqpQD0,Phu Kang Go,28.734722,84.493889,1,08109,OK,"establishment,food,point_of_interest,restaurant"
-376,ROOFTOP,"5530 13400 S, Herriman, UT 84096, USA",ChIJ-aQXs-CEUocRES2LY1NkiS4,Guras,30.043056,81.108889,1,84096,OK,"establishment,food,point_of_interest,restaurant"
-377,,,,Tharke Kang,28.043889,86.751667,0,,ZERO_RESULTS,
-378,,,,Hulang Go,28.872778,84.345556,0,,ZERO_RESULTS,
-379,APPROXIMATE,"Shershon, 56900, Nepal",ChIJ7cwBT0j36DkR4UQrbnRXMUg,Shershon Northwest,27.855278,87.110833,1,56900,OK,"neighborhood,political"
-380,ROOFTOP,"330 Townsend St, San Francisco, CA 94107, USA",ChIJMZRbK9R_j4ARICcvBjze6Yc,Agole East,27.850278,86.563611,1,94107,OK,"establishment,point_of_interest"
-381,,,,Rolwaling Kang,27.8975,86.523056,0,,ZERO_RESULTS,
-382,GEOMETRIC_CENTER,"Yarwa Road, Jimeta, Nigeria",ChIJ_c2nod9q_BARWc0voiFdFe8,Yarwa,30.054167,81.0925,1,,OK,route
-383,GEOMETRIC_CENTER,"Zhongba, Xigaze, Tibet, China",ChIJqaLdAdmLuTkRGdFWRV5yGYc,Yangri,28.142778,85.873889,2,,OK,"establishment,point_of_interest"
-384,GEOMETRIC_CENTER,"Na Lachu, 719 00 Slezská Ostrava, Czechia",ChIJbbvC4an8E0cR3It4HppOqwg,Lachama North,30.143333,82.2,1,719 00,OK,route
-385,GEOMETRIC_CENTER,"Panxian, Liupanshui, Guizhou, China",ChIJH7u3tBhGxDYROUAebihw0IE,Changdi,29.719167,82.798611,1,,OK,"establishment,point_of_interest"
-386,APPROXIMATE,"Gold Dust Peak, Colorado 81632, USA",ChIJ8bRG7lnUQYcRu_Pluj0vJZw,Goldum Peak,28.328056,85.729167,1,81632,OK,"establishment,natural_feature"
-387,APPROXIMATE,"Thoche, Nepal",ChIJJVl8rth9lTkR5LvtPftfQ8Q,Thoche Go,28.757778,84.459722,1,,OK,"locality,political"
-388,,,,Kangchung Shar,27.983611,86.739722,0,,ZERO_RESULTS,
-389,ROOFTOP,"5201 NJ-38, Merchantville, NJ 08109, USA",ChIJEQTkRmPJxokRy4Z9khqpQD0,Phu Kang North,28.820833,84.437778,1,08109,OK,"establishment,food,point_of_interest,restaurant"
-390,,,,Pethangtse East,27.949444,87.036111,0,,ZERO_RESULTS,
-391,APPROXIMATE,"Phungi, Chhattisgarh 497116, India",ChIJaavj7Mq1iTkRnKnSdCBYmJ0,Phungi,28.83,84.402778,1,497116,OK,"locality,political"
-392,GEOMETRIC_CENTER,"SRIRUPA CINEMA ROAD,BESIDE SARASWATI CLUB, VILL-HATABARI,, Damodar Pur, Kanthi, Contai, West Bengal 721401, India",ChIJB3jCb_AmAzoRX44mt0SHHT8,Kanti Himal East,29.853056,82.702222,1,721401,OK,"establishment,health,point_of_interest,store"
-393,APPROXIMATE,"Baragaon Jarkhya, Rajasthan, India",ChIJOyc1V8uvbTkRKXF1L5rVPFw,Jarkya,28.741944,84.526944,2,,OK,"locality,political"
-394,,,,Mariyang West,29.689444,82.828889,0,,ZERO_RESULTS,
-395,,,,Mayonthang Kang,29.769722,82.746667,0,,ZERO_RESULTS,
-396,APPROXIMATE,"Langjuzhen, Jinxi, Fuzhou, Jiangxi, China",ChIJg5YWYWK8OzQR_QWUQwQqKPE,Langju,28.545833,85.055278,1,,OK,"political,sublocality,sublocality_level_2"
-397,,,,Jyachhung,30.106389,81.085833,0,,ZERO_RESULTS,
-398,APPROXIMATE,"Đala, Serbia",ChIJCYNO-UiOREcRkpN9wCkUbuA,Gyala,28.751944,84.558889,1,,OK,"locality,political"
-399,,,,Dolma Kang,27.937222,86.350278,0,,ZERO_RESULTS,
-400,,,,Kaipuchonam,29.725556,82.783333,0,,ZERO_RESULTS,
-401,GEOMETRIC_CENTER,"ĐT972, Chính Lý, Lý Nhân, Hà Nam, Vietnam",ChIJSUZo2yzENTER3eG_3GihSdg,Langdung,27.947778,86.484167,1,,OK,"establishment,place_of_worship,point_of_interest"
-402,,,,Dzanye II,27.902222,88.041111,0,,ZERO_RESULTS,
-403,,,,Pama Himal,28.580278,84.951111,0,,ZERO_RESULTS,
-404,,,,Peri Himal,28.747222,84.481667,0,,ZERO_RESULTS,
-405,,,,Takla Kang,29.761111,82.695278,0,,ZERO_RESULTS,
-406,,,,Kogi Khang North,29.814444,82.739167,0,,ZERO_RESULTS,
-407,,,,Asajya Tuppa,30.0625,82.279722,0,,ZERO_RESULTS,
-408,ROOFTOP,"Japan, 〒761-3110 Kagawa-ken, Kagawa-gun, Naoshima-chō, (Sonota), ８４５−７",ChIJR1tZ5SfwUzUR_TSV-Xq4BGQ,Kojichuwa South,29.848611,82.631111,1,761-3110,OK,"cafe,establishment,food,point_of_interest"
-409,GEOMETRIC_CENTER,"Gf5, Akshar Complex, Near Shivranjani Cross Road, Satellite, Satellite, Shivranjani, Jodhpur, Ahmedabad, Gujarat 380015, India",ChIJodFHNs6EXjkRG9RYqsnU0Qo,Pankar Himal,28.616389,84.7425,1,380015,OK,"clothing_store,establishment,point_of_interest,store"
-410,APPROXIMATE,"Saula, Harju County, Estonia",ChIJT8go21XckkYRh5tNd96jk38,Saula,28.613889,84.756111,1,,OK,"locality,political"
-411,,,,Yala Chuli,29.689444,82.828889,0,,ZERO_RESULTS,
-412,ROOFTOP,"Rhombus, Morley Rd, Farnham GU9 8LX, UK",ChIJf2EE5AUtdEgRYz8z5MCfEXo,Rhimbu,28.559444,85.0475,1,GU9 8LX,OK,premise
-413,ROOFTOP,"4205 W Grandview Rd, Salem, IN 47167, USA",ChIJSUSfVV1RaYgROZMfVJhlgKw,Sanctuary Peak,29.423889,82.625833,2,47167,OK,"establishment,point_of_interest"
-414,ROOFTOP,"727 N Broadway #120, Los Angeles, CA 90012, USA",ChIJk3enX1rGwoARARB8Q8dTh1I,Lasa,30.135833,81.084167,1,90012,OK,"establishment,food,point_of_interest,restaurant"
-415,APPROXIMATE,"Pér, 9099 Hungary",ChIJfzf6qnnIa0cR6tNWsu0CoUM,Peri,28.353056,85.723611,9,9099,OK,"locality,political"
-416,,,,Dwijen Himal,28.593333,84.903333,0,,ZERO_RESULTS,
-417,ROOFTOP,"11878 Gravois Rd, Sappington, MO 63127, USA",ChIJ68iGzN7O2IcR1Jy2-9xccXI,Jabou Ri,27.853889,86.515278,1,63127,OK,"accounting,establishment,finance,point_of_interest"
-418,ROOFTOP,"1226 Industrial Blvd, Crossville, TN 38555, USA",ChIJOwoEk7hQZ4gRT-mTuYhGR98,Beding Go,27.925833,86.393056,1,38555,OK,"establishment,furniture_store,home_goods_store,lodging,point_of_interest,store"
-419,,,,Takphu North,30.303611,81.422222,0,,ZERO_RESULTS,
-420,,,,Bhulu Lhasa,29.441389,82.599444,0,,ZERO_RESULTS,
-421,APPROXIMATE,"Lhonak, Sikkim 737120, India",ChIJrZiOU-nh5jkRJG-FDIQBqEU,Lhonak,27.831944,88.057222,1,737120,OK,"locality,political"
-422,ROOFTOP,"3001 S Academy Blvd, Colorado Springs, CO 80916, USA",ChIJ_9P7Oa5FE4cRnZokk2afX08,Rolmi,28.567778,85.050278,1,80916,OK,"establishment,place_of_worship,point_of_interest"
-423,,,,Aichyn,30.270833,81.859722,0,,ZERO_RESULTS,
-424,APPROXIMATE,"Ardang Lekthe, Assam 782470, India",ChIJX8K3xd54RjcRgBY7aKmWJWI,Ardang,30.198889,81.623333,1,782470,OK,"locality,political"
-425,,,,Lungchhung,29.628333,83.122222,0,,ZERO_RESULTS,
-426,APPROXIMATE,"Khung, Nepal",ChIJS84gM8E2ljkRq0Eqi2gIXy4,Khung,29.624722,83.144167,1,,OK,"locality,political"
-427,,,,Chandi Himal,30.359167,81.951389,0,,ZERO_RESULTS,
-428,GEOMETRIC_CENTER,"Gf5, Akshar Complex, Near Shivranjani Cross Road, Satellite, Satellite, Shivranjani, Jodhpur, Ahmedabad, Gujarat 380015, India",ChIJodFHNs6EXjkRG9RYqsnU0Qo,Kali Himal,27.877222,86.975556,1,380015,OK,"clothing_store,establishment,point_of_interest,store"
-429,,,,Dhechyan Kang,29.035833,84.251944,0,,ZERO_RESULTS,
-430,,,,Ek Rate Danda,27.708889,87.005,0,,ZERO_RESULTS,
-431,,,,Ghyun Himal I,29.244167,83.781944,0,,ZERO_RESULTS,
-432,APPROXIMATE,"Gorakh Hill Station, Pakistan",ChIJ91B6acilyj4R6uI9Y7BCbfs,Gorakh Himal,26.8493325,67.1507202,1,,OK,"establishment,natural_feature"
-433,ROOFTOP,"2379 E Colorado Blvd, Pasadena, CA 91107, USA",ChIJf-DJb6jcwoARy9_8TVKXGPg,Hongku,27.826,86.977,1,91107,OK,"dentist,establishment,health,point_of_interest"
-434,APPROXIMATE,Karko 791002,ChIJSUB3ohKqajcR2yB51dbV7zE,Karko,29.920278,81.219167,5,791002,OK,"locality,political"
-435,,,,Karsang Kang,28.933333,84.169444,0,,ZERO_RESULTS,
-436,APPROXIMATE,"Khayang, Manipur 795142, India",ChIJpUH05QNFSDcRpUzkW91VGdE,Khayang,28.633611,84.715278,2,795142,OK,"locality,political"
-437,,,,Gyalzen Peak,28.183056,85.838333,0,,ZERO_RESULTS,
-438,,,,Lungsampa,28.026111,86.621944,0,,ZERO_RESULTS,
-439,APPROXIMATE,"Mera 627200, Romania",ChIJUxs1DNs_tEAR7UZ4ukcTLAU,Mera South,27.70916,86.868289,2,627200,OK,"locality,political"
-440,,,,Pashuwo,28.533056,85.162222,0,,ZERO_RESULTS,
-441,ROOFTOP,"125 Leedom Way, Newtown, PA 18940, USA",ChIJBSWF-69UwYkRJtaXf-Fxh2I,Sat Peak,27.711111,87.914167,1,18940,OK,"establishment,point_of_interest"
-442,,,,Tso Karpo,29.366667,82.714167,0,,ZERO_RESULTS,
-443,,,,Sharphu II,27.731111,87.907222,0,,ZERO_RESULTS,
-444,GEOMETRIC_CENTER,"Sharp, Henderson, NV 89002, USA",ChIJe983r7fVyIARQi6CxkRl3mE,Sharphu III,27.711667,87.914722,1,89002,OK,route
-445,,,,Sharphu IV,27.745556,87.919167,0,,ZERO_RESULTS,
-446,,,,Sharphu V,27.773889,87.925556,0,,ZERO_RESULTS,
-447,,,,Sharphu VI,27.697222,87.916667,0,,ZERO_RESULTS,
-448,ROOFTOP,"4602 Eisenhower Blvd S, Tampa, FL 33634, USA",ChIJNale2RPCwogRM4YmStmpjWU,Mansail South,29.294444,83.810278,1,33634,OK,"establishment,point_of_interest"
-449,,,,Gave Ding,30.125833,82.165833,0,,ZERO_RESULTS,
-450,,,,Ngojumba Kang III,28.107,86.713,0,,ZERO_RESULTS,
-451,ROOFTOP,"6901 Stockton Blvd # 330, Sacramento, CA 95823, USA",ChIJCenPVW7FmoARS8bEG-TQ9HM,Kimshung,28.2725,85.552778,1,95823,OK,"establishment,jewelry_store,point_of_interest,store"
-452,GEOMETRIC_CENTER,"Royal Centre Suite 1750, 1055 West Georgia Street, Vancouver, BC V6E 3P3, Canada",ChIJ7yDfYH9xhlQRY9fOAkaNro8,Pawar Central,49.285307,-123.121589,1,V6E 3P3,OK,"establishment,point_of_interest"
-453,GEOMETRIC_CENTER,"Ulitsa Na Goru Lyubvi, Abakan, Khakasiya Republits, Russia",ChIJ0zGI-kMiLF0RvrlLcCq7Pd8,Nagoru,28.815833,84.281944,4,,OK,route
-454,,,,Saldim,27.821389,87.173056,0,,ZERO_RESULTS,
-455,,,,Langtang Yubra,28.27722222,85.56861111,0,,ZERO_RESULTS,
-456,,,,Larkya Peak,28.66361111,84.53555556,0,,ZERO_RESULTS,
+,PKNAME,LOCATION,HEIGHTM,HIMAL,PYEAR,PSUMMITERS,firstsummitdate,latitude,longitude
+0,Ama Dablam,Khumbu Himal,6814,12,1961,"Mike Gill, Wally Romanes, Barry Bishop, Michael Ward",Mar 13 1961,27.8618748,86.8611631
+1,Amphu Gyabjen,Khumbu Himal (N of Ama Dablam),5630,12,1953,"John Hunt, Tom Bourdillon",Apr 11 1953,27.878611,86.871389
+2,Annapurna I,Annapurna Himal,8091,1,1950,"Maurice Herzog, Louis Lachenal",Jun 03 1950,28.596111,83.820278
+3,Annapurna II,Annapurna Himal,7937,1,1960,"Richard Grant, Chris Bonington, Ang Nyima Sherpa",May 17 1960,28.535,84.1224999
+4,Annapurna III,Annapurna Himal,7555,1,1961,"Mohan S. Kohli, Sonam Gyatso, Sonam Girmi",May 06 1961,28.585,83.9908333
+5,Annapurna IV,Annapurna Himal,7525,1,1955,"Heinz Steinmetz, Harald Biller, Juergen Wellenkamp",May 30 1955,28.596111,83.820278
+6,Annapurna I East Smt,Annapurna Himal (ENE of Annapurna I),8026,1,1974,"Jose Manuel Anglada Nieto, Jorge Pons Sangines, Emilio Givis Abad",Apr 29 1974,28.597,83.833
+7,Annapurna I Middle Smt,Annapurna Himal (ENE of Annapurna I),8051,1,1980,"Udo Boening, Ludwig Greissl, Heinz Oberrauch",Oct 03 1980,28.596,83.827
+8,Annapurna South,Annapurna Himal (S of Annapurna I and Fang),7219,1,1964,"Shiochiro Uyeo, Mingma Tsering Sherpa",Oct 15 1964,28.5183333,83.8058333
+9,Api Main,Api Himal,7132,2,1960,"Katsutoshi Hirabayashi, Gyaltsen Norbu Sherpa",May 10 1960,30.004167,80.933333
+10,Api West,Api Himal (W of Api),7076,2,0,Unclimbed,,30.0,80.932222
+11,Baruntse,Khumbu Himal (W of Makalu),7152,12,1954,"Colin Todd, Geoff Harrow",May 29 1954,27.8719444,86.9819444
+12,Baudha,Mansiri Himal (SE of Manaslu and Himalchuli),6672,15,1970,"Yoshiyuki Kobayashi, Kiyoyasu Shibata",May 02 1970,28.378611,84.677222
+13,Bhemdang Ri,Jugal Himal (NNW of Dorje Lhakpa),6150,8,1964,"Tetsuya Kondo, Soshiro Sasaki, Mingma Tshering Sherpa",May 10 1964,28.273611,85.665556
+14,Bhrikuti,Damodar Himal (NE of Thorong La near Tibetan border),6476,3,1982,"Takashi Sakuma, Masanobu Tsuchiya, Tashi Jangbu Sherpa",May 18 1982,28.918889,84.1475
+15,Bobaye,Api Himal (S of Nampa),6808,2,1996,Tomaz Humar,Nov 02 1996,29.958321,81.021302
+16,Chamlang,"Khumbu Himal (in Hongku Valley, SW of Makalu)",7321,12,1962,"So Anma, Pasang Phutar Sherpa (I)",May 31 1962,27.775,86.9791666
+17,Changla,Changla Himal (N of Jumla on Tibetan border),6563,17,2010,"Hirofumi Kobayashi, Seiya Nakasukasa, Yuta Shibayama, Naoki Yamaguchi",Sep 27 2010,30.303056,82.128889
+18,Chamar North,Shringi Himal,7165,5,1953,"Maurice Bishop, Nyamgel Sherpa",Jun 05 1953,28.555278,84.945278
+19,Cheo Himal,Peri Himal (ESE of Himlung Himal on Tibetan border),6820,18,1991,"Dambar Bahadur Gurung, Shigeki Imoto, Ful Bahadur Rai, Pasang Tshering Sherpa",Oct 13 1991,28.764444,84.451667
+20,Cho Oyu,Khumbu Himal (NW of Everest on Tibetan border),8188,12,1954,"Herbert Tichy, Sepp Jeochler, Pasang Dawa Lama",Oct 19 1954,28.0972891,86.658475
+21,Chobuje,Rolwaling Himal (NE of Tsho Rolpa),6686,19,1972,"Wolfgang Weinzierl, Peter Vogler, Gustav Harder, Klaus Harder",Apr 24 1972,27.880556,86.4925
+22,Cholatse,Khumbu Himal (N of Tawoche),6423,12,1982,"John Roskelley, Galen Rowell, Vern Clevenger, Bill O'Connor",Apr 22 1982,27.885,86.771667
+23,Cho Polu,"Khumbu Himal (S of Shartse, N of Baruntse)",6700,12,1984,Nil Bohigas Martorell,Nov 1984,27.919167,86.981944
+24,Chulu Central,Damodar Himal (E of Thorong La),6584,3,1955,"Heinz Steinmetz, Harald Biller, Fritz Lobbichler, Juergen Wellenkamp",Jul 23 1955,28.74138889,84.02805556
+25,Chukyima Go,Rolwaling Himal (WSW of Tesi Laptsa),6258,19,2014,"Domen Kastelic, Sam Hennessey",Nov 12 2014,27.832433,86.450005
+26,Churen Himal Central,Dhaulagiri Himal (NW of Dhaulagiri VI),7385,4,1970,"Masayoshi Fukui, Kozo Hasegawa",Oct 24 1970,28.735,83.216
+27,Chulu West,Damodar Himal (E of Thorong La),6419,3,1952,"Kinji Imanishi, Kazuhiko Hayashi, Sasuke Nakao, Jiro Taguchi, Masataka Takagi, Sakuta Takebushi",Oct 23 1952,28.7358333,84.0341666
+28,Taple Shikhar,Kangchenjunga Himal (W of Nepal Peak),6447,9,1998,"Misako Miyazawa, Gumba Sherpa, Kancha Sunwar Sherpa, Pemba Lama Sherpa",Oct 08 1998,27.750833,88.15
+29,Changtse,Khumbu Himal,7583,12,1982,Udo Zehetleitner,Oct 14 1982,28.0258333,86.9091666
+30,Dhaulagiri I,Dhaulagiri Himal,8167,4,1960,"Peter Diener, Kurt Diemberger, Albin Schelbert, Ernst Forrer, Nima Dorje Sherpa, Nawang Dorje Sherpa",May 13 1960,28.6966666,83.4941666
+31,Dhaulagiri II,Dhaulagiri Himal (NW of Dhaulagiri I),7751,4,1971,"Adolf Huber, Ronald Fear, Adi Weissensteiner, Jangbu Sherpa",May 18 1971,28.7633333,83.3883333
+32,Dhaulagiri III,Dhaulagiri Himal (SW of Dhaulagiri II),7715,4,1973,"Klaus Schreckenbach, Gerhard Haberl, Hans Saler",Oct 20 1973,28.754444,83.379444
+33,Dhaulagiri IV,Dhaulagiri Himal (W of Dhaulagiri V),7661,4,1975,"Shiro Kawazu, Etsuro Yasuda",May 09 1975,28.738611,83.315278
+34,Dhaulagiri V,Dhaulagiri Himal (SW of Dhaulagiri III),7618,4,1975,"Masaaki Morioka, Pemba Tsering Sherpa",May 01 1975,28.734444,83.365556
+35,Dhaulagiri VI,Dhaulagiri Himal (WSW of Dhaulagiri IV),7268,4,1970,"Shiro Kawazu, Shoichi Kimura, Hisazumi Nakamura, Seijiro Yamamura",Apr 17 1970,28.708333,83.275278
+36,Dhampus,Mukut Himal (NE of Dhaulagiri I and Tukuche),6012,16,1960,Kurt Diemberger,Apr 1960,28.798,83.605
+37,Dogari,Dhaulagiri Himal (WNW of Putha Hiunchuli),6536,4,0,Unclimbed,,28.767222,83.100833
+38,Pemthang Karpo Ri,Jugal Himal (NNW of Dorje Lhakpa on Tibetan border),6865,8,1955,"Raymond Lambert, Ang Norbu Sherpa, Kami Tshering Sherpa, Pasang Sherpa, Pemba Gyaltzen Sherpa",May 14 1955,28.249167,85.750556
+39,Dorje Lhakpa,Jugal Himal (near Tibetan border),6966,8,1981,"Kunio Kataoka, Makoto Anbe, Kazunari Murakami, Eiichi Shingyoji, Pemba Tsering Sherpa",Oct 18 1981,28.1741666,85.7791666
+40,Drangnag Ri,Rolwaling Himal (N of Tesi Laptsa near Tibetan border),6757,19,1995,"Chris Bonington, Ralph Hoibakk, Bjorn Myrer-Lund, Lhakpa Gyalu Sherpa, Pema Dorje Sherpa",Apr 30 1995,27.9563128,86.6878836
+41,Drohmo,Jongsang Himal (NNW of Kangchenjunga),6881,7,0,Main summit unclimbed,,27.8241666,88.1024999
+42,Everest,Khumbu Himal,8850,12,1953,"Edmund Hillary, Tenzing Norgay Sherpa",May 29 1953,27.988056,86.925278
+43,Fang,Annapurna Himal (SW of Annapurna I),7647,1,1980,"Sepp Mayerl, Hermann Neumair, Ang Chepal Sherpa",May 17 1980,28.578131,83.80133
+44,Firnkopf,Saipal Himal (W of Saipal),6730,20,0,Unclimbed,,29.89306,81.43139
+45,Firnkopf West,Saipal Himal (WSW of Firnkopf),6745,20,1987,"Franz Kroell, Fritz Mross, Ang Chopal Sherpa",Oct 25 1987,29.883333,81.433333
+46,Gama Peak,"Dhaulagiri Himal (N of Dhaulagiri VI, S of Junction Peak)",7187,4,1970,"Goro Nabeyama, Katsuhiro Nakashima",Oct 25 1970,28.716739,83.277093
+47,Ganesh I,Ganesh Himal (on Tibetan border),7422,5,1955,"Raymond Lambert, Eric Gauchat, Claude Kogan",Oct 24 1955,28.391526,85.127064
+48,Ganesh III,Ganesh Himal (S of Ganesh I on Tibetan border),7043,5,1979,"Hideo Ogura, Pemba Tshering Sherpa, Dawa Norbu Sherpa",Oct 19 1979,28.335278,85.122
+49,Ganesh II,Ganesh Himal (WSW of Ganesh I),7118,5,1981,"Hermann Warth, Ang Chepal Sherpa, Nga Temba Sherpa, Nima Tenzing Sherpa",Oct 16 1981,28.379,85.057
+50,Ganesh IV,Ganesh Himal (SW of Ganesh I),7104,5,1978,"T Tomita, H Yoshio, K Aoyagi, M Hashimoto, Y Hashimoto, Y Okuma, T Shimoji, T Suzuki, I Yasuda, Yogendra Thapa, Kamal Bhandari, Mingma Tenzing Sherpa, Sonan Wolang Sherpa",Oct 20 1978,28.346,85.08
+51,Ganesh V,Ganesh Himal (SE of Ganesh I on Tibetan border),6770,5,1980,"Tatsumi Sasaki, Akihiko Komori, Lhakpa Dorje Sherpa, Nima Tenzing Sherpa, Nima Nuru Sherpa",Apr 21 1980,28.332,85.159
+52,Ganesh VI,Ganesh Himal (subpeak SE of Ganesh II),6908,5,2000,"Osamu Tanabe, Yasuhiro Hanatani",May 23 2000,28.371,85.062
+53,Ganchenpo,Jugal Himal (W of Dorje Lhakpa and Urkinmang),6378,8,1971,"Terry Bech, Cheri Bech",OctNov 1971,28.168889,85.681944
+54,Gandharva Chuli,Annapurna Himal (SSW of Annapurna III near Machhapuchhare),6248,1,2013,"Cosmin Andron, Christina Pogacean",May 06 2013,28.53833,83.96
+55,Gangapurna,Annapurna Himal (NW of Annapurna III),7455,1,1965,"Gunter Hauser, Ludwig Greissl, Hermann Kollensperger, Erich Reismueller, Ang Temba Sherpa, Phu Dorje Sherpa",May 06 1965,28.605,83.9633333
+56,Gaurishankar,Rolwaling Himal (on Tibetan border),7135,19,1979,"John Roskelley, Dorje Sherpa",May 08 1979,27.95,86.3333333
+57,Ghustang North,Dhaulagiri Himal (WNW of Gurja Himal),6529,4,1962,"J.O.M. Roberts, Ang Pema Sherpa, Nawang Dorje Sherpa",Oct 22 1962,28.680556,83.247778
+58,Ghustang South,Dhaulagiri Himal (WSW of Gurja Himal),6465,4,0,Unclimbed,,28.672222,83.246389
+59,Matathumba,Jagdula Lekh (S of Kanjiroba Himal),5767,10,1961,"John Tyson, James Burnet, John Earle, Mingma Tsering, Ang Temba Sherpa",May 16 1961,,
+60,Ghyuthumba Main,Jagdula Lekh (S of Kanjiroba Himal),5806,10,1953,"Herbert Tichy, Ajiba Sherpa, Gyalzen Sherpa, Pasang Dawa Lama, Pemba Sherpa",Nov 1953,,
+61,Gimmigela Chuli East,Kangchenjunga Himal (N of Kangchenjunga on Indian border),7007,9,1993,"Hideo Koike, Masanori Sato, Taro Tanigawa, Chuldin Sherpa, Pasang Nima Sherpa, Phurba Sherpa",Oct 09 1993,27.733333,88.15
+62,Gimmigela Chuli,Kangchenjunga Himal (N of Kangchenjunga on Indian border),7350,9,1994,"Shigeru Yokokuwa, Dawa Wangchuk Sherpa, Pasang Gyalzen Sherpa, Pasang Tenzing Sherpa",Oct 29 1994,27.733333,88.15
+63,Glacier Dome,Annapurna Himal (E of Annapurna I),7069,1,1964,"Mitsuhiro Nishimura, Dorje Sherpa",Oct 16 1964,28.390278,83.891111
+64,Gurja Himal,Dhaulagiri Himal (S of Dhaulagiri VI),7193,4,1969,"Tomokuni Saeki, Lhakpa Tenzing Sherpa",Nov 01 1969,28.6666667,83.3
+65,Gurkarpo Ri,Jugal Himal (N of Dorje Lhakpa on Tibetan border),6889,8,2007,"Paul Grobel, Pierre-Olivier Dupuy, Marc Kia, Jean Francois Males",Nov 01 2007,28.2091666,85.775
+66,Gyachung Kang,Khumbu Himal (E of Cho Oyu on Tibetan border),7861,12,1964,"Yukihiko Kato, Kiyoto Sakaizawa, Pasang Phutar Sherpa (I)",Apr 10 1964,28.098056,86.742222
+67,Gyajikang,Peri Himal (SW of Himlung Himal),7074,18,1994,"Toshisada Hasegawa, Yousuke Kokubo, Osamu Tanabe, Ram Kaji Sivakoti, Pasang Tshering Sherpa, Dambar Bahadur Gurung",Oct 07 1994,28.735,84.36778
+68,Leonpo Gang East,Jugal Himal (NE of Leonpo Gang on Tibetan border),6733,8,1955,"Monica Jackson, Elizabeth Stark, Mingma Gyalgen Sherpa, Ang Temba Sherpa",May 11 1955,,
+69,Himalchuli East,Mansiri Himal (SE of Manaslu),7893,15,1960,"Masahiro Harada, Hisashi Tanabe",May 24 1960,28.435556,84.642222
+70,Himlung Himal,Peri Himal (NW of Manaslu near Tibetan border),7126,18,1992,"Osamu Hanai, Akio Koizumi, Nima Sherpa",Oct 03 1992,28.7716666,84.4225
+71,Himalchuli North,"Mansiri Himal (SE of Manaslu, WNW of Himalchuli Main)",7331,15,1985,"Lee Jae-Hong, Ang Pasang Sherpa, Jangbu Sherpa, Lhakpa Norbu Sherpa, Pasang Dawa Sherpa",Oct 27 1985,28.449722,84.606389
+72,Rani Peak,"Mansiri Himal (SE of Manaslu, NE of Himalchuli Main)",6693,15,1970,"Herman Tollenaar, Ang Phurba Sherpa, Mingma Tsering Sherpa, Nima Dorje Sherpa",May 05 1970,,
+73,Himalchuli West,"Mansiri Himal (SE of Manaslu, W of Himalchuli Main)",7540,15,1978,"Yoshio Ogata, Kazuhiro Sugeno",May 07 1978,28.435278,84.618611
+74,Hiunchuli,Annapurna Himal (E of Annapurna South),6434,1,1971,"Craig Anderson, Peter Cross, Jim Richards, John Skow, Lane Smith",Oct 10 1971,28.5106334,83.8480566
+75,Hongku Chuli,"Khumbu Himal (in Hongku Valley, NE of Chamlang)",6833,12,0,Unclimbed,,27.8175,87.0091666
+76,Hongde,Mukut Himal (N of Sita Chuchura in Hidden Valley),6556,16,1962,"Shijiro Ishizaka, Zenkichi Hirayama, Takashi Miyahara, Ang Dawa Sherpa, Ang Temba Sherpa",May 08 1962,28.84528,83.4875
+77,Imjatse,Khumbu Himal (S of Lhotse),6165,12,1956,"Hansrudolf Von Gunten, 2 unknown Sherpas",,27.9241989,86.9373035
+78,Jagdula,Kanjiroba Himal (S of Kande Hiunchuli),5761,10,2013,Francois Damilano,Apr 30 2013,29.326944,82.591944
+79,Jannu,Kangchenjunga Himal (W of Kangchenjunga),7711,9,1962,"Rene Desmaison, Paul Keller, Robert Paragot, Gyalzen Mitchung Sherpa",Apr 27 1962,27.6816666,88.0441666
+80,Jethi Bahurani,Api Himal (S of Nampa and Bobaye),6850,2,1978,"Kazuo Mitsui, Nobuhito Morota, Hideki Yoshida",Apr 27 1978,29.8816666,81.0408333
+81,Jongsang,Jongsang Himal (on Indian-Tibetan border),7462,7,1930,"Hermann Hoerlin, Erwin Schneider",Jun 03 1930,27.8815937,88.1352391
+82,Junction Peak,"Dhaulagiri Himal (on ridge joining Dhaulagiri VI, IV and Churen)",7133,4,0,Unclimbed,,28.72182,83.277179
+83,Kabru Dome,Simhalila Himal (SE of Kabru in India),6600,9,1982,"Mahabir Thakur, Tshering Lobsang, K. N. Singh, Gautam Dutta, P. Bhotia, Umeshari Devi",Sep 24 1982,27.60749569,88.11035589
+84,Kabru North,Simhalila Himal (S of Kabru Main on Indian border),7338,9,1935,C. R. (Reggie) Cooke,Nov 18 1935,27.619167,88.124444
+85,Kagmara I,Kagmara Lekh (S of Kanjiroba Himal),5978,10,1962,"Dorothea Gravina, Denise Evans, Nancy Smith, Pat Wood, Ang Temba Sherpa, Mingma Tsering Sherpa, Pemba Norbu Sherpa",May 23 1962,29.138889,82.761111
+86,Kande Hiunchuli North  I,Kanjiroba Himal (NW of Kanjiroba),6521,10,0,Unclimbed,,29.411871,82.558904
+87,Kande Hiunchuli North  II,Kanjiroba Himal (NW of Kanjiroba),6471,10,1980,"Daniel Chevallier, Pierre Galland",May 03 1980,,
+88,Kangbachen,Kangchenjunga Himal (W Spur of Kangchenjunga),7902,9,1974,"Wojciech Branski, Wieslaw Klaput, Marek Malatynski, Kazimierz Olech, Zbigniew Rubinowski",May 26 1974,27.7166,88.1105
+89,Kangchenjunga Central,Kangchenjunga Himal (between Main and South summits),8473,9,1978,"Wojciech Branski, Zygmunt Heinrich, Kazimierz Olech",May 22 1978,27.7025,88.156944
+90,Kande Hiunchuli,Kanjiroba Himal (WNW of Kanjiroba),6627,10,1972,"Toyokazu Hirota, Shigeru Kuwahata",Oct 18 1972,29.411871,82.558904
+91,Kangchenjunga,Kangchenjunga Himal,8586,9,1955,"George Band, Joe Brown",May 25 1955,27.709722,88.155556
+92,Kangchenjunga South,Kangchenjunga Himal,8476,9,1978,"Eugeniusz Chrobak, Wojciech Wroz",May 19 1978,27.691944,88.156944
+93,Karyolung,Rolwaling Himal (SE of Numbur),6530,19,1982,"Yoshiyuki Inoue, Masatoshi Iwasa, Hiroshi Nishie, Yogendra Thapa, Gita Bdr Joshi, Babu Ram Pun, Gore Tamang, Pemba Tshering Sherpa",Oct 31 1982,27.7350085,86.610766
+94,Kangchung Nup,Khumbu Himal (NE of Gokyo Lake),6043,12,1953,"Edmund Hillary, Wilfred Noyce, Charles Wylie",Apr 04 1953,,
+95,Naya Kanga,Jugal Himal (W of Ganchempo by Kangja La),5863,8,0,1st ascent unknown,,28.15,85.59722
+96,Kang Guru,Peri Himal (SW of Himlung Himal),6981,18,1955,"Heinz Steinmetz, Fritz Lobbichler, Juergen Wellenkamp",Jul 02 1955,28.6575,84.301389
+97,Khatang,Rolwaling Himal (E of Numbur),6790,19,1982,"Tatsumi Kawamura, Yoshimi Kitayama, Dorje Sherpa",Oct 30 1982,27.757836,86.595671
+98,Khongma Tse,Khumbu Himal (SW of Nuptse),5798,12,0,1st ascent unknown,,27.944034,86.838729
+99,Kanjeralwa,Kanjiroba Himal (NW of Phoksumdo Tal),6612,10,1973,"Yasuaki Goshima, Koichi Kyogoku, Mingma Tensing Sherpa, Mingma Tsering Sherpa",Apr 22 1973,29.2325,82.8741666
+100,Kanjiroba North,Kanjiroba Himal,6858,10,0,Unclimbed,,29.3758333,82.6375
+101,Kanjiroba South,Kanjiroba Himal,6883,10,1970,"Hiroshi Okuda, Ichiryo Sato, Munehiro Sawada",Nov 07 1970,29.3758333,82.6375
+102,Kotang,Simhalila Himal (SSW of Rothang on Indian border),6148,9,1982,"K. V. Cherian, Nima Tashi Sherpa, Ang Norbu, Ki Kami Sherpa",Oct 11 1982,27.564247,88.080535
+103,Kangtega,Khumbu Himal (SW of Ama Dablam),6783,12,1963,"David Dornan, Tom Frost, Michael Gill, Jim Wilson",Jun 05 1963,27.7995451,86.8075976
+104,Kangtsune,"Kagmara Lekh (SE of Kanjiroba, W of Kanjeralwa)",6444,10,0,Unclimbed,,,
+105,Kusum Kanguru,Khumbu Himal (NE of Lukla village),6370,12,1981,Bill Denz,Oct 07 1981,27.730556,86.790833
+106,Kwangde,Rolwaling Himal (W of Namche Bazar),6186,19,1978,"Takashi Iwahashi, Yoshihisa Ishikawa, Seiji Ogawa",Nov 11 1978,27.8,86.616667
+107,Lamjung Himal,Annapurna Himal (SE of Annapurna II),6983,1,1974,"Derrick Chamberlain, Phillip Neame",Apr 25 1974,28.4894444,84.1891667
+108,Langtang Lirung,Langtang Himal,7227,13,1978,"Seishi Wada, Pemba Tsering Sherpa",Oct 24 1978,28.2558333,85.5175
+109,Langtang Ri,Langtang Himal (NE of Langtang Lirung on Tibetan border),7205,13,1981,"Soichi Nasu, Makihiro Wakao, Noboru Yamada, Ang Rinji Sherpa",Oct 10 1981,28.3816666,85.6833333
+110,Leonpo Gang,Jugal Himal (NNE of Dorje Lhakpa on Tibetan border),6979,8,1962,"Tadashi Morita, Kazunari Yasuhisa",May 03 1962,28.2025,85.817778
+111,Lha Shamma,"Kagmara Lekh (S of Kanjiroba, NNW of Kagmara I)",6412,10,1962,"Josephine Scarr, Barbara Spark, Mingma Tsering Sherpa, Pemba Norbu Sherpa",May 14 1962,29.22583,82.74722
+112,Lhotse,Khumbu Himal,8516,12,1956,"Fritz Luchsinger, Ernst Reiss",May 18 1956,27.9626373,86.933615
+113,Mukut Himal,"Mukut Himal (N of Sita Chuchura, S of Hongde)",6087,16,1967,"Alfons J. Driessen, Michiel van Mourik Broekman",Sep 1967,28.84333,83.4975
+114,Langpo,Jongsang Himal (SE of Jongsang on Indian border),6965,7,1909,A. M. Kellas,Sep 14 1909,27.85333,88.1975
+115,Lobuje East,Khumbu Himal (SW of Pumori),6090,12,1984,"Larry Nielson, Any Gyaltsen Sherpa",Apr 25 1984,27.9595,86.789944
+116,Lobuje West,Khumbu Himal (SW of Pumori),6135,12,1984,"Yuji Kawakura, Yoshihiro Taguchi",Sep 28 1984,27.9595,86.789944
+117,Lhotse Shar,Khumbu Himal (ESE of Lhotse and Lhotse Middle),8382,12,1970,"Josef Mayerl, Rolf Walter",May 12 1970,27.95,86.95
+118,Langshisa Ri,Jugal Himal (NW of Dorje Lhakpa),6412,8,1982,"Takuya Kajimoto, Pasang Norbu Sherpa",Apr 23 1982,28.2169,85.7136
+119,Machhapuchhare,Annapurna Himal (SE of Annapurna III),6993,1,0,Unclimbed,,28.504374,83.9470482
+120,Bhairab Takura,Jugal Himal (ENE of Dorje Lhakpa on Tibetan border),6799,8,1960,"Kunitoshi Ishihara, Yukihito Kato, Pasang Phutar Sherpa (I)",May 07 1960,28.198056,85.774444
+121,Makalu II,Makalu Himal (NNW of Makalu on Tibetan border),7678,14,1954,"Jean Franco, Lionel Terray, Gyaltsen Norbu Sherpa, Pa Norbu Sherpa",Oct 22 1954,27.9333333,87.0666667
+122,Makalu,Makalu Himal,8485,14,1955,"Jean Couzy, Lionel Terray",May 15 1955,27.8860217,87.0911891
+123,Manaslu,Manaslu Himal,8163,15,1956,"Toshio Imanishi, Gyaltsen Norbu Sherpa",May 09 1956,28.5497107,84.5596768
+124,Manaslu North,Manaslu Himal (N of Manaslu),6994,15,1964,"Alfons Driessen, Jan De Lint, Hubert Schriebl, Ila Tshering Sherpa, Nima Tenzing Sherpa",Oct 25 1964,28.5497107,84.5596768
+125,Manapathi,Dhaulagiri Himal (SSW of Dhaulagiri I),6380,4,1956,"Emiliano Huerta, Ayiwa Sherpa",Apr 25 1956,28.64667,83.45111
+126,Mardi Himal,Annapurna Himal (SW of Machhapuchhare),5553,1,1962,"J. O. M. Roberts, Ang Tshering Sherpa, Tenzing Nindra Sherpa",Apr 23 1962,28.4857285,83.9373754
+127,Mera Peak,Khumbu Himal (S of Ama Dablam),6470,12,1953,"J. O. M. Roberts, Sen Tenzing Sherpa",May 1953,27.7090249,86.8677807
+128,Mingbo Ri,Khumbu Himal (S of Ama Dablam and Mingbo La),6207,12,0,Unclimbed,,27.84472,86.82167
+129,Nalakankar North,Nalakankar Himal (on W Nepal/Tibetan border),6062,17,2000,"Takehiko Yanagihara, Ang Phurba Sherpa",Jul 06 2000,30.3575,81.39944
+130,Nampa,Api Himal (E of Api),6729,2,1972,"Fukutoshi Kimura, Susumu Takahashi",May 05 1972,30.00444,80.994522
+131,Nupchu,Ohmi Kangri Himal (NW of Kangchenjunga),6172,6,1962,"Takayuki Tsubaki, Chotare Sherpa",May 20 1962,27.8153083,87.914683
+132,Nemjung,Peri Himal (S of Himlung Himal and Himjung),7140,18,1983,"Makito Minami, Wataru Saito, Ken Takahashi, Kirki Lama",Oct 27 1983,28.7366666,84.4175
+133,Nepal Peak,Jongsang Himal (N of Kangchenjunga on Indian border),7177,7,1930,Erwin Schneider,May 24 1930,27.776802,88.182927
+134,Ngojumba Kang II,Khumbu Himal (NE of Cho Oyu on Tibetan border),7743,12,1965,"Naomi Uemura, Pemba Tenzing Sherpa",Apr 24 1965,28.106,86.706
+135,Ngojumba Kang I,Khumbu Himal (NE of Cho Oyu on Tibetan border),7916,12,1982,"Kim Young-Han, Ang Tshering Sherpa, Dorje Sherpa",Nov 02 1982,28.105875,86.684203
+136,Nilgiri Central,Annapurna-Nilgiri Himal (NW of Annapurna I),6940,1,1979,"Kohichi Sakata, Yasuo Tsuda",Apr 30 1979,28.678154,83.735729
+137,Nilgiri North,Annapurna-Nilgiri Himal (NW of Annapurna I),7061,1,1962,"Lionel Terray, H. G. Van Lookern Campagne, P. Van Lookern Campagne, P. F. J. Van Lookern Campagne, Wangdi Sherpa",Oct 19 1962,28.69,83.745
+138,Nilgiri South,Annapurna-Nilgiri Himal (NW of Annapurna I),6839,1,1978,"Kazuo Mitsui, Taichi Fujimatsu, Yoshiaki Kato, Nobuhito Morota, Seiji Tanaka, Hideki Yoshida",Oct 10 1978,28.654845,83.729893
+139,Numbur,Rolwaling Himal (SW of Namche Bazar),6958,19,1963,"Hiroshi Matsuo, Mingma Tsering Sherpa",May 29 1963,27.7541666,86.5724999
+140,Nuptse,Khumbu Himal (SW of Everest),7864,12,1961,"Dennis Davis, Tashi Sherpa",May 16 1961,27.9672192,86.8855391
+141,Ohmi Kangri,Ohmi Kangri Himal (NW of Kangchenjunga on Tibetan border),6839,6,1985,"Andre Rieder, Alain Vaucher",Apr 14 1985,27.896905,87.964158
+142,Ombak Himal,Ohmi Kangri Himal (NE of Ombak La in Tibet),6300,6,0,Unclimbed?,,,
+143,Paldor,Ganesh Himal (SE of  Ganesh V),5903,5,1949,"H. W. Tilman, Peter Lloyd, Tenzing Sherpa, Da Namgyal Sherpa",,28.2769444,85.1838889
+144,Pangbuk Ri,Rolwaling Himal (N of Menlung La on Tibetan border),6625,19,2011,"David Gottlieb, Chad Kellogg",Nov 11 2011,28.006,86.52
+145,Parchamo,Rolwaling Himal (S of Tesi Laptsa),6279,19,1955,"Peter Boultbee, Denis Davis",Apr 1955,27.8375,86.54722
+146,Patrasi Himal,Kanjiroba Himal (NE of Kande Huinchuli),6450,10,0,Unclimbed,,29.411871,82.558904
+147,Pethangtse,Khumbu Himal (NW of Makalu on Tibetan border),6739,12,1954,"Michael Ball, Norman Hardie, Brian Wilkins, Urkien Sherpa",May 26 1954,27.957424,87.015253
+148,Phurbi Chhyachu,Jugal Himal (SE of Dorje Lhakpa on Tibetan border),6637,8,1982,"Shintaro Kurokawa, Fumihito Ogawa, Hiromitsu Okamoto, Takashi Shingaki, Hajime Takigami, Ang Phuri Lama, Pemba Lama Sherpa",May 01 1982,28.132269,85.869166
+149,Pimu,Rolwaling Himal (N of Tesi Laptsa),6344,19,1955,"Peter Boultbee, Dennis Davis",Apr 1955,27.89694,86.55444
+150,Pisang,Damodar Himal (N of Marysangdi Valley),6091,3,1955,Juergen Wellenkamp,Jun 10 1955,28.5936253,84.1435136
+151,Peak 29,Manaslu Himal (S of Manaslu),7871,15,1979,"Ryszard Gajewski, Maciej Pawlikowski",May 08 1979,28.503333,84.5675
+152,Pointed Peak,"Khumbu Himal (N of Cholatse, S of Tshola La)",5850,12,1953,"Wilfred Noyce, Michael Ward, Charles Wylie",Apr 01 1953,,
+153,Pokalde,Khumbu Himal (N of Ama Dablam),5780,12,1953,"Tom Bourdillon, Wilfred Noyce, Michael Ward",Apr 15 1953,27.925,86.833333
+154,Ombigaichen,Khumbu Himal (SE of Ama Dablam),6340,12,1960,"Jim Milledge, Ang Tsering Sherpa",Nov 18 1960,27.852816,86.883436
+155,Pumori,Khumbu Himal (WNW of Everest on Tibetan border),7138,12,1962,"Gerhard Lenser, Ernst Farrer, Ueli Huerlemann, Hans Ruetzel",May 17 1962,28.0089896,86.8253374
+156,Putha Hiunchuli,Dhaulagiri Himal (W of Churen Himal),7246,4,1954,"J. O. M. Roberts, Ang Nyima Sherpa",Nov 11 1954,28.7475,83.1458333
+157,Pyramid Peak,Jongsang Himal (N of Kangchenjunga on Indian border),7140,7,1993,"Yoshio Ogata, Jot Singh Bhandari, Hiroshi Iwazaki, Phurba Lepcha, Sunder Singh Martolia, Lobsang Sherpa, Nobuhiro Shingo",Apr 24 1993,27.821,88.173
+158,Raksha Urai,Raksha Urai Himal (ESE of Nampa),6609,2,2003,"Arnaud Clere, Catherine Couland, Gael Faroux, Keshab Raj Gurung",Oct 15 2003,29.95,81.116667
+159,Ramdung,Rolwaling Himal (W of Tesi Laptsa),5900,19,1952,"Tom MacKinnon, Dawa Tenzing Sherpa, Mingma Sherpa",Oct 1952,27.8525,86.415711
+160,Rathong,Simhalila Himal (SW of Kabru on Indian border),6682,9,1964,"H. P. S. Ahluwalia, Ang Kami Sherpa, Dorje Latoo Sherpa, Nawang Gombu Sherpa",Oct 29 1964,27.593333,88.086667
+161,Roc Noir,Annapurna Himal (ENE of Annapurna I),7485,1,1969,"Reinhold Obster, Pit Schubert, Karl Winkler",May 09 1969,28.613422,83.871471
+162,Rokapi,"Api Himal (S of Nampa, Bobaye and Jethi Bahurani)",6468,2,1977,"Thomas Herley, Kelvin McLane",Oct 10 1977,29.8493,81.0405
+163,Saipal East Humla,Saipal Himal (NE of Saipal),6925,20,1990,"Jacques Montaz, Tendi Sherpa",Oct 26 1990,29.8891666,81.4941666
+164,Saipal,Saipal Himal,7030,20,1963,"Katsuotoshi Hirabayashi, Pasang Phutar Sherpa (I)",Oct 21 1963,29.8891666,81.4941666
+165,Shartse,Khumbu Himal (E of Lhotse Shar on Tibetan border),7591,12,0,Unclimbed,,27.9493,86.9832
+166,Shartse II,Khumbu Himal (E of Lhotse Shar on Tibetan border),7457,12,1974,"Kurt Diemburger, Hermann Warth",May 23 1974,27.955604,86.96472
+167,Shey Shikhar,Kanjiroba Himal (SE of Kanjiroba and Tripura Hiunchuli),6139,10,2007,Katsuhito Fujikawa,Aug 23 2007,29.286944,82.796389
+168,Singu Chuli,Annapurna Himal (Annapurna Sanctuary),6501,1,1957,"David Cox, Wilfred Noyce",Jun 13 1957,28.583333,83.9
+169,Sisne Himal,Sisne Himal (SW of Juphal in Rukum),5911,10,2013,"Man Bahadur Khatri, Alonzo Lyons, Dbruba Bista, Mulal Gurung, Nilam Gurung, Ali Bahadur Khatri, Vinaya Jaya Malla, Amrit Sarki",May 26 2013,29.783333,80.341667
+170,Sita Chuchura,Mukut Himal (ENE of Dhaulagiri II near French Pass),6611,16,1970,"Masahiko Takahashi, Hiroshi Harada, Nobuyki Hirato, Phurba Kitar Sherpa",Oct 26 1970,28.786,83.4781
+171,Snow Peak,Dhaulagiri Himal (E of Dhaulagiri II),6530,4,0,Unclimbed,,,
+172,Sphinx,Jongsang Himal (NE of Pathibhara on Indian border),6825,7,1936,"J. K. Cooke, Frederick S. Chapman, John B. Harrison",Jun 1936,27.825,88.188
+173,Sharphu I,Ohmi Kangri Himal (WNW of Kangchenjunga),6433,6,1963,"Takao Ishinabe, Chiharu Miyamoto, Yuzo Tatsumi",Oct 22 1963,27.752222,87.916944
+174,Surma-Sarovar North,Api Himal (SSE of Jethi Bahurani),6564,2,0,Unclimbed,,29.65,81.07
+175,Tawoche,Khumbu Himal (NW of Ama Dablam),6495,12,1974,"Louis Dubost, Paul Gendre",Apr 15 1974,27.9038889,86.7716667
+176,Kirat Chuli,Jongsang Himal (N of Kangchenjunga on Indian border),7362,7,1939,"Ernst Grob, Herbert Paidar, Ludwig Schmaderer",May 29 1939,27.7883333,88.1958333
+177,Thamserku,Khumbu Himal (SW of Ama Dablam),6618,12,1964,"Lynn Crawford, Peter Farrell, John McKinnon, Richard Stewart",Nov 04 1964,27.7895215,86.7856208
+178,Tharpu Chuli,Annapurna Himal (Annapurna Sanctuary),5695,1,1964,"Masaaki Kimura, Kiyoo Shimada",Oct 23 1964,28.5528997,83.881259
+179,Tilicho,Annapurna-Nilgiri Himal (N of Annapurna I),7134,1,1978,Emmanuel Schmutz,Oct 10 1978,28.683333,83.856667
+180,Talung,Simhalila Himal (S of Kangchenjunga on Indian border),7349,9,1964,"Franz Lindner, Tenzing Nanda Sherpa",May 19 1964,27.655037,88.131023
+181,Tongu,Mukut Himal (N of Hongde in Hidden Valley),6187,16,1959,"John Humphreys, Fred Dunn, John Noxon",Oct 21 1959,,
+182,Tripura Hiunchuli,Kanjiroba Himal (SE of Kanjiroba),6553,10,1986,"Noriyuki Hata, Katashi Tokimoto, Ang Phuri Sherpa",Oct 17 1986,29.3266666,82.7358333
+183,Tso Karpo Kang,Kanjiroba Himal (E of Kanjiroba),6556,10,1971,"Shoji Miyoshi, Koji Mizutani",Oct 25 1971,29.368611,82.781667
+184,Tukuche,Dhaulagiri Himal (NE of Dhaulagiri I),6920,4,1970,"Hirosuke Kikuchi, Eiho Otani, Takao Yonemoto",Apr 30 1970,28.7768018,83.570964
+185,Urkinmang,Jugal Himal (W of Dorje Lhakpa),6143,8,1964,"Akira Ban, Kazuhisa Jokei, Tesuya Kiyohara, Mingma Tshering Sherpa",May 20 1964,28.211667,85.669167
+186,Anidesh Chuli,Kangchenjunga Himal (W of Kangbachen),6808,9,0,Unclimbed,,27.854444,88.197778
+187,Tsaurabong Peak,Dhaulagiri Himal (SSE of Dhaulagiri V),6395,4,1974,"Genzaburo Yamasaki, Sherpas (?)",,28.695278,83.372778
+188,Yalung Kang,Kangchenjunga Himal (W summit of Kangchenjunga),8505,9,1973,"Yutaka Ageta, Takao Matsuda",May 14 1973,27.7052,88.1367
+189,Pasang Lhamu Chuli,Khumbu Himal (W of Cho Oyu & Cho Aui on Tibetan border),7350,12,1986,"Katsushi Emura, Yukitoshi Endo, Katsuo Matsuki, Yoshihiro Shikoda",Oct 12 1986,28.073333,86.614167
+190,Ratna Chuli,Peri Himal (NW of Himlung on Tibetan border),7035,18,1996,"Osamu Tanabe, Santa Bahadur Ale, Katsuhiko Sawada, Durge Bahadur Tamang, Tul Bahadur Tamang",Oct 14 1996,28.8641666,84.375
+191,Kanti Himal,Kanti Himal (NNW of Kanjiroba on Tibetan border),6850,11,2002,"Toyoji Wada, Katsumi Nishida, Atsushi Senda, Hyosuke Tsuboi, Yusuke Ueda, Ang Mingm Sherpa, Karchen Dawa Sherpa, Nga Dorje Sherpa",Sep 24 2002,29.835833,82.647778
+192,Ramtang,Kangchenjunga Himal (N of Kangbachen),6601,9,1930,"Erwin Schneider, Frank Smythe",May 1930,27.75,88.085
+193,Lingtren,Khumbu Himal (ENE of Pumori on Tibetan border),6713,12,1935,"Eric Shipton, Dan Bryant",Aug 1935,28.027778,86.855
+194,Tengkoma,Jongsang Himal (NW of Kangchenjunga),6215,7,1949,"Alfred Sutter, Rene Dittert, Annelies Lohner, Jacob Pargaetzi-Almer, Edouard Wyss-Dunant, Pasang Sherpa",Jun 17 1949,27.809,88.074
+195,Ramtang Chang,Kangchenjunga Himal (N of Ramtang),6802,9,1974,"Janez Gradisar, Bojan Pollak, Michael Smolej",Oct 05 1974,27.766,88.084
+196,Churen Himal East,Dhaulagiri Himal (NW of Dhaulagiri VI),7371,4,1970,"Kim Ho-Sup, Rinsing Ongyal Sherpa",Apr 29 1970,28.735,83.2166666
+197,Churen Himal West,Dhaulagiri Himal (NW of Dhaulagiri VI),7371,4,1970,"Kozo Hasegawa, Ang Norbu Sherpa",Oct 28 1970,28.731755,83.210059
+198,Chhukung Ri,Khumbu Himal (S of Lhotse),5550,12,1965,Johannes Adolf Noordijk,May 1965,27.926057,86.879196
+199,Kangtokal,Dhaulagiri Himal (on ridge N of Putha Hiunchuli),6294,4,1962,"Zenkichi Hirayama, Ang Temba Sherpa",Jun 06 1962,28.801389,83.168889
+200,Serku Dolma,Kanjiroba Himal (S of Tso Karpo Kang),6227,10,1973,"Eiken Moriyama, Morihiro Takechi, Anu Sherpa",Oct 30 1973,,
+201,Nalakankar South,Nalakankar Himal (on W Nepal/Tibetan border),6024,17,2000,"Tamotsu Ohnishi, Takehiko Yanagihara, Chuldim Nuru Sherpa, Kancha Dawa Sherpa",Jul 07 2000,30.266667,81.435556
+202,Changwathang,Chandi Himal (S of Tibetan border),6130,17,2000,"Tamotsu Ohnishi, Koji Mizutani, Nobuo Akayama, Takehiko Yanagihara, Chuldim Nuru Sherpa, Dawa Sherpa",Jun 28 2000,30.326667,81.885
+203,Takphu Himal,Nalakankar Himal (on W Nepal/Tibetan border),6395,17,0,Unclimbed,,30.283889,81.417778
+204,Malanphulan,"Khumbu Himal (S of Ama Dablam, NW of Kangtega)",6573,12,2000,"Peter Carse, Amy Bullard",Apr 28 2000,27.802778,86.872222
+205,Lhotse Middle,Khumbu Himal (E of Lhotse),8410,12,2001,"Sergei Timofeev, Alexei Bolotov, Piotr Kouznetsov, Evgeni Vinogradski",May 23 2001,27.961089,86.938023
+206,Simnang Himal,Manaslu Himal (SE of Manaslu),6251,15,2001,"Mistislav Gorbenko, Vadim Leontiev, Sergei Pugachov, Mykhaylo Zagirnyak",May 16 2001,28.51651,84.64495
+207,Hungchhi,Khumbu Himal (S of Gyachung Kang on Tibetan border),7029,12,2003,"Katsuo Fukuhara, Tadashi Morita, Kanji Shimizu, Durga Rai, Hit Bahadur Tamang, Ram Kaji Tamang, Tul Bahadur Tamang",Apr 19 2003,28.035,86.7583333
+208,Lampo,Ganesh Himal (N of Ganesh I on Tibetan border),6648,5,0,Unclimbed,,28.497983,85.157144
+209,Chhukung Tse,Khumbu Himal (S of Lhotse),5833,12,1953,"John Hunt, Tenzing Norgay Sherpa",Apr 03 1953,27.938982,86.87466
+210,Dzanye,Janak Himal (WNW of Lashar I on Tibetan border),6581,6,1949,"Alfred Sutter, Rene Dittert, Annelies Lohner, Jacob Pargaetzi-Almer, Edouard Wyss-Dunant",Jun 30 1949,27.906111,88.026667
+211,Gaugiri,Damodar Himal (N of Bhrikuti on Tibetan border),6110,3,2002,"Peter Ackroyd, Jim Frush",May 28 2002,29.046,84.188
+212,Tengkangpoche,Rolwaling Himal (W of Kwangde),6482,19,1984,"Trevor Pilling, Andy Zimet",Oct 1984,27.803968,86.59647
+213,Arniko Chuli,Mukut Himal (W Mustang near Tibetan border),6034,16,2002,"Tamotsu Ohnishi, Ang Phurba Sherpa, Dikki Sherpa",Jul 10 2002,29.176389,83.656944
+214,Saribung,Damodar Himal (W of Bhrikuti),6328,3,2003,"Jim Frush, Steve Furman",Oct 15 2003,28.885,84.172
+215,Ghenge Liru,Langtang Himal (WSW of Langtang Lirung),6596,13,1963,"Peter Taylor, Pasang Sherpa, Pasang Phutar Sherpa (I)",May 28 1963,28.245833,85.422778
+216,Naulekh,Khumbu Himal (S of Mera Peak),6340,12,1954,"Colin Todd, Bill Beaven",Jun 08 1954,27.686667,86.9
+217,Chekigo,Rolwaling Himal (ENE of Beding village on Tibetan border),6121,19,2005,"Bruce Normand, Oliver von Rotz",May 15 2005,27.832,86.45
+218,Khatung Khang,Annapurna-Nilgiri Himal (SW of Thorong La),6484,1,1956,"Arthur Baumgartner, Marguerite Deriaz",Apr 12 1956,28.660556,84.019306
+219,Chago,Makalu Himal (NW of Makalu II on Tibetan border),6893,14,1954,"Michael Ball, Urkien Sherpa",May 29 1954,27.926053,87.054029
+220,Numri,"Khumbu Himal (S of Cho Polu, N of Baruntse)",6635,12,2002,"Olaf Rieck, Carsten Schmidt, Lydia Schubert",Nov 07 2002,28.022222,86.800833
+221,Peak 41,Khumbu Himal (ESE of Ama Dablam),6648,12,2002,"Matic Jost, Urban Golob, Uros Samec",Oct 16 2002,27.774,86.909
+222,Kyazo Ri,Khumbu Himal (SW of Gokyo Lake),6151,12,2002,"Duncan Wilson, Vincent Marche",Oct 20 2002,27.9070584,86.6381836
+223,Pandra,Ohmi Kangri Himal (NW of Lhonak),6670,6,2002,"Allan Christensen, Bo Belvedere Christensen, Jan Mathorne",Oct 16 2002,27.864,87.993
+224,Danga,"Ohmi Kangri Himal (WNW of Lhonak, E of Nupchu)",6220,6,2002,"Allan Christensen, Bo Belvedere Christensen, Jan Mathorne",Oct 20 2002,27.816,87.977
+225,Pokharkang,Damodar Himal (N of Pisang Peak),6372,3,2002,"Richard Scott, Dave Wynne-Jones, Kaji Sherpa",Nov 17 2002,,
+226,Nangpai Gosum I,Khumbu Himal (WSW of Cho Oyu on Tibetan border),7321,12,0,Unclimbed,,28.07358,86.614393
+227,Khangri Shar,Khumbu Himal (W of Pumori),6792,12,0,Unclimbed,,28.02,86.812
+228,Khangri West,Khumbu Himal (W of Pumori),6658,12,0,Unclimbed,,28.019241,86.790461
+229,Purbung Himal,Damodar Himal (N of Chulu West),6500,3,0,Unclimbed,,28.802,84.018
+230,Tashi Kang,Mukut Himal (N of Dhampus Peak),6386,16,2002,"Yasue Mogi, Gyalzen Sherpa",Aug 14 2002,28.853,83.629
+231,Tengi Ragi Tau,Rolwaling Himal (N of Tesi Laptsa),6938,19,2002,"Koichi Ezaki, Ruchia Takahashi, Pasang Tamang, Tul Bahadur Tamang",Dec 04 2002,27.8575,86.5541666
+232,Kyashar,Khumbu Himal (S of Kantega),6770,12,2003,"Bruce Normand, Sam Broderick, Andreas Frank",Oct 18 2003,27.755,86.8224999
+233,Nirekha,Khumbu Himal (NW of Lobuje Peak),6159,12,0,1st ascent unknown,,27.977568,86.762939
+234,Norbu Kang,Kanjiroba Himal (SE of Phoksumdo Tal),6085,10,2003,"Tamotsu Ohnishi, Tazuko Inoue, Koji Mizutani, Takehiro Yanigahara, Chuldim Nuru Sherpa, Kancha Dawa Sherpa",Jun 25 2003,29.117222,83.092778
+235,Lunchhung Kamo East,Kanti Himal (SE of Danfe Sail on Tibetan border),6024,11,1999,"Tamotsu Ohnishi, Takehiko Yanagihara, Chuldim Nuru Sherpa, Kancha Dawa Sherpa",Jul 09 1999,,
+236,Linkhu Chuli Shar,Rolwaling Himal (S of Parchamo),6719,19,0,Unclimbed,,27.808787,86.540882
+237,Linkhu Chuli Nup,"Rolwaling Himal (SSW of Parchamo, W of Likhu Chuli Shar)",6659,19,1960,"Alain Barbezat, Cecile Barbezat, Nawang Dorje Sherpa",Oct 21 1960,27.805,86.524
+238,Panalotapa,Rolwaling Himal (W of Tengkangpoche),6687,19,1955,"Peter Boultbee, Dennis Davis",May 1955,27.805444,86.570056
+239,Shalbachum,Langtang Himal (E of Langtang Lirung on Tibetan border),6707,13,1959,"Sadao Hojo, Tetsuro Terahata, Dawa Thondup Sherpa, Pasang Temba Sherpa",Oct 25 1959,28.272778,85.633333
+240,Khumbutse,Khumbu Himal (NW of Lho La on Tibetan border),6639,12,0,Unclimbed,,28.021179,86.872616
+241,Boktoh,Kangchenjunga Himal (SE of Jannu),6114,9,1991,"Marko Prezelj, Uros Rupar, Andrej Stremfelj",Apr 10 1991,27.620833,88.0075
+242,Mojca,Kangchenjunga Himal (W of Ramtang Chang),6024,9,1974,"Stane Belak, Danilo Cedilnik",Oct 11 1974,27.770833,88.051111
+243,Palung,Langtang Himal,7012,12,1952,"Edmund Hillary, George Lowe",May 13 1952,28.385556,85.711111
+244,Tutse,Makalu Himal (SE of Makalu),6758,14,0,Unclimbed?,,27.771944,87.101389
+245,Nuptse East I,Khumbu Himal (W of Nuptse main summit),7795,12,2003,"Valeri Babanov, Yuri Kochelenko",Nov 02 2003,27.961679,86.893916
+246,Amotsang,Damodar Himal (NW of Pokharhan),6393,3,0,Unclimbed?,,28.835278,84.172222
+247,Yansa Tsenji,Langtang Himal (SW of Shalbachum on Tibetan border),6567,13,0,Unclimbed,,28.256389,85.611111
+248,Himjung,Peri Himal (S of Himlung Himal),7092,18,2012,"Kim Chang-Ho, An Chi-Young",Oct 12 2012,28.758056,84.417778
+249,Amphu I,"Khumbu Himal (E of Amphu Laptsa, W of Baruntse)",6740,12,2013,"Ahn Il-Evn, An Chi-Young, Kim Young-Mi, Oh Young-Hoon",Oct 09 2013,27.871033,86.955577
+250,Chabuk,Ohmi Kangri Himal (E of Ohmi Kangri on Tibetan border),6792,6,0,Unclimbed,,27.9,88.0833
+251,Chako,Damodar Himal (ESE of Bhrikuti Shail),6704,3,2007,"Kazhisa Kamisaka, Akio Omura, Hari Bahadur Chaulagai, Ang Phuri Lama",Jul 24 2007,28.8805,84.2847
+252,Dome Kang,Jongsang Himal (ESE of Jongsong on Indian border),7264,7,2009,"Emilio Lagunilla, Carlos Soria, Chhang Dawa Sherpa, Karma Gyalzen Sherpa, Halung Dorchi Sherpa",Apr 28 2009,27.877778,88.151111
+253,Ghhanyala Hies,Janak Himal (NW of Janak Chuli on Tibetan border),6744,6,0,Unclimbed,,27.895833,88.0825
+254,Hunku,Khumbu Himal (NNE of Peak 41),6119,12,2012,"Nick Bullock, Andy Houseman",Nov 11 2012,27.806111,86.928056
+255,Janak Chuli,Janak Himal (WNW of Jongsang on Tibetan border),7041,6,2006,"Andrej Stremfelj, Rok Zalokar",May 06 2006,27.872,88.091
+256,Kabru South,Simhalila Himal (S of Kabru North on Indian border),7318,9,1994,"S. P. Malik, N. Arshad, 11 members",May 12 1994,27.6341666,88.1183333
+257,Kabru Main,Simhalila Himal (S of Talung on Indian border),7412,9,1994,"Dan Singh, 2 unknown members",May 12 1994,27.635,88.118333
+258,Lashar I,Janak Himal (NW of Lashar II on Tibetan border),6842,6,2005,"Andrej Stremfelj, Miha Habjan",Oct 12 2005,27.896,88.054
+259,Lashar II,Janak Himal (SW of Ghhanyala Hies on Tibetan border),6803,6,0,Unclimbed,,27.887,88.065
+260,Nangpai Gosum II,Khumbu Himal (WSW of Cho Oyu on Tibetan border),7287,12,0,Unclimbed,,28.072222,86.614444
+261,Nangamari I,Ohmi Kangri Himal (W of Chaw Peak on Tibetan border),6547,6,2010,"Timothy Macartney-Snape, David Barton",Nov 05 2010,27.910556,87.868056
+262,Panbari,Peri Himal (NW of Larkya La),6905,18,2006,"Yoshimi Kato, Gakuto Komiya, Sayaka Koyama, Kenro Nakajima, Yosuke Urabe",Sep 29 2006,28.718889,84.4825
+263,Phungi Himal,Manaslu Himal (W of Manaslu),6538,15,0,Unclimbed,,28.554444,84.485833
+264,Mariyang,Kanti Himal (SE of Kanti Himal on Tibetan border),6528,11,0,Unclimbed,,29.693056,82.890278
+265,Takargo,Rolwaling Himal (E of Chobutse),6771,19,2010,"David Gottlieb, Joseph Puryear",Mar 12 2010,27.876,86.509
+266,Thulagi,Manaslu Himal (SW of Manaslu),7059,15,2015,"Alexander Gukov, Ivan Dozhdev, Ruslan Kirichenko, Valeri Shamalo",Sep 26 2015,28.528124,84.520693
+267,Jomsom Himal,Damodar Himal (WNW of Amotsang Himal),6335,3,2003,"Hugues De Varax, Yves Exbrayat, Frederique Gaume, Paulo Grobel, Mingma Temba Sherpa",Nov 04 2003,28.871944,84.158333
+268,Bamongo,Rolwaling Himal (E of Chekigo on Tibetan border),6406,19,2013,"Mingma Gyalje Sherpa, Yong Liu, Pema Chhiring/Chhiri Sherpa",Oct 30 2013,27.909167,86.431944
+269,Chaw Peak,Ohmi Kangri Himal (WNW of Ohmi Kangri on Tibetan border),6404,6,0,Unclimbed,,27.909444,87.943611
+270,Dingjung North,Rolwaling Himal (S of Pangbuk Ri on Tibetan border),6249,19,1955,"Peter Boultbee, Dennis Davis",May 16 1955,27.987778,86.516944
+271,Kang Nagchugo,Rolwaling Himal (E of Chekigo on Tibetan border),6737,19,2008,"Joseph Puryear, David Gottlieb",Oct 17 2008,27.906,86.442
+272,Kambong,Dhaulagiri Himal (SE of Gurja Himal),6570,4,0,Unclimbed,,28.668611,83.313333
+273,Khamjung,Damodar Himal (W of Saribung and Bhrikuti),6759,3,0,Climbed?,,28.889167,84.129722
+274,Kyungka Ri 1,Langtang Himal (NE of Shalbachum near Tibetan border),6599,13,0,Unclimbed?,,28.325833,85.661667
+275,Kyungka Ri 2,Langtang Himal (NE of Shalbachum on Tibetan border),6506,13,0,Unclimbed,,28.303333,85.667222
+276,Kojichuwa Chuli,Kanti Himal (NNW of Kanti Himal peak on Tibetan border),6439,11,2010,"Ken Fujikawa, Yuta Kawamura, Satoshi Kimoto",May 25 2010,29.867,82.643
+277,Chhiv Himal,Damodar Himal (SW of Saribang and WSW of Bhrikuti),6650,3,2004,"Takeshi Wada, Mitsuhiro Koseki, Yubo Shibata, Takeo Yoshinaga",Sep 18 2004,28.874,84.16
+278,Langmoche Ri,Rolwaling Himal (N of Tesi Laptsa),6552,19,2012,"Roberto Villanueva, Alan Rousseau",Nov 17 2012,27.865556,86.612222
+279,Lachama Chuli,Changla Himal (N of Gorakh Himal on Tibetan border),6721,17,2007,"Atsushi Senda, Ryouta Fujii, Keizou Ishikawa, Hiroshi Kobayashi, Kouhei Kotani, Naoki Shimozato, Yuhki Tani",Sep 14 2007,30.135556,82.199444
+280,Panpoche 1,Manaslu Himal (NE of Sama village near Tibetan border),6620,15,0,Unclimbed,,28.628819,84.681699
+281,Panpoche 2,Manaslu Himal (NE of Sama village near Tibetan border),6504,15,0,Unclimbed,,28.614167,84.686944
+282,Phole,Kangchenjunga Himal (W of Kumbhakarna and Sobitongie),6645,9,0,Unclimbed,,27.686944,88.010278
+283,Phu Kang,Peri Himal (N of Cheo Himal on Tibetan border),6694,18,0,Unclimbed,,28.793056,84.4475
+284,Langchung Khang,Jongsang Himal (NW of Langpo on Indian border),6786,7,0,Unclimbed?,,27.8564,88.1782
+285,Peak 4,Khumbu Himal (SE of Baruntse),6736,12,0,Unclimbed,,27.826944,87.050833
+286,Nampa II,Api Himal (W of Nampa),6585,2,0,Unclimbed,,30.0425,81.1075
+287,Nampa III,Api Himal (SE of Nampa),6611,2,0,Unclimbed,,29.982778,81.0175
+288,Nampa South,"Api Himal (S of Nampa, W of Nampa Chuli)",6130,2,0,Unclimbed?,,29.966667,81.016667
+289,Sobithongie,Kangchenjunga Himal (W of Kumbhakarna),6652,9,0,Unclimbed,,27.686389,88.028333
+290,Shershon,Makalu Himal (NE of Shershon village on Tibetan border),6432,14,0,Unclimbed,,27.80959,87.080844
+291,Swaksa Kang,Kanti Himal (SE of Kanti Himal peak on Tibetan border),6405,11,0,Unclimbed,,29.6875,82.86
+292,Tilje,Peri Himal (SE of Gyajikang),6530,2,0,Unclimbed,,28.618056,84.335833
+293,Tsartse,Mukut Himal (N of Dhampus Peak),6343,16,0,Unclimbed,,28.860278,83.649722
+294,Yakawa Kang,Damodar Himal (N of Thorong La),6482,3,2010,"Hidenobu Tsuji, Dawa Norbu Sherpa, Dawa Tshering Sherpa, Tshering Tashi Sherpa",Nov 07 2010,28.8044437,83.9437866
+295,Yaupa,Makalu Himal (NE of Shershon village on Tibetan border),6422,14,1989,"Andy Fanshawe, Vic Saunders, Stephen Sustad",Sep 1989,27.833611,87.128889
+296,Til Kang,Nalakankar Himal (on W Nepal/Tibetan border),6369,17,0,Unclimbed,,30.27,81.414722
+297,Yokopahar,Guras Himal (NNE of Nampa towards Tibetan border),6423,2,0,Unclimbed,,29.835278,81.110556
+298,Saldim West,Makalu Himal (ENE of Shershon village on Tibetan border),6388,14,2016,"Vlad Capusan, Zolt Torok",Nov 01 2016,27.824167,87.159167
+299,Samdo,Manaslu Himal (NNE of Panpoche 1 & 2 on Tibetan border),6335,15,2009,"Yasuke Kuramoto, Yoshitaka Kameoka, Kohei Kotani, Seiya Nakasukasa, Daisuke Nakatsuka, Hiroki Yamamoto",Oct 20 2009,28.636111,84.696944
+300,Purkhung,Damodar Himal (NE of Thorong La),6126,3,2004,"Yuchiro Ishihara, Satoru Endo, Hirayusu Hatsushiya, Teryuki Iwasaki, Terukai Kubo, Kazuko Takano, Hiroshi Yumoto, Ang Kami, Da Chhemba, Gelu, Lhakpa Tenzi, Pema Tenji, Wongchu Sherpas",Aug 16 2004,28.814722,83.9925
+301,Dzasampatse,Khumbu Himal (S of Pasang Lhamu Chuli),6295,12,2004,"Urban Azman, Tadej Golob",Oct 18 2004,28.047,86.61
+302,Swelokhan,Manaslu Himal (N of Samdo village on Tibetan border),6180,15,0,Unclimbed,,28.728056,84.645833
+303,Mustang Peak,Mustang Himal (S of Mustang Himal peak on Tibetan border),6229,16,2001,"Tomatsu Ohnishi, Koji Mizutani, Takehiko Yanagihara, Katsuhiko Asahi, Mingma Nuru Sherpa, Chuldin Nuru Sherpa, Kancha Dawa Sherpa",Oct 07 2001,,
+304,Jinjang,Damodar Himal (E of Thorong La),6111,3,0,Climbed by Japanese in April 1983?,,28.785278,84.035278
+305,Jobo Rinjang,Rolwaling Himal (SW of Nangpa La near Tibetan border),6778,19,2009,"Joe Puryear, David Gottlieb",Apr 22 2009,28.022222,86.800833
+306,Kyabura,"Kangchenjunga Himal (W of Kumbhakarna, Sobitongie and Phole)",6294,9,0,Unclimbed?,,27.902778,88.038889
+307,Kumlung,Damodar Himal (NE of Saribung and W of Bhrikuti),6355,3,2008,"Paulo Grobel, Paul Vulin",Oct 14 2008,28.9025,84.185
+308,Dhaulagari,"Raksha Urai Himal (E of Bobaye, S of Raksha Urai)",6638,2,0,Unclimbed,,29.951389,81.120833
+309,Lhayul Peak,Api Himal (SW of Api Main),6395,2,0,Unclimbed,,29.976667,80.868333
+310,Merra,Kangchenjunga Himal (WNW of Anidesh Chuli),6334,9,2006,Claus Ostergaard,Oct 18 2006,27.741048,88.016798
+311,Pabuk Kang,Ohmi Kangri Himal (E of Nangamari I on Tibetan border),6244,6,0,Unclimbed,,27.949722,87.843889
+312,Yanme Kang,Ohmi Kangri Himal (NW of Nangamari on Tibetan border),6206,6,0,Unclimbed,,27.946111,87.850556
+313,Danphe Shail,Palchung Himal (N of Kanjiroba on Tibetan border),6103,11,0,Unclimbed,,29.672222,83.008889
+314,Ganesh VII,Ganesh Himal (E of Ganesh I in Tibet),6350,5,0,Unclimbed?,,,
+315,Pharilapcha,Khumbu Himal (SW of Gokyo Lake),6017,12,2003,"Dinesh Devkota, Ongchu Sherpa, Namgyal Sherpa, Lhakpa Sherpa",May 19 2003,27.929167,86.683333
+316,Thorong Peak,Muktinath Himal,6144,1,2007,"Satoru Endo, Mikio Iga, Terue Katakura, Mitsukuni Oka, Rikio Takahashi, Hiroshi Yumoto, Gadjet Bis Gurung, Ang Dawa Tamang, Hit Bahadur Tamang, Pasang Tamang",Nov 08 2007,28.7933777,83.938669
+317,Chamar Kang,"Mukut Himal (NW of Tsharka village, SE of Tingkyu village)",6060,16,2007,"Tamotsu Ohnishi, Toshitsugi Irisawa, Koichi Kato, Chhepa Sherpa",Sep 21 2007,,
+318,Nupche Kang,Khumbu Himal (ESE of Nangpa La on Tibetan border),6576,12,1964,"Fritz Stammberger, Aila Sherpa",Apr 06 1964,28.101389,86.605
+319,Punchen Himal,Shringi Himal (in Tsum Valley N of Pashuwo on Tibetan border),6049,5,0,Unclimbed,,28.661111,85.146667
+320,Kang Kuru,"Mustang Himal (NNE of Tsartse, WSW of Ghami village)",6344,16,2008,"Peter Athans, Theodore Hessler",Apr 16 2008,28.9,84.188333
+321,Amphu Middle,Khumbu Himal (NE of Amphu Laptsa),6202,12,2008,"Olaf Rieck, Alexander Graeber",Apr 20 2008,,
+322,Lugula,Damodar Himal (E of Bhrikuti Sail on Tibetan border),6899,3,2010,Renald Guillaune,Nov 02 2010,28.896111,84.261667
+323,Bhrikuti Shail,Damodar Himal (NE of Thorong La on Tibetan border),6361,3,2005,"Paulo Grobel, Denis Flaven, Bikram Singh",May 16 2005,28.898,84.201
+324,Myagdi Matha,Dhaulagiri Himal (S of Dhaulagiri IV),6273,4,0,Unclimbed?,,28.6642,83.323
+325,Tobsar,Shringi Himal (ENE of Chamar),6065,5,0,Unclimbed,,28.594722,85.005278
+326,Dingjung Ri,Rolwaling Himal (S of Pangbuk Ri on Tibetan border),6196,19,2008,"Kenro Nakajima, Hiroki Yamamoto",Mar 15 2008,27.973056,86.523333
+327,Dudh Kundali,Jagdula Lekh (S of Kanjiroba Himal),6045,10,1953,"Herbert Tichy, Ajiba Sherpa, Gyalzen Sherpa, Pasang Dawa Lama, Pemba Sherpa",Nov 1953,29.223889,82.545556
+328,Kanta Gaton,Kanjiroba Himal (SE of Phoksumdo Tal),5910,10,2009,"Jean-Rene Minelli, Abel Minelli, Eienne Minelli, Sarah Minelli, Pemba Jangbu Sherpa",Aug 16 2009,29.103333,82.995833
+329,Kaptang,Kanti Himal (NW of Kanti Himal peak on Tibetan border),5965,11,2009,"Tamotsu Ohnishi, Toshitsugi Irizawa, Gombu Sherpa",Jun 09 2009,29.926389,82.575556
+330,Roma,Saipal Himal (SW of Saipal),5407,20,0,Unclimbed?,,29.798611,81.345278
+331,Ripimo Shar,Rolwaling Himal (S of Dingjung Ri on Tibetan border),6647,19,1952,"Tom Bourdillon, Ray Colledge",May 29 1952,27.873056,86.518056
+332,Tsisima,Janak Himal (WSW of Janak Chuli),6196,6,1963,"Motohiko Kogo, Kunga Norbu",Jun 03 1963,27.843611,88.152778
+333,Tawa,Damodar Himal (NNE of Yakawa Kang),6110,3,2010,"Mikio Iga, Kazuya Fujikura, Chhongba Sherpa, Lhakpa Sherpa",Oct 21 2010,,
+334,Urkema,Langtang Himal (W of Ganja La),5890,13,2007,15 international scout students and 6 Sherpas,Sep 12 2007,28.166389,85.533611
+335,Manapathi NW,"Dhaulagiri Himal (SSW of Dhaulagiri I, NW of Manapathi)",6384,4,1977,"Reinhold Messner, Leo Dickinson, Eric Jones, Otto Wiedemann",Apr 20 1977,28.645556,83.458333
+336,Lunag Ri,Rolwaling Himal (SW of Nangpa La on Tibetan border),6895,19,0,Unclimbed,,28.050556,86.551111
+337,Jasemba Goth,Khumbu Himal (NW of Pasang Lhamu Chuli),6730,12,1964,"Georg Huber, Fritz Stammberger",Apr 08 1964,28.087222,86.605
+338,Gojung,Kanti Himal (WNW of Kanti Himal peak on Tibetan border),6310,11,2011,"Mick Fowler, Dave Turnbull",Oct 19 2011,29.847895,82.622778
+339,Nangamari II,Ohmi Kangri Himal (S of Nangamari I),6209,6,2016,"Tsuneo Shigehiro, Kensuke Iwai, Kiyo Kuroda, Shiro Matsunaka, Yusuke Morimoto, Kanji Totegi, Miyoko Nagase, Masayuki Takenaka, Saori Tatsuno",Oct 17 2016,27.891389,87.866667
+340,Dragmorpa Ri,Langtang Himal (SW of Tilman's Col on Tibetan border),6185,13,2013,Roman Gretzky,May 30 2013,28.325278,85.666111
+341,Syaokang,Ohmi Kangri Himal (SW of Ohmi Kangri near Tibetan border),5929,6,2012,"John Cocks, Martin Hunter, Geoffrey Lamarche, Paul Maxim, Nick Schearer",Oct 25 2012,27.863889,87.919444
+342,Bijora Hiunchuli,Jagdula Lekh (S of Kande Huinchuli),6111,10,0,Unclimbed,,29.291944,82.530833
+343,Chhuboche,Damodar Himal (NNE of Pisang Peak),5606,3,2013,"Brian Jackson, Hugh Wrightson, Pasang Sherpa, Tendi Wangya",Nov 16 2013,28.720278,84.2375
+344,Lunag West,Rolwaling Himal (W of Lunag I on Tibetan border),6492,19,2013,"Scott Adamson, Chris Wright",Oct 22 2013,28.05,86.536
+345,Domo,Jongsang Himal (SE of Jongsong on Indian border),7447,7,1930,"Guenter Dyhrenfurth, Lewa Sherpa",Jun 08 1930,27.8833,88.15
+346,Lunag II,Rolwaling Himal (SW of Nangpa La near Tibetan border),6812,19,2010,"Mathieu Detrie, Max Belleville, Mathiew Maynadier, Sebastien Ratel",Oct 26 2010,,
+347,Triangle Peak,Jugal Himal (NNW of Dome Blanc on Tibetan border),6484,8,2013,"Sebastien Moatti, Max Bonniot",Oct 09 2013,,
+348,Kasi Dalpha,Jagdula Lekh (S of Kande Huinchuli),6386,10,0,Unclimbed,,29.283056,82.554722
+349,Narphu,"Damodar Himal (WNW of Pisang Peak, E of Chulu East Peak)",5921,3,2014,"Brian Jackson, Heather Bentley, Catherine Husted, Dawn Richardson, James Salt, Rhiannon Thomson, Mingma Dorje Sherpa, Pasang Sherpa Shikhar Pandey",Nov 22 2014,28.659722,84.174444
+350,Pota Himal North,Dhaulagiri Himal (NE of Putha Hiunchuli),6182,4,2008,Francois Damilano,May 09 2008,28.775833,83.1975
+351,Pangbuk North,Rolwaling Himal (NE of Pangbuk Ri on Tibetan border),6478,19,2013,"Scott Adamson, Christopher Wright",Nov 01 2013,,
+352,Mustang Himal,Mustang Himal (S of Mansail on Tibetan border),6195,16,2014,"Melissa Arnot, Ben Jones, Jon Mancuso",Nov 02 2014,29.286111,83.81
+353,Mansail,Mustang Himal (NW of Lo Manthang on Tibetan border),6235,16,2014,"Yukiko Inoue, Eri Hasegawa, Mariko Nakamura, Kei Taniguchi",Sep 29 2014,29.301944,83.810278
+354,Chhochenphu Himal,Ohmi Kangri Himal (SW of Pabuk Kang near Tibetan border),6260,6,0,Unclimbed,,27.831944,87.767222
+355,Tankya I,Kanti Himal (NE of Mariyang on Tibetan border),6305,11,0,Unclimbed,,29.706111,82.916944
+356,Gorakh Khang,Gorakh Himal (ENE of Simikot on Tibetan border),6254,17,0,Unclimbed,,30.044167,82.3375
+357,Raungsiyar,Rolwaling Himal (N of Pimu),6224,19,2015,"Dawa Gyalje Sherpa, Nima Tenji Sherpa, Tashi Sherpa",Oct 04 2015,27.907778,86.559444
+358,Langdak,Rolwaling Himal (N of Raungsiyar and Pimu),6220,19,2015,"Dawa Gyalje Sherpa, Nima Tenji Sherpa, Tashi Sherpa",Oct 05 2015,27.916944,86.563611
+359,Takargo East,Rolwaling Himal (ESE of Takargo),6152,19,2015,"Dawa Gyalje Sherpa, Nima Tenji Sherpa, Tashi Sherpa",Oct 06 2015,27.871944,86.523333
+360,Omitso Go,Rolwaling Himal (NE of Kang Nachugo on Tibetan border),6332,19,0,Unclimbed,,27.915278,86.458056
+361,Chhopa Bamare,Rolwaling Himal (NW of Lamabagar on Tibetan border),6109,19,0,Unclimbed,,28.057222,86.091944
+362,Yalung Kang West,Kangchenjunga Himal (W summit of Yalung Kang),8077,9,0,Unclimbed,,27.706111,88.125556
+363,Kangchenjunga North,Kangchenjunga Himal (small knob north of Main summit),7938,9,0,Unclimbed?,,27.7024914,88.147535
+364,Kangbachen East,Kangchenjunga Himal (plateau SE of Kangbachen?),7780,9,0,Unclimbed,,27.7166,88.1105
+365,Herzog Peak,Annapurna Himal (WSW of Roc Noir),7555,1,0,Climbed?,,28.609167,83.860278
+366,Gangapurna West,Annapurna Himal (W of Gangapurna),7140,1,0,Unclimbed?,,28.601111,83.943889
+367,Chamar,Shringi Himal (SSE of Chamar),7161,5,0,Unclimbed?,,28.555278,84.946667
+368,Nepal Gap Peak,Kangchenjunga Himal (ENE of Gimmegela on Indian border),7007,9,0,Unclimbed?,,27.746389,88.180833
+369,Gaurishankar South,Rolwaling Himal (S of Gaurishankar),7010,19,1979,"Peter Boardman, Pemba Lama, Timothy Leach, Guy Neithardt",Nov 09 1979,27.95,86.3333333
+370,Burke Kang,Khumbu Himal (ENE of Hungchhi on Tibetan border),6942,12,0,Unclimbed,,28.036944,86.773889
+371,Himlung East,Peri Himal (E of Himlung Himal on Tibetan border),6932,18,2017,"Paulo Grobel, Isabelle Guillaume, Rajan Lama Bhote, Jangbu Sherpa",May 08 2017,28.769167,84.438889
+372,Yangra Kangri South,Ganesh Himal (NW of Ganesh III on Tibetan border),6863,5,0,Unclimbed?,,28.346389,85.11
+373,Nup La Kang,Khumbu Himal (N of Nup La on Tibetan border),6861,12,0,Unclimbed,,28.074167,86.766944
+374,Chumbu,Khumbu Himal (WSW of Khangri Shar near Tibetan border),6859,12,0,Unclimbed,,28.018889,86.7925
+375,Phu Kang Go,Peri Himal (SE of Cheo on Tibetan border),6767,18,2011,"Paulo Grobel, Benoit Van Lerberghe",Oct 27 2011,28.734722,84.493889
+376,Guras,Guras Himal (NE of Nampa on Tibetan border),6744,2,0,Unclimbed,,30.043056,81.108889
+377,Tharke Kang,Khumbu Himal (S of Nup La on Tibetan border),6710,12,0,Unclimbed,,28.043889,86.751667
+378,Hulang Go,Peri Himal (WNW of Ratna Chuli on Tibetan border),6687,18,0,Unclimbed,,28.872778,84.345556
+379,Shershon Northwest,Makalu Himal (NW of Shershon on Tibetan border),6682,14,1980,"Doug Scott, Roger Baxter-Jones, Georges Bettembourg",Oct 15 1980,27.855278,87.110833
+380,Agole East,Rolwaling Himal (E of Tengi Ragi Tau),6675,19,0,Unclimbed,,27.850278,86.563611
+381,Rolwaling Kang,Rolwaling Himal (NNE of Tarkago),6664,19,2016,"Yasuhiro Hanatani, Yuichiro Iida, Maho Ishio, Yohei Kayama, Keisuke Tsunoda, Takuya Yoshikawa",Oct 19 2016,27.8975,86.523056
+382,Yarwa,Guras Himal (NW of Nampa on Tibetan border),6644,2,0,Unclimbed,,30.054167,81.0925
+383,Yangri,Jugal Himal (N of Phurbi Chhyachu on Tibetan border),6535,8,0,Unclimbed,,28.142778,85.873889
+384,Lachama North,Changla Himal (N of Lachama Chuli on Tibetan border),6628,17,0,Unclimbed,,30.143333,82.2
+385,Changdi,Palchung Himal (SE of Kanti Himal peak on Tibetan border),6623,11,0,Unclimbed,,29.719167,82.798611
+386,Goldum Peak,Jugal Himal,6632,8,0,Unclimbed,,28.328056,85.729167
+387,Thoche Go,Peri Himal (SE of Cheo Himal on Tibetan border),6602,18,0,Unclimbed,,28.757778,84.459722
+388,Kangchung Shar,Khumbu Himal (NE of Gokyo Lake),6063,12,1984,Francek Knez,Nov 01 1984,27.983611,86.739722
+389,Phu Kang North,Peri Himal (N of Cheo Himal on Tibetan border),6580,18,0,Unclimbed,,28.820833,84.437778
+390,Pethangtse East,Khumbu Himal (ESE of Pethangtse on Tibetan border),6572,12,2008,"Andrew Hughes, Alistair Barnard, Nichcolas Beighton, Chris Fawcett, Daniel Greig-Smith, Benjamin Sherwood",May 16 2008,27.949444,87.036111
+391,Phungi,Peri Himal (SE of Ratna Chuli on Tibetan border),6524,18,0,Unclimbed,,28.83,84.402778
+392,Kanti Himal East,Kanti Himal (ENE of Kanti Himal on Tibetan border),6516,11,0,Unclimbed,,29.853056,82.702222
+393,Jarkya,Manaslu Himal (N of Larkya La on Tibetan border),6473,15,0,Unclimbed,,28.741944,84.526944
+394,Mariyang West,Kanti Himal (WSW of Mariyang on Tibetan border),6455,11,0,Unclimbed,,29.689444,82.828889
+395,Mayonthang Kang,Kanti Himal (NW of Changdi Himal on Tibetan border),6449,11,0,Unclimbed,,29.769722,82.746667
+396,Langju,Shringi Himal (S of Tobsar),6426,5,0,Unclimbed,,28.545833,85.055278
+397,Jyachhung,Byas Risi Himal (NNW of Nampa on Tibetan border),6338,2,0,Unclimbed,,30.106389,81.085833
+398,Gyala,Manaslu Himal (NNE of Larkya La on Tibetan border),6363,15,0,Unclimbed,,28.751944,84.558889
+399,Dolma Kang,Rolwaling Himal (SE of Gaurishankar on Tibetan border),6332,19,0,Unclimbed?,,27.937222,86.350278
+400,Kaipuchonam,Kanti Himal (WNW of Changdi on Tibetan border),6329,11,0,Unclimbed,,29.725556,82.783333
+401,Langdung,Rolwaling Himal (NE of Kang Nachugo on Tibetan border),6386,19,0,Unclimbed,,27.947778,86.484167
+402,Dzanye II,Janak Himal (S of Danzye Peak),6318,6,2015,"Takanori Mashimo, Kotaro Myatsu, Kenta Kimura, Shinnosuke Ashikari, Shun Katsurai, Takehiro Nozawa",Oct 04 2015,27.902222,88.041111
+403,Pama Himal,Shringi Himal (N of Chamar on Tibetan border),6300,5,0,Unclimbed,,28.580278,84.951111
+404,Peri Himal,Peri Himal (SE of Cheo Himal on Tibetan border),6296,18,0,Unclimbed,,28.747222,84.481667
+405,Takla Kang,Kanti Himal (SSE of Kanti Himal peak on Tibetan border),6276,11,0,Unclimbed,,29.761111,82.695278
+406,Kogi Khang North,Kanti Himal (ESE of Kanti Himal peak on Tibetan border),6275,11,0,Unclimbed,,29.814444,82.739167
+407,Asajya Tuppa,Gorakh Himal (ENE of Simikot on Tibetan border),6265,17,0,Unclimbed,,30.0625,82.279722
+408,Kojichuwa South,Kanti Himal (SW of Kojichuwa Chuli on Tibetan border),6264,11,0,Unclimbed,,29.848611,82.631111
+409,Pankar Himal,Manaslu Himal (ENE of Samagaon on Tibetan border),6264,15,0,Unclimbed,,28.616389,84.7425
+410,Saula,Manaslu Himal (ENE of Samagaon on Tibetan border),6235,15,0,Unclimbed,,28.613889,84.756111
+411,Yala Chuli,Palchung Himal (SE of Changdi on Tibetan border),6236,11,0,Unclimbed,,29.689444,82.828889
+412,Rhimbu,Shringi Himal (S of Tobsar),6210,5,0,Unclimbed,,28.559444,85.0475
+413,Sanctuary Peak,Kanjiroba Himal (N of Kanjiroba North),6207,10,0,Unclimbed,,29.423889,82.625833
+414,Lasa,Byas Risi Himal (NNW of Nampa on Tibetan border),6189,2,0,Unclimbed,,30.135833,81.084167
+415,Peri,Langtang Himal (SE of Langtang Ri on Tibetan border),6174,13,2016,"Werner Frei, Pasang Sherpa, Sandesh Sherpa",Dec 06 2016,28.353056,85.723611
+416,Dwijen Himal,Shringi Himal (NE of Ghap village on Tibetan border),6169,5,0,Unclimbed,,28.593333,84.903333
+417,Jabou Ri,Rolwaling Himal (S of Tarkago),6166,19,2015,"Ryan Waters, Eric Larsen",Sep 15 2015,27.853889,86.515278
+418,Beding Go,Rolwaling Himal (N of Beding village on Tibetan border),6125,19,2015,"Mingma Tshering/Tsiri Sherpa, Dean Carriere, Dino De Almeida Camargo, Cian O'Brolchain, Nima Gyalzen Sherpa, Pasang Tenzing Sherpa, Tshering Pemba Sherpa",Oct 21 2015,27.925833,86.393056
+419,Takphu North,Nalakankar Himal (on W Nepal/Tibetan border),6142,17,2016,"Herbert Bader, Karl Henge, Tassilo Hock, Josef Knitz, Annabelle Rochelt, Alois Sinz, Bhai Krishna Khadka",Oct 12 2016,30.303611,81.422222
+420,Bhulu Lhasa,Kanjiroba Himal (NNW of Kanjiroba North),6102,10,1964,"John Tyson, John Cole, Robert Kendall, Mingma Sherpa",Oct 31 1964,29.441389,82.599444
+421,Lhonak,Janak Himal (WNW of Drohmo),6070,6,0,Unclimbed,,27.831944,88.057222
+422,Rolmi,Shringi Himal (S of Tobsar),6056,5,0,Unclimbed,,28.567778,85.050278
+423,Aichyn,Chandi Himal (SW of Changwathang),6055,17,2015,"Hiroki Senda, et al",Sep 03 2015,30.270833,81.859722
+424,Ardang,Phupharka Himal (NW of Simikot),6034,17,0,Unclimbed,,30.198889,81.623333
+425,Lungchhung,Palchung Himal (NE of Kanjiroba on Tibetan border),6043,11,0,Unclimbed,,29.628333,83.122222
+426,Khung,Palchung Himal (NE of Kanjiroba on Tibetan border),6024,11,0,Unclimbed,,29.624722,83.144167
+427,Chandi Himal,Chandi Himal (NE of Simikot on Tibetan border),6142,17,0,Unclimbed,,30.359167,81.951389
+428,Kali Himal,Khumbu Himal (NW of Baruntse),6985,12,1983,"Joost Ubblink, Edwin Van Nieuwkerk",Apr 05 1983,27.877222,86.975556
+429,Dhechyan Kang,Damodar Himal (ESE of Gaugiri on Tibetan border),6019,3,0,Unclimbed,,29.035833,84.251944
+430,Ek Rate Danda,"Khumbu Himal (in Hongku Valley, S of Chamlang)",6213,12,0,Unclimbed,,27.708889,87.005
+431,Ghyun Himal I,Mustang Himal (N of Ghyun Khola on Tibetan border),6110,16,0,Unclimbed,,29.244167,83.781944
+432,Gorakh Himal,Gorakh Himal (NE of Simikot on Tibetan border),6198,17,0,Unclimbed,,24.816667,82.313889
+433,Hongku,"Khumbu Himal (in Hongku Valley, N of Chamlang)",6764,12,0,Unclimbed,,27.826,86.977
+434,Karko,Saipal Himal (WNW of Saipal),6015,20,0,Unclimbed?,,29.920278,81.219167
+435,Karsang Kang,Damodar Himal (NE of Saribung),6225,3,2008,"Paulo Grobel, Mary Cler",Oct 11 2008,28.933333,84.169444
+436,Khayang,Manaslu Himal (E of Samdo Peak on Tibetan border),6186,15,0,Unclimbed?,,28.633611,84.715278
+437,Gyalzen Peak,Jugal Himal (SE of Leonpo Gang),6151,8,0,Unclimbed?,,28.183056,85.838333
+438,Lungsampa,Khumbu Himal (S of Nangpai Gosum II),6500,12,2014,"Jordi Corominas, Jordi Tosas",,28.026111,86.621944
+439,Mera South,Khumbu Himal (SW of Mera),6064,12,0,Unclimbed?,,27.70916,86.868289
+440,Pashuwo,Ganesh Himal (N of Lampo on Tibetan border),6177,5,0,Unclimbed,,28.533056,85.162222
+441,Sat Peak,Ohmi Kangri Himal (S of Sharphu range),6164,6,0,Unclimbed?,,27.711111,87.914167
+442,Tso Karpo,"Kanjiroba Himal (E of Kanjiroba, W of Tso Karpo Kang)",6518,10,0,Unclimbed,,29.366667,82.714167
+443,Sharphu II,Ohmi Kangri Himal (WNW of Kangchenjunga),6328,6,0,Unclimbed?,,27.731111,87.907222
+444,Sharphu III,Ohmi Kangri Himal (WNW of Kangchenjunga),6220,6,0,Unclimbed?,,27.711667,87.914722
+445,Sharphu IV,Ohmi Kangri Himal (WNW of Kangchenjunga),6172,6,0,Unclimbed?,,27.745556,87.919167
+446,Sharphu V,Ohmi Kangri Himal (WNW of Kangchenjunga),6158,6,0,Unclimbed?,,27.773889,87.925556
+447,Sharphu VI,Ohmi Kangri Himal (WNW of Kangchenjunga),6076,6,0,Unclimbed?,,27.697222,87.916667
+448,Mansail South,Mustang Himal (S of Mansail on Tibetan border),6248,16,0,Unclimbed,,29.294444,83.810278
+449,Gave Ding,Changla Himal (N of Lachama Chuli on Tibetan border),6581,17,2015,"Michael Fowler, Paul Ramsden",Oct 22 2015,30.125833,82.165833
+450,Ngojumba Kang III,Khumbu Himal (NE of Cho Oyu on Tibetan border),7681,12,0,Unclimbed,,28.107,86.713
+451,Kimshung,Langtang Himal (NE of Langtang Lirung),6781,13,0,,,28.2725,85.552778
+452,Pawar Central,Pawar Himal (N of Larkya La),6621,18,2015,"Paulo Grobel, Frank Bonhomme, Christian Hurgon, Dhan Bahadur Magar, Dipen  Nuppa Bhote, Jangbu Sherpa, Rajan Lama Bhote",May 09 2015,,
+453,Nagoru,Peri Himal (NW of Himlung Himal),6165,18,2016,"Wolfgang Drexler, Lawang Tamang",Oct 21 2016,28.815833,84.281944
+454,Saldim,Makalu Himal (ENE of Shershon village on Tibetan border),6374,14,0,Unclimbed,,27.821389,87.173056
+455,Langtang Yubra,Langtang Himal (ENE of Langtang Lirung),6048,13,0,Unclimbed?,,28.27722222,85.56861111
+456,Larkya Peak,Manaslu Himal (N of Manaslu North),6416,15,2017,,Sep 27 2017,28.66361111,84.53555556
