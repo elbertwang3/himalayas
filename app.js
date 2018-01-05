@@ -25,10 +25,11 @@ class Root extends Component {
         height: 650
       },
       data: null,
-      year: 2004
+      year: 2017
     };
 
     d3.csv(DATA_URL, (error, response) => {
+      console.log(response.length)
       if (!error) {
         var nested_data = d3.nest()
       .key(function(d) { return d['MYEAR']; })

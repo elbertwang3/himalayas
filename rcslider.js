@@ -31,7 +31,7 @@ export default class SliderClass  extends Component {
 		return (<div>
 		    <div style={wrapperStyle}>
 		      <p>Slide to change year</p>
-		      <SliderWithTooltip min={1963} max={2004} defaultValue={2004} step={1}  tipFormatter={percentFormatter} 
+		      <SliderWithTooltip min={1953} max={2017} defaultValue={2017} step={1}  tipFormatter={percentFormatter} 
 		      onChange={this.props.onChange} onAfterChange={this.props.onAfterChange} 
 		       trackStyle={{ backgroundColor: 'grey'}} />
 		    </div>

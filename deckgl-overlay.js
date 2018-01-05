@@ -55,27 +55,28 @@ export default class DeckGLOverlay extends Component {
 
   _getArcs(props) {
     const {data, year} = props;
-
     if (!data) {
       return null;
     }
 
     var yeardata = data.filter(function(d) {
-  return d['MYEAR'] == year.toString();
+
+  return d['MYEAR'] == year.toString() && d['latitude'] != "" && d['longitude'] != "";
 });
+    console.log(yeardata);
 
     
     //const {flows, centroid} = selectedFeature.properties;
-    const arcs = Object.keys(yeardata).map(toId => {
-      const f = data[toId];
-      var longitude = parseFloat(f['longitude'])
-      var latitude = parseFloat(f['latitude'])
-      var target = [longitude, latitude]
-      return {
-        source: [84.1240,28.3949],
-        target: target,
-  
-      };
+    const arcs = yeardata.map(d => {
+        var longitude = parseFloat(d['longitude'])
+        var latitude = parseFloat(d['latitude'])
+        var target = [longitude, latitude]
+        return {
+          source: [84.1240,28.3949],
+          target: target,
+    
+        }
+    
     });
 
     const scale = scaleQuantile()
@@ -86,7 +87,7 @@ export default class DeckGLOverlay extends Component {
       a.gain = Math.sign(a.value);
       a.quantile = scale(Math.abs(a.value));
     });
-
+    console.log(arcs);
     return arcs;
   }
 
