@@ -2,7 +2,7 @@ toggles = d3.select(".calendartooltipdiv").append("div")
     .attr("class","histogram-chart-toggle-wrapper")
 
 var cut = 'All peaks';
-var prevCut = 'All peaks';
+var prevcut = 'All peaks';
 d3.queue()
     .defer(d3.csv, "data/membersbymonthday.csv")
     .defer(d3.csv, "data/everestbymonthday.csv")
@@ -10,16 +10,16 @@ d3.queue()
 
 
 function ready(error,all,everest) {
-	console.log(all);
-	console.log(everest);
+	//console.log(all);
+	//console.log(everest);
 
 	parsedAll = parseDates(all)
 	parsedEverest = parseDates(everest);
 
 	
 	
-	console.log(parsedAll);
-	console.log(parsedEverest);
+	//console.log(parsedAll);
+	//console.log(parsedEverest);
 	var chart1 = calendarHeatmap()
               .data(parsedAll)
               .selector('#chart-one')

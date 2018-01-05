@@ -1,8 +1,9 @@
 
-var beemargin = {top: 30, right: 30, bottom: 30, left: 30},
-    beewidth = 1000,
-    beeheight = 600
-
+var beemargin = {top: 60, right: 30, bottom: 50, left: 80},
+    beewidth = 800,
+    beeheight = 500
+var cut = 'Successful ascent';
+var prevcut = 'Successful ascent';
 var beesvg = d3.select(".beeswarm")
 	.append("svg")
 	.attr("class", "beesvg")
@@ -12,13 +13,15 @@ var beesvg = d3.select(".beeswarm")
 
 
 var parseTime = d3.timeParse("%H:%M")
+var parseTime2 = d3.timeParse("%H %p")
 var formatTime = d3.timeFormat("%H:%M")
 
 var beex = d3.scaleTime()
 	.domain([parseTime("00:00"), parseTime("23:59")])
     .range([beemargin.left, beewidth-beemargin.right]);
 
-
+bartoggles = d3.select(".bartogglediv").append("div")
+    .attr("class","bar-histogram-chart-toggle-wrapper")
 
 d3.queue()
     .defer(d3.csv, "data/summittimeanddied.csv",type)
@@ -26,74 +29,210 @@ d3.queue()
     .await(ready);
 
 function ready(error,died,success) {
-	console.log(died);
-	console.log(success);
+	//console.log(died);
+	//console.log(success);
+	bartoggles
+    .append("div")
+    .attr("class","histogram-chart-toggle-type")
+    .selectAll("p")
+    .data(["Successful ascent","Death on descent"])
+    .enter()
+    .append("p")
+    .attr("class","histogram-chart-toggle-item")
+    .text(function(d){
+      return d;
+    })
+     .attr("class",function(d,i){
+        if(i==0){
+          return "toggle-selected front-curve histogram-chart-toggle-item";
+        }
+        if(i==1){
+          return "back-curve histogram-chart-toggle-item";
+        }
+        return "histogram-chart-toggle-item";
+      })
+      .text(function(d){
+        return d;
+      })
+      .on("click",function(d){
+        //previousChart = currentChart;
+        var dataSelected = d;
+        d3.select(this.parentNode).selectAll("p").classed("toggle-selected",function(d){
+          if(d==dataSelected){
+            return true;
+          }
+          return false;
+        })
+        prevcut = cut;
+        cut = d;
+        if (prevcut != cut) {
+        	if (cut == "Successful ascent") {
+        		updateChart(success, [0,200,400,600,800,1000]);
+    		} else {
+    			updateChart(died, [0,2,4,6,8,10]);
+    		}
+        }
+    });
 
+	var bins = d3.histogram()
+		.value(function(d) { return d['MSMTTIME1']; })
+	    .domain(beex.domain())
+	    .thresholds(beex.ticks(24))
+	   (success)
 
-
-
-  var simulation = d3.forceSimulation(success)
-      .force("x", d3.forceX(function(d) { return beex(d['MSMTTIME1']); }).strength(1))
-      .force("y", d3.forceY(beeheight / 2))
-      .force("collide", d3.forceCollide(2))
-      .stop();
-
-  for (var i = 0; i < 120; ++i) simulation.tick();
-
-  /*beesvg.append("g")
-      .attr("class", "axis axis--x")
-      .attr("transform", "translate(0," + (beeheight-beemargin.bottom) + ")")
-      .call(d3.axisBottom(beex).ticks(6));
-
-  var beecells = beesvg.append("g")
-      .attr("class", "successcells")
-      .selectAll("g")
-      .data(success)
-      .enter()
-      .append("g")
-      .attr("class", "beecell")
+	    console.log(bins);
     
-	beecells.append("circle")
-      .attr("r", 1)
-      .attr("cx", function(d) { return d.x; })
-      .attr("cy", function(d) { return d.y; });*/
-	var simulation2 = d3.forceSimulation(died)
-      .force("x", d3.forceX(function(d) { return beex(d['MSMTTIME1']); }).strength(1))
-      .force("y", d3.forceY(beeheight / 2))
-      .force("collide", d3.forceCollide(6))
-      .stop();
+    var countScale = d3.scaleLinear()
+	    .domain([0, d3.max(bins, function(d) { return d.length; })])
+	    .range([beeheight-beemargin.bottom, beemargin.top]);
 
-  for (var i = 0; i < 120; ++i) simulation2.tick();
+	bars = beesvg.append('g')
+	    .attr("class", "bars")
+	var databar = bars.selectAll(".bar")
+	  	.data(bins)
+	bar = databar
+	  	.enter().append("g")
+	  	.attr("class", "bar")
+	   
+
+	bar.append("rect")
+	    .attr("x", function(d) { return beex(d.x0); })
+	    .attr("y", function(d) { return countScale(d.length); })
+	    .attr("width", beex(bins[0].x1) - beex(bins[0].x0) - 1)
+	    .attr("height", function(d) { return beeheight-beemargin.bottom - countScale(d.length); });
+
+
+
+	barxaxis = beesvg.append("g")
+		.attr("class", "bar-x-axis")
+	
+	xticks = barxaxis.append('g')
+		.attr("class", "ticks")
+	xtick = xticks.selectAll('g')
+		.data(['12 AM', '3 AM', '6 AM', '9 AM', '12 PM', '3 PM', '6 PM', '9 PM'])
+		.enter()
+		.append('g')
+		.attr("class", "tick")
+	xtick.append("line")
+		.attr("x1", function(d) { return beex(parseTime2(pad(d.split(" ")[0], 2) + " " + d.split(" ")[1]))})
+		.attr("x2", function(d) { return beex(parseTime2(pad(d.split(" ")[0], 2) + " " + d.split(" ")[1]))})
+		.attr("y1", beemargin.top)
+		.attr("y2", beeheight - beemargin.bottom)
+		.attr("class", "bar-axis-line")
+
+	xtick.append("text")
+		.attr("x", function(d) { return beex(parseTime2(pad(d.split(" ")[0], 2) + " " + d.split(" ")[1]))})
+		.attr("y", (beeheight-beemargin.bottom) + 20)
+		.attr("text-anchor", "middle")
+		.text(function(d) { return d; })
+		.attr("class", "text-labels")
+
+
+	baryaxis = beesvg.append('g')
+		.attr('class', 'bar-y-axis')
+	yticks = baryaxis.append('g')
+		.attr("class", "ticks")
+
+	ytick = yticks.selectAll('g')
+		.data([0,200,400,600,800,1000])
+		.enter()
+		.append('g')
+	ytick.append("line")
+		.attr("x1", beemargin.left-15)
+		.attr("x2", beewidth - beemargin.right)
+		.attr("y1", function(d) { return countScale(d); })
+		.attr("y2", function(d) { return countScale(d); })
+		.attr("class", "bar-axis-line")
+	ytick.append("text")
+		.text(function(d) { return d; })
+		.attr('class', 'text-labels')
+		.attr('x', beemargin.left - 25)
+		.attr('y', function(d) { return countScale(d); })
+		.attr("alignment-baseline", "middle")
+		.attr('text-anchor', 'end')
+
+	yticks.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 5)
+      .attr("x",0 - (beeheight / 2))
+      .attr("dy", "1em")
+      .attr("text-anchor", "middle")
+      .text("Number of climbers")
+      .attr('class', 'axis-labels');
+
+    xticks.append("text")             
+      .attr("transform",
+            "translate(" + (beewidth/2) + " ," + 
+                           (beeheight-5) + ")")
+      .attr("text-anchor", "middle")
+      .text("Summit time")
+      .attr('class', 'axis-labels');
+
+
+    var averages = beesvg.append('g')
+    	.attr("class", "averages")
+
+
+    averagesuccess = d3.mean(success.map(function(d) { return d['MSMTTIME1']; }))
+    console.log(new Date(averagesuccess));
+
+    averagedied = d3.mean(died.map(function(d) { return d['MSMTTIME1']; }))
+    console.log(new Date(averagedied));
+
+       averages.selectAll("line")
+    	.data([averagesuccess, averagedied, parseTime("14:00")])
+    	.enter()
+    	.append('line')
+    	.attr("class", "guide-lines")
+    	.attr("stroke-dasharray", "5, 5")
+    	.attr("x1", function(d) { return beex(d)})
+		.attr("x2", function(d) { return beex(d)})
+		.attr("y1", beemargin.top)
+		.attr("y2", beeheight - beemargin.bottom)
+
+    //averagedied = 
+
+
+	function updateChart(selectedData,tickData) {
+		bins = d3.histogram()
+		.value(function(d) { return d['MSMTTIME1']; })
+	    .domain(beex.domain())
+	    .thresholds(beex.ticks(24))
+	   (selectedData)
+
+	   console.log(bins);
+	   console.log(d3.max(bins, function(d) { return d.length; }));
+		countScale = d3.scaleLinear()
+		    .domain([0, d3.max(bins, function(d) { return d.length; })])
+		    .range([beeheight-beemargin.bottom, beemargin.top]);
+		d3.selectAll(".bar")
+		  	.data(bins)
+
+		
+		bar.select("rect")
+			.attr("x", function(d) { return beex(d.x0); })
+			.attr("width", beex(bins[0].x1) - beex(bins[0].x0) - 1)
+		    .transition()
+		    .duration(1500)
+		    .attr("y", function(d) { return countScale(d.length); })
+		    .attr("height", function(d) { return beeheight-beemargin.bottom - countScale(d.length); });
+
+		yticks.selectAll('g')
+		.data(tickData)
+
+		ytick.select(".text-labels").text(function(d) { return d;})
+
+
+
+
+	}
+
+
+
+
+
+
   
-
-  var beecells2 = beesvg.append("g")
-      .attr("class", "diedcells")
-      .selectAll("g")
-      .attr("transform", "translate(0,150)")
-      .data(died)
-      .enter()
-      .append("g")
-      .attr("class", "beecell")
-
-    /*.selectAll("g").data(d3.voronoi()
-        .extent([[0, 0], [beewidth, beeheight]])
-        .x(function(d) { return d.x; })
-        .y(function(d) { return d.y; })
-      .polygons(success)).enter().append("g");*/
-
-  beecells2.append("circle")
-      .attr("r", 5)
-      .attr("cx", function(d) { return d.x; })
-      .attr("cy", function(d) { return d.y; });
-
-  /*beecell.append("path")
-      .attr("d", function(d) { return "M" + d.join("L") + "Z"; });*/
-
-  /*beecells.append("title")
-      .text(function(d) { 
-
-      	return d.data['FNAME'] + "\n" + formatTime(d.data['MSMTTIME1']); 
-  	})*/
 }
       
 

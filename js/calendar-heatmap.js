@@ -13,8 +13,7 @@ function calendarHeatmap() {
   var now = new Date('2007-01-01')
   //var yearAgo = moment().startOf('day').subtract(1, 'year').toDate();
    var yearAgo = new Date('2006-01-01')
-  console.log(now);
-  console.log(yearAgo)
+
   var startDate = null;
   var data = [];
   var max = null;

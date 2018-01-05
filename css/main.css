@@ -337,6 +337,14 @@ h2 {
     /* -webkit-transform: translate(105px,0px); */
     /* display: none; */
   }
+  .bar-histogram-chart-toggle-wrapper{
+    
+    margin: 0 auto;
+    width: 226px;
+  
+    /* -webkit-transform: translate(105px,0px); */
+    /* display: none; */
+  }
 
   .toggle-selected {
     font-weight: 500;
@@ -398,24 +406,38 @@ h2 {
 	max-width: 747px;
 }
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
+
+
+.beeswarm {
+	display: block;
+	margin: 0 auto;
+	max-width: 800px;
 }
 
-.axis text {
-  font: 10px sans-serif;
+.text-labels {
+	font-family: 'Roboto';
+	font-size: 12px;
 }
 
-.cells path {
-  fill: none;
-  pointer-events: all;
+.bar-axis-line {
+	stroke: rgba(222, 222, 230, 0.9);
+	stroke-width: 1px;
 }
 
-.cells :hover circle {
-  fill: red;
+.bar {
+	fill: #808080;
+}
+
+.axis-labels {
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 700;
+
+
+}
+.guide-lines {
+	stroke: black;
+	stroke-width: 2px;
 }
 @media only screen and (max-width: 600px) { 
 

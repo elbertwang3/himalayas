@@ -40,7 +40,7 @@ BACKOFF_TIME = 30
 # Set your output file name here.
 output_filename = 'data/pt3geocoded.csv'
 # Set your input file here
-input_filename = "data/pt3.csv"
+input_filename = "data/pt4.csv"
 # Specify the column name in your input data that contains addresses here
 address_column_name = "RESIDENCE"
 # Return Full Google Results? If True, full JSON results from Google are included in output
@@ -168,8 +168,9 @@ for address in addresses:
             
     # Every 500 addresses, save progress to file(in case of a failure so you have something!)
     if len(results) % 100 == 0:
-        pd.DataFrame(results).to_csv("{}_bak".format(output_filename), mode='a', header=False)
-        results = []
+        #pd.DataFrame(results).to_csv("{}_bak".format(output_filename), mode='a', header=False)
+        #results = []
+        pass
 
 # All done
 logger.info("Finished geocoding all addresses")
