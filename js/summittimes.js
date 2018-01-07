@@ -14,6 +14,7 @@ var beesvg = d3.select(".beeswarm")
 
 var parseTime = d3.timeParse("%H:%M")
 var parseTime2 = d3.timeParse("%H %p")
+var formatTime2 = d3.timeFormat("%I:%M %p")
 var formatTime = d3.timeFormat("%H:%M")
 
 var beex = d3.scaleTime()
@@ -179,16 +180,38 @@ function ready(error,died,success) {
     averagedied = d3.mean(died.map(function(d) { return d['MSMTTIME1']; }))
     console.log(new Date(averagedied));
 
-       averages.selectAll("line")
-    	.data([averagesuccess, averagedied, parseTime("14:00")])
+       average = averages.selectAll("g")
+    	//.data([averagesuccess, averagedied, parseTime("14:00")])
+    	.data([averagesuccess, averagedied])
     	.enter()
-    	.append('line')
+
+    	average.append('line')
     	.attr("class", "guide-lines")
     	.attr("stroke-dasharray", "5, 5")
     	.attr("x1", function(d) { return beex(d)})
 		.attr("x2", function(d) { return beex(d)})
 		.attr("y1", beemargin.top)
 		.attr("y2", beeheight - beemargin.bottom)
+		
+		average.append("text")
+			//.attr("x", function(d) { return beex(d)})
+			//.attr("y", beemargin.top - 20)
+			.attr("transform", function(d) { return "translate(" + beex(d) + ", " + (beemargin.top-45) + ")"})
+			.text(function(d, i){ 
+				if (i == 0) {
+					return formatTime2(new Date(d)) + " : " + "avg summit time for successful descents"
+				} else if (i == 1) {
+					return formatTime2(new Date(d)) + " : " + "avg summit time for those who died on the descent"
+				} else {
+					return formatTime2(new Date(d)) + " : " + "generally accepted latest safest time to begin descent"
+				}
+			})
+			.attr("class", "avg-label text-labels")
+			.attr("text-anchor", "middle")
+			.attr("dy", "1em")
+			.call(wrap, 150)
+			
+	
 
     //averagedied = 
 
@@ -256,6 +279,30 @@ function pad(n, width, z) {
   z = z || '0';
   n = n + '';
   return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+}
+
+function wrap(text, width) {
+  text.each(function() {
+    var text = d3.select(this),
+        words = text.text().split(/\s+/).reverse(),
+        word,
+        line = [],
+        lineNumber = 0,
+        lineHeight = 1.1, // ems
+        y = text.attr("y"),
+        dy = parseFloat(text.attr("dy")),
+        tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
+    while (word = words.pop()) {
+      line.push(word);
+      tspan.text(line.join(" "));
+      if (tspan.node().getComputedTextLength() > width) {
+        line.pop();
+        tspan.text(line.join(" "));
+        line = [word];
+        tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", lineNumber * lineHeight + dy + "em").text(word);
+      }
+    }
+  });
 }
 
 

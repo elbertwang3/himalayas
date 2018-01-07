@@ -30,6 +30,15 @@ body, html {
 
 
 }
+
+.routes {
+    height: 200px;
+}
+
+/*#deckgl-overlay {
+    max-width: 1220px;
+    height: 650px;
+}*/
 .headings .title {
 	text-align: center;
     position: absolute;
@@ -302,6 +311,17 @@ h2 {
 
 
 }
+
+#routesdiv{
+    display: block;
+    margin: 0 auto;
+    max-width: 1220px;
+    height: 650px;
+
+
+
+
+}
 .rc-slider {
 
 
@@ -439,6 +459,23 @@ h2 {
 	stroke: black;
 	stroke-width: 2px;
 }
+
+.oc-circle {
+  fill: rgb(31, 119, 180);
+  fill-opacity: .25;
+  stroke: rgb(31, 119, 180);
+  stroke-width: 1px;
+}
+
+.leaf circle {
+  fill: #ff7f0e;
+  fill-opacity: 1;
+}
+
+text {
+  font: 10px sans-serif;
+  text-anchor: middle;
+}
 @media only screen and (max-width: 600px) { 
 
 	.headings .title {
@@ -453,25 +490,20 @@ h2 {
 	    font-size: 20px;
 	     text-align: center;
 	     right: 2.5%;
-
-
 	}
 
 
-.cover .headings .dashlineouter {
-			
-	   right: 2.5%;
- 
+    .cover .headings .dashlineouter {
+    	right: 2.5%;
+    }
 
+    .finder {
+    	padding-top: 1rem;
+    }
 
-}
-
-.finder {
-
-	padding-top: 1rem;
-	
-
-}
+    /*#deckgl-overlay {
+        height: 300px;
+    }*/
 
 
 

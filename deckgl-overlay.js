@@ -34,7 +34,9 @@ export default class DeckGLOverlay extends Component {
       maxZoom: 15,
       minZoom: 1.6,
       pitch: 20,
-      bearing: -10
+      bearing: -10,
+    
+
     };
   }
 
@@ -116,6 +118,7 @@ export default class DeckGLOverlay extends Component {
         getFillColor: () => [0, 0, 0, 0],
         onHover: this.props.onHover,
         onClick: this.props.onClick,
+    
         pickable: Boolean(this.props.onHover || this.props.onClick)
       }),
       new ArcLayer({
@@ -124,6 +127,7 @@ export default class DeckGLOverlay extends Component {
         opacity: 0.3,
         getSourcePosition: d => d.source,
         getTargetPosition: d => d.target,
+ 
         //getSourceColor: d => (d.gain > 0 ? inFlowColors : outFlowColors)[d.quantile],
         //getTargetColor: d => (d.gain > 0 ? outFlowColors : inFlowColors)[d.quantile],
         strokeWidth

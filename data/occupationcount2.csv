@@ -1,0 +1,501 @@
+Name,Category,Count
+Alpine guide,Alpine,5376
+Physician,Medicine,2122
+Engineer,Engineering,1432
+Student,Student,949
+Alpinist,Alpine,786
+Teacher,Education,636
+Attorney,Law,492
+Alpine instructor,Alpine,374
+Mechanical engineer,Engineering,373
+Photographer,Arts,371
+Electrician,Electronics,362
+Electrical engineer,Engineering,358
+Carpenter,Trade,358
+Office worker,Office,349
+Civil engineer,Engineering,338
+Technician,Trade,335
+Architect,Architecture,315
+Nurse,Medicine,308
+Businessman,Business,303
+Firefighter,Government,267
+Cameraman,Arts,262
+Geologist,Science,241
+Housewife,Home,227
+Journalist,Media,213
+Mechanic,Trade,208
+Police officer,Government,200
+Farmer,Agriculture,188
+Accountant,Office,180
+Economist,Business,176
+Ski instructor,Alpine,175
+Dentist,Medicine,167
+Computer programmer,Computer,165
+Banker,Banking,165
+Electronics engineer,Engineering,164
+Physiotherapist,Medicine,164
+Professional alpinist,Alpine,159
+University student,Student,149
+Surgeon,Medicine,149
+Computer engineer,Computer,143
+Civil servant,Government,130
+Salesman,Sales,120
+Physicist,Science,116
+Alpine guide & ski instructor,Alpine,112
+Retired,Retired,112
+Chemical engineer,Engineer,110
+Secretary,Office,109
+Truck driver,Trade,104
+Builder,Trade,102
+Travel agent,Office,100
+Clerk,Office,100
+Construction worker,Trade,97
+Bank employee,Banking,96
+Construction engineer,Engineer,96
+Pharmacist,Medicine,96
+Manager,Business,93
+Management consultant,Business,90
+Software engineer,Computer,89
+Medical student,Student,89
+Sports instructor,Fitness,87
+High school teacher,Education,87
+Film-maker,Arts,86
+Shopkeeper,Business owner,85
+Biologist,Science,84
+Veterinarian,Medicine,76
+Worker on tall buildings,Trade,76
+Forester,Trade,75
+School teacher,Education,75
+Plumber,Trade,74
+Psychologist,Medicine,73
+Surveyor,Trade,73
+High-altitude porter,Nepal,72
+Gardener,Trade,71
+Chemist,Science,69
+Trekking guide,Travel,68
+Restaurant owner,Food,67
+Social worker,Government,66
+Pilot,Airplanes,65
+Computer operator,Computer,64
+Factory worker,Trade,64
+Expedition organizer & leader,Nepal,62
+Writer,Arts,62
+Electrical technician,Electronics,61
+Real estate agent,Real estate,59
+House painter,Trade,59
+IT consultant,Computer,57
+Cook,Food,57
+Primary school teacher,Education,56
+Company director,Business,56
+Construction company manager,Trade,55
+Metallurgical engineer,Engineer,55
+Sports teacher,Fitness,54
+Physical education teacher,Fitness,53
+Employee,Office,53
+Electronics technician,Electronics,53
+Tour operator,Travel,53
+Business consultant,Business,52
+Airline pilot,Airplanes,52
+Building contractor,Trade,52
+Artist,Arts,51
+Physician (surgeon),Medicine,50
+Driver,Cars,49
+Graphic designer,Arts,49
+Army officer,Military,48
+Soldier,Military,48
+Tour guide,Travel,47
+Expedition leader,Travel,47
+Retired engineer,Retired,46
+Telecommunications engineer,Engineer,46
+Business owner,Business owner,46
+Economics student,Student,45
+Financial advisor,Business,44
+Unemployed,Unemployed,44
+Consultant,Business,43
+Sales manager,Sales,43
+Hotel manager,Hospitality,43
+Retired teacher,Retired,42
+Computer scientist,Computer,42
+Printer,Office,42
+Merchant,Business,41
+Construction company owner,Business owner,40
+Orthopedic surgeon,Medicine,40
+Government official,Government,39
+Business manager,Business,38
+Worker,Trade,37
+Geophysicist,Science,37
+Outdoor instructor,Fitness,37
+University teacher,Education,36
+Marketing manager,Sales,36
+Alpine rescuer,Alpine,35
+Geographer,Science,35
+Bank clerk,Banking,35
+Army Captain,Military,35
+Business executive,Business,34
+Office clerk,Office,34
+Alpine guide & instructor,Alpine,34
+Investment banker,Business,33
+Hotelier,Hospitality,32
+Auto mechanic,Trade,32
+Computer technician,Computer,32
+Investor,Business,32
+Bricklayer,Trade,31
+Professor,Education,31
+Postman,Government,31
+Alpine guide & photographer,Alpine,31
+Computer consultant,Computer,31
+Engineering student,Student,30
+Financial consultant,Business,30
+Sports shop manager,Business owner,30
+Locksmith,Trade,30
+Scientist,Science,30
+Taxi driver,Cars,30
+Retired businessman,Retired,29
+Mining engineer,Engineer,29
+Outdoor activities instructor,Fitness,29
+Author,Arts,29
+Furniture maker,Trade,29
+Sports shop owner,Business owner,29
+"Captain, Indian Army",Military,29
+"Major, Indian Army",Military,29
+Butcher,Trade,29
+Policeman,Government,28
+University professor,Education,28
+Restaurant manager,Food,28
+Chef,Food,28
+Mathematician,Science,28
+Paramedic,Medicine,27
+Television cameraman,Media,27
+Industrial engineer,Engineering,27
+House builder,Trade,27
+Park ranger,Government,27
+City government official,Government,27
+Trekking guide & alpinist,Alpine,26
+Artisan,Arts,26
+Anesthesiologist,Medicine,26
+Forestry engineer,Engineering,26
+Hotel owner,Hospitality,26
+ITBP personnel,Government,25
+Toolmaker,Trade,25
+Property developer,Real estate,25
+Petroleum engineer,Engineering,25
+Baker,Food,25
+Aeronautical engineer,Engineering,25
+"Indo-Tibet Border Police, ITBP",Government,25
+IT manager,Computer,24
+Photojournalist,Media,24
+Researcher,Science,24
+Real estate developer,Real estate,24
+Insurance salesman,Insurance,24
+Insurance agent,Insurance,24
+IT specialist,Computer,24
+Government service,Government,24
+Environmental engineer,Engineering,24
+Shop owner,Business owner,23
+Entrepreneur,Business,23
+Expedition organizer,Travel,23
+Miner,Trade,23
+Car salesman,Sales,22
+IT engineer,Computer,22
+Joiner,Trade,22
+Sportsman,Athlete,22
+Draftsman,Arts,22
+Apiarist & alpinist,Alpine,22
+Painter,Arts,22
+Designer,Arts,22
+Bookkeeper,Office,22
+Bus driver,Cars,22
+Fitness instructor,Fitness,22
+Skiing instructor,Fitness,22
+Army Sergeant,Military,21
+Computer analyst,Computer,21
+Professional skier,Athlete,21
+Cardiologist,Medicine,21
+Dental surgeon,Medicine,21
+Agricultural engineer,Engineering,21
+Contractor,Trade,21
+Medical assistant,Medicine,21
+Editor,Media,21
+Rescuer,Travel,21
+Software developer,Computer,21
+Cartographer,Science,20
+Solicitor,Self-employed,20
+Pediatrician,Medicine,20
+Service,Hospitality,20
+Film producer,Media,20
+Law student,Student,20
+Motivational speaker,Self-employed,20
+Optician,Medicine,19
+Laboratory technician,Science,19
+Reporter,Media,19
+Adventurer,Travel,19
+Tour leader,Travel,19
+Nuclear engineer,Engineering,19
+Tax consultant,Business,19
+Alpine guide & cameraman,Alpine,19
+Physiologist,Medicine,19
+Army JCO (junior commissioned officer),Government,19
+Elementary school teacher,Education,19
+Information technology consultant,Computer,19
+Trader,Business,19
+Artist (painter),Arts,19
+Project manager,Business,19
+Mason,Trade,19
+Emergency physician,Medicine,19
+Administrator,Business,19
+Insurance broker,Insurance,19
+Secondary school teacher,Education,19
+Military officer,Military,18
+Lecturer,Education,18
+Retired civil servant,Retired,18
+Neurosurgeon,Medicine,18
+British army,Military,18
+Marketing consultant,Business,18
+Mountaineering equipment salesman,Sales,18
+Royal Netherlands Marines,Military,18
+Educator,Education,18
+Armed forces of India,Military,18
+Financial manager,Business,18
+Police constable,Government,18
+Sports student,Athlete,18
+Telephone engineer,Engineering,18
+Geology student,Student,18
+Photographer & writer,Media,17
+Municipal official,Government,17
+National park ranger,Government,17
+Metal worker,Trade,17
+Film director,Media,17
+Car mechanic,Trade,17
+Cinematographer,Media,17
+Cabinetmaker,Trade,17
+Army Major,Military,17
+Army sergeant,Military,17
+Forest ranger,Government,17
+Home builder,Trade,17
+Outdoor educator,Fitness,17
+Optometrist,Medicine,16
+Air traffic controller,Airplanes,16
+Horticulturist,Science,16
+Company owner,Business owner,16
+Aerospace engineer,Engineering,16
+Physics student,Student,16
+Nutritionist,Fitness,16
+Student of physical education,Athlete,16
+Trekking & alpine guide,Alpine,16
+Company manager,Business owner,16
+Architectural technician,Architecture,16
+Mountain hut manager,Hospitality,16
+Translator,Languages,16
+Marine engineer,Engineering,16
+Technical engineer,Engineering,16
+Structural engineer,Engineering,16
+"Student, medical",Medicine,16
+Building engineer,Engineering,15
+Environmental consultant,Science,15
+Dental technician,Medicine,15
+High school student,Student,15
+Outdoor pursuits instructor,Fitness,15
+"Havildar, Indian Army",Military,15
+Construction manager,Manager,15
+Army high mountain group member,Alpine,15
+Printing company executive,Business owner,15
+Psychiatrist,Medicine,15
+Athlete,Athlete,15
+Self-employed,Self-employed,15
+Professor of physical education,Fitness,15
+Systems analyst,Computer,15
+Factory manager,Manager,15
+Telephone technician,Trade,15
+Sporting goods salesman,Sales,15
+Police inspector,Government,15
+Airplane pilot,Airplanes,14
+Veterinary surgeon,Medicine,14
+Landscape gardener,Trade,14
+Army corporal,Military,14
+Mechanical technician,Trade,14
+Agronomist,Science,14
+Director,Arts,14
+Retired attorney,Retired,14
+Radiologist,Medicine,14
+College student,Student,14
+Alpine guide & carpenter,Alpine,14
+Physical therapist,Fitness,14
+Geological engineer,Engineering,14
+Ecologist,Science,14
+Anesthetist,Medicine,14
+Musician,Arts,14
+Newspaper reporter,Media,14
+Barman,Food,14
+Professional photographer,Arts,14
+Archeologist,Science,14
+Local government official,Government,14
+Stockbroker,Business,14
+Metallurgist,Science,14
+Serving in Indian army,Military,14
+Business student,Student,13
+Chinese Mountaineering Association staff member,Travel,13
+Travel agency owner,Travel,13
+Quality control programmer,Computer,13
+Alpine guide trainee,Alpine,13
+Guide,Travel,13
+Real estate dealer,Real estate,13
+ITBP constable,Government,13
+Bar owner,Food,13
+Hyundai office worker,Office,13
+Bank manager,Banking,13
+Forestry student,Student,13
+Actor,Arts,13
+Programmer,Computer,13
+Alpinist & motivational speaker,Alpine,13
+Interior decorator,Architecture,13
+Biochemist,Science,13
+UAE Armed Forces,Military,13
+Mechanical engineering student,Student,13
+Notary,Law,13
+Mathematics teacher,Education,12
+Graphic artist,Arts,12
+Writer & alpinist,Alpine,12
+Alpine instructor & guide,Alpine,12
+Aircraft engineer,Engineer,12
+Chartered accountant,Business,12
+Freelance writer,Media,12
+Government employee,Government,12
+Television producer,Media,12
+Shop manager,Business owner,12
+Investment manager,Business,12
+Shop assistant,Business owner,12
+Welder,Trade,12
+Army captain,Military,12
+Customs officer,Government,12
+Telecommunications technician,Trade,12
+Retired civil engineer,Retired,12
+Alpine & skiing guide,Alpine,12
+Alpinist & trekking guide,Alpine,12
+Portfolio manager,Business,12
+Neurologist,Medicine,12
+Business,Business,12
+Biology student,Student,12
+Schoolmaster,Education,12
+Building maintenance foreman,Trade,12
+Trading company manager,Manager,12
+Physical education student,Athlete,12
+Bank staff member,Banking,12
+Police subinspector,Government,11
+Building company manager,Manager,11
+Paragliding instructor,Travel,11
+Alpine & skiing instructor,Alpine,11
+Craftsman,Trade,11
+Instructor at l'Ecole Naitonale de Ski et d' Alpinisme,Alpine,11
+Cardio-thoracic surgeon,Medicine,11
+Plastic surgeon,Medicine,11
+Town planner,Government,11
+Restauranteur,Food,11
+Ski patroller,Alpine,11
+Serving in Indian Army,Military,11
+Travel agency employee,Travel,11
+Judge,Law,11
+TV producer,Media,11
+Sculptor,Arts,11
+Systems engineer,Engineering,11
+Architecture student,Student,11
+Financial expert,Business,11
+Train driver,Cars,11
+Television technician,Media,11
+Architectural engineer,Engineering,11
+Fund manager,Business,11
+Geography student,Student,11
+Office manager,Manager,11
+Osteopath,Medicine,10
+Retired electro-technician,Retired,10
+Engineering manager,Manager,10
+Finance,Business,10
+Woodworker,Trade,10
+Education student,Student,10
+Army NCO (non-commissioned officer),Government,10
+Communications engineer,Engineering,10
+Computer systems engineer,Computer,10
+IT project manager,Computer,10
+Indian Army,Military,10
+Financial planner,Business,10
+Pensioner,Govenrment,10
+Finance director,Business,10
+Tax accountant,Business,10
+"Instructor, Himalayan Mountaineering Institute",Alpine,10
+Teacher of physical education,Fitness,10
+Tour company owner,Business owner,10
+Alpinist & writer,Alpine,10
+Mountain rescuer,Alpine,10
+Postal carrier,Government,10
+Teacher & alpine guide,Alpine,10
+Photographer & alpine guide,Alpine,10
+Home improvement contractor,Trade,10
+Manager of construction company,Manager,10
+Alpine guide & alpinist,Alpine,10
+ITBP subinspector,Government,10
+Anthropologist,Science,10
+Mathematics student,Student,10
+Alpine & ski instructor in Military School of Aosta,Alpine,10
+"Student, university",Student,10
+"ITBP, Head Constable",Government,10
+Construction company director,Business owner,10
+Computer salesman,Sales,10
+Retired banker,Retired,10
+General manager,Manager,10
+Human resources manager,Manager,10
+Chiropractor,Medicine,10
+Cafe owner,Food,9
+Private investor,Business,9
+Railway engine driver,Cars,9
+Car dealer,Sales,9
+Physician (general practitioner),Medicine,9
+Army alpine instructor,Alpine,9
+Army adjutant,Military,9
+Company employee,Office,9
+Junior commissioned army officer,Military,9
+Mountain rescue expert,Alpine,9
+Financial analyst,Business,9
+Alpine school instructor,Alpine,9
+Ophthalmologist,Medicine,9
+Sociology student,Student,9
+Construction company executive,Business owner,9
+Research engineer,Engineering,9
+Lithographer,Arts,9
+Property manager,Manager,9
+Helicopter pilot,Airplanes,9
+Bank officer,Banking,9
+Barrister,Law,9
+Financier,Business,9
+Travel guide,Travel,9
+Mountain hutkeeper,Hospitality,9
+Therapist,Medicine,9
+Mathematics professor,Education,9
+"Student, civil engineering",Student,9
+Bank official,Banking,9
+Automobile engineer,Engineering,9
+Building manager,Manager,9
+Author & alpinist,Alpine,9
+Marketing director,Sales,9
+Student politician (United Communist Party of Nepal Maoist),Government,9
+Geologist & alpine guide,Alpine,9
+Agriculture student,Student,9
+Sales,Sales,9
+Businesswoman,Business,9
+Supermarket manager,Manager,9
+Auditor,Government,9
+Book publisher,Media,9
+Artist & alpine guide,Alpine,9
+Stone mason,Trade,9
+Medical technician,Medicine,9
+Finance manager,Business,9
+Trekking agent,Travel,9
+Advocate,Government,9
+Financial controller,Business,9
+English teacher,Education,9
+Certified public accountant,Business,9
+Air Force sergeant,Military,9
+Naval architect,Engineering,9
+Retired architect,Retired,9
+Railway official,Cars,9
+Public official,Government,9
+Graduate student,Student,9
+Television journalist,Media,9

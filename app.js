@@ -3,7 +3,8 @@
 import React, {Component} from 'react';
 import * as d3 from 'd3';
 import {render} from 'react-dom';
-import MapGL from 'react-map-gl';
+import MapGL,  {NavigationControl} from 'react-map-gl';
+import { ZoomControl } from "react-mapbox-gl";
 import DeckGLOverlay from './deckgl-overlay.js';
 import SliderClass from './rcslider.js'
 import {json as requestJson} from 'd3-request';
@@ -44,6 +45,9 @@ class Root extends Component {
 
   componentDidMount() {
     window.addEventListener('resize', this._resize.bind(this));
+    this.setState({
+      viewport: {...this.state.viewport, ...viewport}
+    });
     this._resize();
   }
 
@@ -91,9 +95,16 @@ class Root extends Component {
       <SliderClass onChange={this._onSliderChange.bind(this)} onAfterChange={this._onAfterChange.bind(this)}/>
       <MapGL 
         {...viewport}
+
         onViewportChange={this._onViewportChange.bind(this)}
-        mapboxApiAccessToken={MAPBOX_TOKEN}>
+        mapboxApiAccessToken={MAPBOX_TOKEN}
+        scrollZoom={false}
+        >
+        <div style={{position: 'absolute', right: 0}}>
+          <NavigationControl onViewportChange={this._onViewportChange.bind(this)} />
+        </div>
         <DeckGLOverlay viewport={viewport}
+
           data={data}
           year={year}
           onHover={this._onHover.bind(this)}
