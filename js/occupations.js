@@ -13,7 +13,7 @@ var pack = d3.pack()
 d3.json("data/oc2.json", function(error, root) {
   if (error) throw error;
   //consol
-  console.log(root);
+  //console.log(root);
   root = d3.hierarchy(root)
       .sum(function(d) { return d.size; })
       .sort(function(a, b) { return b.value - a.value; });

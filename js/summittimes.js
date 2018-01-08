@@ -81,7 +81,6 @@ function ready(error,died,success) {
 	    .thresholds(beex.ticks(24))
 	   (success)
 
-	    console.log(bins);
     
     var countScale = d3.scaleLinear()
 	    .domain([0, d3.max(bins, function(d) { return d.length; })])
@@ -175,10 +174,8 @@ function ready(error,died,success) {
 
 
     averagesuccess = d3.mean(success.map(function(d) { return d['MSMTTIME1']; }))
-    console.log(new Date(averagesuccess));
 
     averagedied = d3.mean(died.map(function(d) { return d['MSMTTIME1']; }))
-    console.log(new Date(averagedied));
 
        average = averages.selectAll("g")
     	//.data([averagesuccess, averagedied, parseTime("14:00")])
@@ -222,9 +219,6 @@ function ready(error,died,success) {
 	    .domain(beex.domain())
 	    .thresholds(beex.ticks(24))
 	   (selectedData)
-
-	   console.log(bins);
-	   console.log(d3.max(bins, function(d) { return d.length; }));
 		countScale = d3.scaleLinear()
 		    .domain([0, d3.max(bins, function(d) { return d.length; })])
 		    .range([beeheight-beemargin.bottom, beemargin.top]);
@@ -262,7 +256,6 @@ function ready(error,died,success) {
 
 function type(d) {
   if (!d['MSMTTIME1']) {
-  	console.log("shouldn't be null")
   	return
   };
   d['MSMTTIME1'] = +d['MSMTTIME1'];
