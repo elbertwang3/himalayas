@@ -12,7 +12,7 @@ peakssvg = peaksdiv.append('svg')
 
 var tooltip = d3.select(".peaks")
     .append("div")
-    .attr("class","tooltip")
+    .attr("class","peakstooltip")
     //.style("transform", "translate(" + margin.left+"px" + "," + margin.top+"px" + ")")
     .on("click",function(){
       tooltip.style("visibility",null);

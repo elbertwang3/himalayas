@@ -52,7 +52,7 @@ body, html {
     position: absolute;
      top: 0px;
     left: 0px;
-    z-index: 100;
+    z-index: 2;
 }
 
 /*#deckgl-overlay {
@@ -167,7 +167,7 @@ body, html {
 	opacity: 0.5;
 }
 
-.tooltip {
+.peakstooltip {
     position: absolute;
     font-family: 'Roboto';
     font-size: 14px;
@@ -189,6 +189,8 @@ body, html {
     border-radius: 5px;
     opacity: 0.6;
 }
+
+
 
 .mountain-path {
 	fill: #201f1b;
@@ -264,7 +266,7 @@ body, html {
 }
 
 .tooltip-header {
-	color: #C0C0C0;
+	
 
 }
 
@@ -338,6 +340,17 @@ h2 {
 
 
 }
+
+.marker {
+  font-family: "Roboto";
+  font-style: italic;
+  font-size: 14px;
+  color: black;
+  text-shadow: 0.5px 0.5px 0.5px #ffffff, -0.5px -0.5px 0.5px #ffffff, 0.5px 0.5px 0.5px #ffffff, -0.5px -0.5px 0.5px #ffffff;
+  pointer-events: none;
+}
+
+
 /*.mapboxcontainer { 
 	display: block;
 	margin: 0 auto;
@@ -483,13 +496,90 @@ h2 {
   fill-opacity: 1;
 }
 
-text {
-  font: 10px sans-serif;
-  text-anchor: middle;
+
+.mapboxgl-ctrl-top-right{
+    z-index: 1000;
 }
 
-.mapbox-ctrl-group {
-    z-index: 1000;
+.routeline {
+    stroke: #C0C0C0;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    opacity: 0.5;
+}
+
+
+.routeline.hover {
+    cursor: pointer;
+    stroke: #EE7600;
+    opacity: 0.9;
+}
+
+.routetooltip {
+
+    position: absolute;
+    font-family: 'Roboto';
+    font-size: 14px;
+    z-index: 1000000000;
+    text-align: left;
+    width: 360px;
+    color: #353535;
+    visibility: hidden;
+    pointer-events: none;
+    border: 1px solid rgba(193, 193, 193, 0.8);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    background: white;
+    padding: 0.75em;
+    height: auto;
+    opacity: 0.85;
+}
+.routetooltip .tooltip-header {
+    border-bottom: 1px solid #cdcdcd;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.routetooltip .row {
+    margin-top: 3px;
+}
+
+.routetooltip .column-left {
+    display: inline-block;
+    width: 135px;
+    vertical-align: top;
+    color: #323232;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 5px;
+ 
+}
+
+.routetooltip .column-right{
+    display: inline-block;
+    width: 225px;
+    vertical-align: top;
+ 
+}
+
+.routetooltip .column-right img{
+    margin-left: 5px;
+}
+
+
+
+.routetooltip .num-label {
+    font-size: 10px;
+  color: #323232;
+  font-weight: 600;
+  text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-top: 10px;
+
+
 }
 @media only screen and (max-width: 600px) { 
 
