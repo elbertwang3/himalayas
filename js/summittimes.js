@@ -196,9 +196,9 @@ function ready(error,died,success) {
 			.attr("transform", function(d) { return "translate(" + beex(d) + ", " + (beemargin.top-45) + ")"})
 			.text(function(d, i){ 
 				if (i == 0) {
-					return formatTime2(new Date(d)) + " : " + "avg summit time for successful descents"
+					return formatTime2(new Date(d)) + " : " + "average summit time for successful descents"
 				} else if (i == 1) {
-					return formatTime2(new Date(d)) + " : " + "avg summit time for those who died on the descent"
+					return formatTime2(new Date(d)) + " : " + "average summit time for those who died on the descent"
 				} else {
 					return formatTime2(new Date(d)) + " : " + "generally accepted latest safest time to begin descent"
 				}
@@ -206,7 +206,7 @@ function ready(error,died,success) {
 			.attr("class", "avg-label text-labels")
 			.attr("text-anchor", "middle")
 			.attr("dy", "1em")
-			.call(wrap, 150)
+			.call(wrap, 140)
 			
 	
 

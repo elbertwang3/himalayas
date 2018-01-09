@@ -15,8 +15,8 @@ var routemap = new mapboxgl.Map({
 routemap.scrollZoom.disable();
 routemap.addControl(new mapboxgl.NavigationControl());
 
-routewidth = 1220;
-routeheight = 650;
+routewidth = 1440;
+routeheight = 700;
  var routecontainer = routemap.getCanvasContainer()
  var routesvg = d3.select(routecontainer).append("svg")
 		.attr("width", routewidth)
@@ -68,6 +68,9 @@ function ready(error,jsonmap) {
     	.selectAll("routeline")
         .data(lines)
         .enter()
+    durationscale = d3.scaleLinear()
+    	.domain([0, 954])
+    	.range([0, 2000])
     route = routes.append("path")
     	.attr("class", 'routeline')
     	.attr("stroke", "black")
@@ -84,7 +87,7 @@ function ready(error,jsonmap) {
     			 }
     			})
     			.transition()
-		        .duration(2000)
+		        .duration(function(d) { return durationscale(d3.select(this).node().getTotalLength()) })
 		        .ease(d3.easeLinear)
 		        .attr("stroke-dashoffset", 0);
 		 	data = d['properties'];
@@ -300,7 +303,7 @@ function ready(error,jsonmap) {
               return "250px";
             }*/
 
-            return (routeheight* 0.59) +"px"
+            return (routeheight* 0.63) +"px"
           })
           .style("left",function(d){
             /*if(viewportWidth < 450 || mobile){
