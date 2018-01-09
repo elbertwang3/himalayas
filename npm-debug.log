@@ -1,24 +1,46 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'build' ]
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
 2 info using npm@4.1.2
 3 info using node@v7.6.0
-4 verbose stack Error: missing script: build
-4 verbose stack     at run (/usr/local/lib/node_modules/npm/lib/run-script.js:151:19)
-4 verbose stack     at /usr/local/lib/node_modules/npm/lib/run-script.js:61:5
-4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
-4 verbose stack     at checkBinReferences_ (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
-4 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
-4 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
-4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:311:12
-4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
-4 verbose stack     at tryToString (fs.js:447:3)
-4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:434:12)
-5 verbose cwd /Users/elbertwang/Desktop/gethired/himalayas
-6 error Darwin 15.0.0
-7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "build"
-8 error node v7.6.0
-9 error npm  v4.1.2
-10 error missing script: build
-11 error If you need help, you may report this error at:
-11 error     <https://github.com/npm/npm/issues>
-12 verbose exit [ 1, true ]
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle @~prestart: @
+6 silly lifecycle @~prestart: no script for prestart, continuing
+7 info lifecycle @~start: @
+8 verbose lifecycle @~start: unsafe-perm in lifecycle true
+9 verbose lifecycle @~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/elbertwang/Desktop/gethired/himalayas/node_modules/.bin:/Users/elbertwang/anaconda2/bin:/usr/local/openssl/bin:/Users/elbertwang/.npm-packages/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/bin:/usr/local/share/npm/bi/bin:/usr/local/bin:/Users/elbertwang/Library/Python/2.7/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/texbin:/Applications/Wireshark.app/Contents/MacOS:/usr/local/share/npm/bin/bin
+10 verbose lifecycle @~start: CWD: /Users/elbertwang/Desktop/gethired/himalayas
+11 silly lifecycle @~start: Args: [ '-c',
+11 silly lifecycle   'webpack-dev-server --progress --hot --port 3030 --open' ]
+12 silly lifecycle @~start: Returned: code: 1  signal: null
+13 info lifecycle @~start: Failed to exec start script
+14 verbose stack Error: @ start: `webpack-dev-server --progress --hot --port 3030 --open`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:279:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:192:7)
+14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:192:7)
+14 verbose stack     at maybeClose (internal/child_process.js:890:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid @
+16 verbose cwd /Users/elbertwang/Desktop/gethired/himalayas
+17 error Darwin 15.0.0
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+19 error node v7.6.0
+20 error npm  v4.1.2
+21 error code ELIFECYCLE
+22 error @ start: `webpack-dev-server --progress --hot --port 3030 --open`
+22 error Exit status 1
+23 error Failed at the @ start script 'webpack-dev-server --progress --hot --port 3030 --open'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the  package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack-dev-server --progress --hot --port 3030 --open
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]

@@ -1,9 +1,9 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZWxiZXJ0d2FuZyIsImEiOiJjajk3dmw4amUwYmV2MnFydzl3NDIyaGFpIn0.46xwSuceSuv2Fkeqyiy0JQ';
 var routemap = new mapboxgl.Map({
     container: 'routesdiv',
-    zoom: 13,
+    zoom: 12,
     minZoom: 12,
-    center: [86.908278,27.988056],
+    center: [86.908278,28.008056],
     style: 'mapbox://styles/mapbox/dark-v9',
     //style: 'mapbox://styles/mapbox/outdoors-v9',
     hash: false,
@@ -303,14 +303,14 @@ function ready(error,jsonmap) {
               return "250px";
             }*/
 
-            return (routeheight* 0.63) +"px"
+            return 20 +"px"
           })
           .style("left",function(d){
             /*if(viewportWidth < 450 || mobile){
               return "0px";
             }*/
             
-            return 10 +"px";
+            return 20 +"px";
           })
 
 	}

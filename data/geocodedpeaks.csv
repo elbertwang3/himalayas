@@ -168,7 +168,7 @@
 166,Shartse II,Khumbu Himal (E of Lhotse Shar on Tibetan border),7457,12,1974,"Kurt Diemburger, Hermann Warth",May 23 1974,27.955604,86.96472
 167,Shey Shikhar,Kanjiroba Himal (SE of Kanjiroba and Tripura Hiunchuli),6139,10,2007,Katsuhito Fujikawa,Aug 23 2007,29.286944,82.796389
 168,Singu Chuli,Annapurna Himal (Annapurna Sanctuary),6501,1,1957,"David Cox, Wilfred Noyce",Jun 13 1957,28.583333,83.9
-169,Sisne Himal,Sisne Himal (SW of Juphal in Rukum),5911,10,2013,"Man Bahadur Khatri, Alonzo Lyons, Dbruba Bista, Mulal Gurung, Nilam Gurung, Ali Bahadur Khatri, Vinaya Jaya Malla, Amrit Sarki",May 26 2013,29.783333,80.341667
+169,Sisne Himal,Sisne Himal (SW of Juphal in Rukum),5911,10,2013,"Man Bahadur Khatri, Alonzo Lyons, Dbruba Bista, Mulal Gurung, Nilam Gurung, Ali Bahadur Khatri, Vinaya Jaya Malla, Amrit Sarki",May 26 2013,28.827583,82.616729
 170,Sita Chuchura,Mukut Himal (ENE of Dhaulagiri II near French Pass),6611,16,1970,"Masahiko Takahashi, Hiroshi Harada, Nobuyki Hirato, Phurba Kitar Sherpa",Oct 26 1970,28.786,83.4781
 171,Snow Peak,Dhaulagiri Himal (E of Dhaulagiri II),6530,4,0,Unclimbed,,,
 172,Sphinx,Jongsang Himal (NE of Pathibhara on Indian border),6825,7,1936,"J. K. Cooke, Frederick S. Chapman, John B. Harrison",Jun 1936,27.825,88.188
@@ -242,7 +242,7 @@
 240,Khumbutse,Khumbu Himal (NW of Lho La on Tibetan border),6639,12,0,Unclimbed,,28.021179,86.872616
 241,Boktoh,Kangchenjunga Himal (SE of Jannu),6114,9,1991,"Marko Prezelj, Uros Rupar, Andrej Stremfelj",Apr 10 1991,27.620833,88.0075
 242,Mojca,Kangchenjunga Himal (W of Ramtang Chang),6024,9,1974,"Stane Belak, Danilo Cedilnik",Oct 11 1974,27.770833,88.051111
-243,Palung,Langtang Himal,7012,12,1952,"Edmund Hillary, George Lowe",May 13 1952,28.385556,85.711111
+243,Palung,Langtang Himal,7012,13,1952,"Edmund Hillary, George Lowe",May 13 1952,28.385556,85.711111
 244,Tutse,Makalu Himal (SE of Makalu),6758,14,0,Unclimbed?,,27.771944,87.101389
 245,Nuptse East I,Khumbu Himal (W of Nuptse main summit),7795,12,2003,"Valeri Babanov, Yuri Kochelenko",Nov 02 2003,27.961679,86.893916
 246,Amotsang,Damodar Himal (NW of Pokharhan),6393,3,0,Unclimbed?,,28.835278,84.172222
@@ -291,7 +291,7 @@
 289,Sobithongie,Kangchenjunga Himal (W of Kumbhakarna),6652,9,0,Unclimbed,,27.686389,88.028333
 290,Shershon,Makalu Himal (NE of Shershon village on Tibetan border),6432,14,0,Unclimbed,,27.80959,87.080844
 291,Swaksa Kang,Kanti Himal (SE of Kanti Himal peak on Tibetan border),6405,11,0,Unclimbed,,29.6875,82.86
-292,Tilje,Peri Himal (SE of Gyajikang),6530,2,0,Unclimbed,,28.618056,84.335833
+292,Tilje,Peri Himal (SE of Gyajikang),6530,18,0,Unclimbed,,28.618056,84.335833
 293,Tsartse,Mukut Himal (N of Dhampus Peak),6343,16,0,Unclimbed,,28.860278,83.649722
 294,Yakawa Kang,Damodar Himal (N of Thorong La),6482,3,2010,"Hidenobu Tsuji, Dawa Norbu Sherpa, Dawa Tshering Sherpa, Tshering Tashi Sherpa",Nov 07 2010,28.8044437,83.9437866
 295,Yaupa,Makalu Himal (NE of Shershon village on Tibetan border),6422,14,1989,"Andy Fanshawe, Vic Saunders, Stephen Sustad",Sep 1989,27.833611,87.128889
@@ -319,7 +319,7 @@
 317,Chamar Kang,"Mukut Himal (NW of Tsharka village, SE of Tingkyu village)",6060,16,2007,"Tamotsu Ohnishi, Toshitsugi Irisawa, Koichi Kato, Chhepa Sherpa",Sep 21 2007,,
 318,Nupche Kang,Khumbu Himal (ESE of Nangpa La on Tibetan border),6576,12,1964,"Fritz Stammberger, Aila Sherpa",Apr 06 1964,28.101389,86.605
 319,Punchen Himal,Shringi Himal (in Tsum Valley N of Pashuwo on Tibetan border),6049,5,0,Unclimbed,,28.661111,85.146667
-320,Kang Kuru,"Mustang Himal (NNE of Tsartse, WSW of Ghami village)",6344,16,2008,"Peter Athans, Theodore Hessler",Apr 16 2008,28.9,84.188333
+320,Kang Kuru,"Mustang Himal (NNE of Tsartse, WSW of Ghami village)",6344,16,2008,"Peter Athans, Theodore Hessler",Apr 16 2008,28.901389,84.186111
 321,Amphu Middle,Khumbu Himal (NE of Amphu Laptsa),6202,12,2008,"Olaf Rieck, Alexander Graeber",Apr 20 2008,,
 322,Lugula,Damodar Himal (E of Bhrikuti Sail on Tibetan border),6899,3,2010,Renald Guillaune,Nov 02 2010,28.896111,84.261667
 323,Bhrikuti Shail,Damodar Himal (NE of Thorong La on Tibetan border),6361,3,2005,"Paulo Grobel, Denis Flaven, Bikram Singh",May 16 2005,28.898,84.201
