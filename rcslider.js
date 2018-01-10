@@ -8,7 +8,7 @@ import Slider, { createSliderWithTooltip } from 'rc-slider';
 
 const SliderWithTooltip = createSliderWithTooltip(Slider);
 
-
+const marks = {1960: '1960', 1970: '1970', 1980: '1980', 1990: '1990', 2000: '2000', 2010: '2010'}
 export default class SliderClass  extends Component {
 	
 	
@@ -26,14 +26,26 @@ export default class SliderClass  extends Component {
 	render() {
 		
 		const wrapperStyle = { width: 400, margin: '30 auto', display: 'block'};
+		const labelStyle = {'font-family': "Roboto", 'text-align': "center", 'font-weight': "700"};
 		
 		
 		return (<div>
 		    <div style={wrapperStyle}>
-		      <p>Slide to change year</p>
-		      <SliderWithTooltip min={1953} max={2017} defaultValue={2017} step={1}  tipFormatter={percentFormatter} 
-		      onChange={this.props.onChange} onAfterChange={this.props.onAfterChange} 
-		       trackStyle={{ backgroundColor: 'grey'}} />
+		      <Slider
+		      min={1953} max={2017} defaultValue={2017} step={1} 
+        trackStyle={{ backgroundColor: 'grey'}}
+        handleStyle={{
+          borderColor: 'grey',
+         }}
+         dotStyle={{borderColor: 'grey'}}
+         activeDotStyle={{ borderColor: 'grey' }}
+          marks={marks}
+            onChange={this.props.onChange} 
+		      onAfterChange={this.props.onAfterChange}
+        
+        />
+		     
+
 		    </div>
 		    
 		  </div>)

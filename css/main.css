@@ -339,12 +339,6 @@ h2 {
 }
 
 
-.rc-slider {
-
-
-
-}
-
 .marker {
   font-family: "Roboto";
   font-style: italic;
@@ -352,6 +346,11 @@ h2 {
   color: black;
   text-shadow: 0.5px 0.5px 0.5px #ffffff, -0.5px -0.5px 0.5px #ffffff, 0.5px 0.5px 0.5px #ffffff, -0.5px -0.5px 0.5px #ffffff;
   pointer-events: none;
+}
+
+.sliderlabel {
+    font-family: "Roboto";
+    text-align: center;
 }
 
 
