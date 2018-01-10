@@ -28,13 +28,14 @@ export default class DeckGLOverlay extends Component {
 
   static get defaultViewport() {
     return {
-      longitude: 20.6596,
-      latitude: 30.0339,
-      zoom: 1.6,
+      longitude: 21.6596,
+      latitude: 28.1339,
+      zoom: 1.4,
       maxZoom: 15,
-      minZoom: 1.6,
-      pitch: 20,
-      bearing: -10,
+      minZoom: 1.4,
+      pitch: 25,
+      bearing: 10,
+      mapStyle: "mapbox://styles/mapbox/dark-v9"
     
 
     };
@@ -108,7 +109,7 @@ export default class DeckGLOverlay extends Component {
     if (!arcs) {
       return null;
     }
-
+    console.log()
     const layers = [
       new GeoJsonLayer({
         id: 'geojson',
@@ -127,10 +128,11 @@ export default class DeckGLOverlay extends Component {
         opacity: 0.3,
         getSourcePosition: d => d.source,
         getTargetPosition: d => d.target,
- 
+        getSourceColor: d => [192,192,192],
+        getTargetColor: d => [192,192,192]
         //getSourceColor: d => (d.gain > 0 ? inFlowColors : outFlowColors)[d.quantile],
         //getTargetColor: d => (d.gain > 0 ? outFlowColors : inFlowColors)[d.quantile],
-        strokeWidth
+        //strokeWidth
       })
     ];
 

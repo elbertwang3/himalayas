@@ -146,7 +146,7 @@ function ready(error,jsonmap) {
      
         route
      		.attr("d", geoPath)
-     		.attr("stroke-dasharray", function(d) { console.log(d3.select(this).node().getTotalLength());return d3.select(this).node().getTotalLength() + " " + d3.select(this).node().getTotalLength()})
+     		.attr("stroke-dasharray", function(d) { return d3.select(this).node().getTotalLength() + " " + d3.select(this).node().getTotalLength()})
       		.attr("stroke-dashoffset", function(d) { return 0; })
 
     }

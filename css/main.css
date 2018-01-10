@@ -322,12 +322,16 @@ h2 {
 	position: relative;
 }
 .countries {
-
+    max-width: 1440px;
+    display: block;
+    margin: 0 auto;
 }
 #countriesdiv {
 	display: block;
 	margin: 0 auto;
-	max-width: 1220px;
+	max-width: 1440px;
+
+
 
 
 
