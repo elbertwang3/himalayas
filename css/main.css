@@ -26,7 +26,7 @@ body, html {
 	position: relative;
 	width: 100%;
 	  height:100vh;
-	background-image: url("../images/background-lossy-cropped.gif");
+	/*background-image: url("../images/background-lossy-cropped.gif");*/
 
 
 }
@@ -471,9 +471,7 @@ h2 {
 	stroke-width: 1px;
 }
 
-.bar {
-	fill: #808080;
-}
+
 
 .axis-labels {
 	font-family: 'Roboto';
@@ -586,6 +584,39 @@ h2 {
 
 
 }
+
+.ocsvg {
+    display: block;
+    margin: 0 auto;
+}
+.ocsvg .node {
+  cursor: pointer;
+}
+
+.ocsvg .node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+
+
+.ocsvg .label {
+  font: 11px "Roboto", Helvetica, Arial, sans-serif;
+  text-anchor: middle;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
+}
+
+.ocsvg .label,
+.ocsvg .node--root,
+.ocsvg .node--leaf {
+  pointer-events: none;
+ 
+}
+
+.ocsvg .node {
+     pointer: cursor;
+}
+
 @media only screen and (max-width: 600px) { 
 
 	.headings .title {

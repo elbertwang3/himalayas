@@ -21,6 +21,9 @@ var beex = d3.scaleTime()
 	.domain([parseTime("00:00"), parseTime("23:59")])
     .range([beemargin.left, beewidth-beemargin.right]);
 
+var timeColorScale = d3.scaleThreshold()
+	.domain([parseTime("04:0"),parseTime("05:0"),parseTime("06:0"),parseTime("07:0"),parseTime("08:00"),parseTime("09:00"),parseTime("14:00"),parseTime("15:00"),parseTime("16:00"),parseTime("17:00"),parseTime("18:00"),parseTime("19:00"),parseTime("20:00")])
+	.range(['#225ea8','#1d91c0','#41b6c4',"#7fcdbb",'#c7e9b4','#edf8b1','#ffffd9','#edf8b1','#c7e9b4',"#7fcdbb",'#41b6c4','#41b6c4','#1d91c0','#225ea8'])
 bartoggles = d3.select(".bartogglediv").append("div")
     .attr("class","bar-histogram-chart-toggle-wrapper")
 
@@ -99,7 +102,8 @@ function ready(error,died,success) {
 	    .attr("x", function(d) { return beex(d.x0); })
 	    .attr("y", function(d) { return countScale(d.length); })
 	    .attr("width", beex(bins[0].x1) - beex(bins[0].x0) - 1)
-	    .attr("height", function(d) { return beeheight-beemargin.bottom - countScale(d.length); });
+	    .attr("height", function(d) { return beeheight-beemargin.bottom - countScale(d.length); })
+	    .attr("fill", function(d) { console.log(d.x0); return timeColorScale(d.x0) });
 
 
 

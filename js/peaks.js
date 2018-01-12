@@ -153,7 +153,7 @@ function ready(error,peaks,jsonmap) {
 		.enter()
 		.append('g')
 
-		.attr("transform", function(d,i) { return "translate(0," + i * 100 +")"})
+		.attr("transform", function(d,i) { return "translate(0," + i * 150 +")"})
 		
 	annotation
 		.append("text")

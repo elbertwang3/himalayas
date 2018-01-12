@@ -9,7 +9,7 @@ Attorney,Law,492
 Alpine instructor,Alpine,374
 Mechanical engineer,Engineering,373
 Photographer,Arts,371
-Electrician,Electronics,362
+Electrician,Trade,362
 Electrical engineer,Engineering,358
 Carpenter,Trade,358
 Office worker,Office,349
@@ -43,7 +43,7 @@ Salesman,Sales,120
 Physicist,Science,116
 Alpine guide & ski instructor,Alpine,112
 Retired,Retired,112
-Chemical engineer,Engineer,110
+Chemical engineer,Engineering,110
 Secretary,Office,109
 Truck driver,Trade,104
 Builder,Trade,102
@@ -51,7 +51,7 @@ Travel agent,Office,100
 Clerk,Office,100
 Construction worker,Trade,97
 Bank employee,Banking,96
-Construction engineer,Engineer,96
+Construction engineer,Engineering,96
 Pharmacist,Medicine,96
 Manager,Business,93
 Management consultant,Business,90
@@ -75,12 +75,12 @@ Chemist,Science,69
 Trekking guide,Travel,68
 Restaurant owner,Food,67
 Social worker,Government,66
-Pilot,Airplanes,65
+Pilot,Airline,65
 Computer operator,Computer,64
 Factory worker,Trade,64
-Expedition organizer & leader,Nepal,62
+Expedition organizer & leader,Travel,62
 Writer,Arts,62
-Electrical technician,Electronics,61
+Electrical technician,Trade,61
 Real estate agent,Real estate,59
 House painter,Trade,59
 IT consultant,Computer,57
@@ -88,14 +88,14 @@ Cook,Food,57
 Primary school teacher,Education,56
 Company director,Business,56
 Construction company manager,Trade,55
-Metallurgical engineer,Engineer,55
+Metallurgical engineer,Engineering,55
 Sports teacher,Fitness,54
 Physical education teacher,Fitness,53
 Employee,Office,53
-Electronics technician,Electronics,53
+Electronics technician,Trade,53
 Tour operator,Travel,53
 Business consultant,Business,52
-Airline pilot,Airplanes,52
+Airline pilot,Airline,52
 Building contractor,Trade,52
 Artist,Arts,51
 Physician (surgeon),Medicine,50
@@ -106,7 +106,7 @@ Soldier,Military,48
 Tour guide,Travel,47
 Expedition leader,Travel,47
 Retired engineer,Retired,46
-Telecommunications engineer,Engineer,46
+Telecommunications engineer,Engineering,46
 Business owner,Business owner,46
 Economics student,Student,45
 Financial advisor,Business,44
@@ -151,7 +151,7 @@ Locksmith,Trade,30
 Scientist,Science,30
 Taxi driver,Cars,30
 Retired businessman,Retired,29
-Mining engineer,Engineer,29
+Mining engineer,Engineering,29
 Outdoor activities instructor,Fitness,29
 Author,Arts,29
 Furniture maker,Trade,29
@@ -274,7 +274,7 @@ Forest ranger,Government,17
 Home builder,Trade,17
 Outdoor educator,Fitness,17
 Optometrist,Medicine,16
-Air traffic controller,Airplanes,16
+Air traffic controller,Airline,16
 Horticulturist,Science,16
 Company owner,Business owner,16
 Aerospace engineer,Engineering,16
@@ -308,7 +308,7 @@ Factory manager,Manager,15
 Telephone technician,Trade,15
 Sporting goods salesman,Sales,15
 Police inspector,Government,15
-Airplane pilot,Airplanes,14
+Airplane pilot,Airline,14
 Veterinary surgeon,Medicine,14
 Landscape gardener,Trade,14
 Army corporal,Military,14
@@ -356,7 +356,7 @@ Mathematics teacher,Education,12
 Graphic artist,Arts,12
 Writer & alpinist,Alpine,12
 Alpine instructor & guide,Alpine,12
-Aircraft engineer,Engineer,12
+Aircraft engineer,Engineering,12
 Chartered accountant,Business,12
 Freelance writer,Media,12
 Government employee,Government,12
@@ -417,7 +417,7 @@ Computer systems engineer,Computer,10
 IT project manager,Computer,10
 Indian Army,Military,10
 Financial planner,Business,10
-Pensioner,Govenrment,10
+Pensioner,Government,10
 Finance director,Business,10
 Tax accountant,Business,10
 "Instructor, Himalayan Mountaineering Institute",Alpine,10
@@ -461,7 +461,7 @@ Construction company executive,Business owner,9
 Research engineer,Engineering,9
 Lithographer,Arts,9
 Property manager,Manager,9
-Helicopter pilot,Airplanes,9
+Helicopter pilot,Airline,9
 Bank officer,Banking,9
 Barrister,Law,9
 Financier,Business,9

@@ -1,11 +1,12 @@
-var ocdiameter = 700;
+var ocdiameter = 500;
 
 var ocsvg = d3.select(".occupationsdiv").append("svg")
     .attr("width", ocdiameter)
     .attr("height", ocdiameter)
- ocg = ocsvg.append("g").attr("transform", "translate(2,2)"),
+    .attr("class", "ocsvg")
+ ocg = ocsvg.append("g").attr("transform", "translate(" + ocdiameter / 2 + "," + ocdiameter / 2 + ")");
     format = d3.format(",d"),
-    margin = 20
+    ocmargin = 20
 
     
 
@@ -13,51 +14,81 @@ var pack = d3.pack()
     .size([ocdiameter - 4, ocdiameter - 4])
     .padding(2);
 
+
+/*var color = d3.scaleLinear()
+    .domain([-1, 5])
+    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+    .interpolate(d3.interpolateHcl);*/
+
+var pack = d3.pack()
+    .size([ocdiameter - ocmargin, ocdiameter - ocmargin])
+    .padding(2);
+
 d3.json("data/oc2.json", function(error, root) {
   if (error) throw error;
-  //consol
-  //console.log(root);
+
   root = d3.hierarchy(root)
       .sum(function(d) { return d.size; })
       .sort(function(a, b) { return b.value - a.value; });
 
-  var ocnode = ocg.selectAll(".node")
-    .data(pack(root).descendants())
-    .enter().append("g")
-      .attr("class", function(d) { return d.children ? "node" : "leaf node"; })
-      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+  var focus = root,
+      ocnodes = pack(root).descendants(),
+      view;
 
-  ocnode.append("title")
-      .text(function(d) { return d.data.name + "\n" + format(d.value); });
+  var occircle = ocg.selectAll("circle")
+    .data(ocnodes)
+    .enter().filter(function(d){ return d.parent; }).append("circle")
+      .attr("class", function(d) { return d.parent ? d.children ? "node node--cat" : "node node--leaf" : "node node--root"; })
+      //.style("fill", function(d) { return d.children ? color(d.depth) : null; })
+      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
-  ocnode.append("circle")
-      .attr("r", function(d) { return d.r; })
-      .attr("class", "oc-circle");
+      d3.selectAll(".node--cat")
+        .attr("stroke", "#696969")
+        //.attr("stroke-width", 2)
+        .attr("fill", "#C0C0C0")
+      d3.selectAll(".node--leaf")
+        .attr("fill", "#888888")
+        .attr("stroke", "#696969")
+        .attr("opacity", 0.8)
+        //.attr("stroke-width")
+ 
+  var text = ocg.selectAll("text")
+    .data(ocnodes)
+    .enter().append("text")
+      .attr("class", "label")
+      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
+      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
+      .text(function(d) { return d.data.name; });
 
-  ocnode.filter(function(d) { return !d.children; }).append("text")
-      .attr("dy", "0.3em")
-      .text(function(d) { return d.data.name.substring(0, d.r / 3); });
+  var ocnode = ocg.selectAll("circle,text");
 
-   function zoom(d) {
+  ocsvg
+     //.style("background", "black")
+      .on("click", function() { zoom(root); });
+
+  zoomTo([root.x, root.y, root.r * 2 + ocmargin]);
+
+  function zoom(d) {
     var focus0 = focus; focus = d;
 
-    var transition = d3.transition()
+    var octransition = d3.transition()
         .duration(d3.event.altKey ? 7500 : 750)
         .tween("zoom", function(d) {
-          var i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + margin]);
+          var i = d3.interpolateZoom(view, [focus.x, focus.y, focus.r * 2 + ocmargin]);
           return function(t) { zoomTo(i(t)); };
         });
 
-    transition.selectAll("text")
-      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
+    octransition.selectAll(".ocsvg .label")
+      .filter(function(d) { console.log(d); return d.parent === focus || this.style.display === "inline"; })
         .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
         .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
         .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
   }
 
   function zoomTo(v) {
-    var k = diameter / v[2]; view = v;
-    node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
-    circle.attr("r", function(d) { return d.r * k; });
+    var k = ocdiameter / v[2]; view = v;
+    ocnode.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
+    occircle.attr("r", function(d) { return d.r * k; });
   }
 });
+  
