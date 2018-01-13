@@ -43,13 +43,13 @@ d3.json("data/oc2.json", function(error, root) {
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
       d3.selectAll(".node--cat")
-        .attr("stroke", "#696969")
+        .attr("stroke", "#41b6c4")
         //.attr("stroke-width", 2)
-        .attr("fill", "#C0C0C0")
+        .attr("fill", "#c7e9b4")
       d3.selectAll(".node--leaf")
-        .attr("fill", "#888888")
-        .attr("stroke", "#696969")
-        .attr("opacity", 0.8)
+        .attr("fill", "#7fcdbb")
+        .attr("stroke", "#41b6c4")
+        //.attr("opacity", 0.8)
         //.attr("stroke-width")
  
   var text = ocg.selectAll("text")

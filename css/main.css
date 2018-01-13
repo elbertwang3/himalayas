@@ -25,7 +25,7 @@ body, html {
 .cover {
 	position: relative;
 	width: 100%;
-	  height:100vh;
+	height:100vh;
 	/*background-image: url("../images/background-lossy-cropped.gif");*/
 
 
@@ -384,10 +384,20 @@ h2 {
     /* -webkit-transform: translate(105px,0px); */
     /* display: none; */
   }
-  .bar-histogram-chart-toggle-wrapper{
+  
+
+   .bar-histogram-chart-toggle-wrapper{
     
     margin: 0 auto;
     width: 226px;
+  
+    /* -webkit-transform: translate(105px,0px); */
+    /* display: none; */
+  }
+
+  .histogram-chart-toggle-wrapper2{
+    
+    text-align: center;
   
     /* -webkit-transform: translate(105px,0px); */
     /* display: none; */
@@ -405,8 +415,13 @@ h2 {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
   /* display: none; */
 }
+
+
  .front-curve {
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
@@ -428,7 +443,7 @@ h2 {
     /* border: solid 1px rgba(127, 125, 156, 0.75); */
     padding: 0px 7px;
     /* box-shadow: inset 0 1px 2px rgba(0,0,0,0.08); */
-
+    display: inline-block;
     background: white;
     text-align: center;
     line-height: 23px;
@@ -616,6 +631,8 @@ h2 {
 .ocsvg .node {
      pointer: cursor;
 }
+
+
 
 @media only screen and (max-width: 600px) { 
 

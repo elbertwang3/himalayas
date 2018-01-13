@@ -103,7 +103,7 @@ function ready(error,died,success) {
 	    .attr("y", function(d) { return countScale(d.length); })
 	    .attr("width", beex(bins[0].x1) - beex(bins[0].x0) - 1)
 	    .attr("height", function(d) { return beeheight-beemargin.bottom - countScale(d.length); })
-	    .attr("fill", function(d) { console.log(d.x0); return timeColorScale(d.x0) });
+	    .attr("fill", function(d) { return timeColorScale(d.x0) });
 
 
 

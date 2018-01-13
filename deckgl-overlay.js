@@ -66,7 +66,6 @@ export default class DeckGLOverlay extends Component {
 
   return d['MYEAR'] == year.toString() && d['latitude'] != "" && d['longitude'] != "";
 });
-    console.log(yeardata);
 
     
     //const {flows, centroid} = selectedFeature.properties;
@@ -90,7 +89,6 @@ export default class DeckGLOverlay extends Component {
       a.gain = Math.sign(a.value);
       a.quantile = scale(Math.abs(a.value));
     });
-    console.log(arcs);
     return arcs;
   }
 
@@ -102,7 +100,6 @@ export default class DeckGLOverlay extends Component {
   }
 
   render() {
-    console.log("deck-gl rerendered")
     const {viewport, strokeWidth, data} = this.props;
     const {arcs} = this.state;
 
