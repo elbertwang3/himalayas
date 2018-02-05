@@ -1,9 +1,10 @@
 peaksdiv = d3.select(".peakcontainer"),
-peakswidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
-peaksheight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) - 50,
+peakswidth = 1439,
+peaksheight = 637,
 peaksmargin = {top: 30, bottom: 30, left: 30, right: 30},
 input = document.getElementById("myinput");
 himals = ['Unclassified', 'Annapurna', 'Api', 'Damodar', 'Dhaulagiri', 'Ganesh', 'Janak', 'Jongsang', 'Jugal', 'Kangchenjunga', 'Kanjiroba', 'Kanti Palchung', 'Khumbu', 'Langtang', 'Makalu', 'Manaslu', 'Mukut Mustang', 'Nalakanakar', 'Peri', 'Rolwaling', 'Saipal']
+
 peakssvg = peaksdiv.append('svg')
  .attr("viewBox", "0 0 " + (peakswidth) + " " + (peaksheight))
 	.attr('class', 'peakssvg')

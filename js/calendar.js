@@ -3,6 +3,9 @@ toggles = d3.select(".calendartooltipdiv").append("div")
 
 var cut = 'All peaks';
 var prevcut = 'All peaks';
+var chchart;
+var chaspect;
+var chsvgcontainer;
 d3.queue()
     .defer(d3.csv, "data/membersbymonthday.csv")
     .defer(d3.csv, "data/everestbymonthday.csv")
@@ -29,7 +32,18 @@ function ready(error,all,everest) {
               .onClick(function (data) {
                 console.log('onClick callback. Data:', data);
               });
+
+ 
 chart1();  // render the chart
+
+chchart = $(".calendar-heatmap");
+    chaspect = chchart.width() / chchart.height(),
+     chsvgcontainer = chchart.parent();
+     targetWidth = chsvgcontainer.width() - 72;
+     
+      chchart.attr("width", targetWidth);
+      chchart.attr("height", Math.round(targetWidth / chaspect));
+
 	toggles
     .append("div")
     .attr("class","histogram-chart-toggle-type")
@@ -97,4 +111,17 @@ chart2();  // render the chart*/
 		}
 		return parsed;
 	}
+
+
 }
+
+
+$(window).on("resize", function() {
+
+     var targetWidth = chsvgcontainer.width() - 72;
+     
+      chchart.attr("width", targetWidth);
+      chchart.attr("height", Math.round(targetWidth / chaspect));
+
+   //}
+}).trigger("resize");

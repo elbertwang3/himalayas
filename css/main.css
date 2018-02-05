@@ -379,7 +379,7 @@ h2 {
 .histogram-chart-toggle-wrapper{
     
     margin: 0 auto;
-    width: 148px;
+    width: 175px;
   
     /* -webkit-transform: translate(105px,0px); */
     /* display: none; */
@@ -389,7 +389,7 @@ h2 {
    .bar-histogram-chart-toggle-wrapper{
     
     margin: 0 auto;
-    width: 226px;
+    width: 300px;
   
     /* -webkit-transform: translate(105px,0px); */
     /* display: none; */
@@ -465,9 +465,19 @@ h2 {
 .calendar {
 	display: block;
 	margin: 0 auto;
-	max-width: 747px;
+	max-width: 783px;
 }
 
+.calendar-heatmap {
+  display: block;
+  margin: 0 auto;
+}
+
+.occupationsdiv {
+  display: block;
+  margin: 0 auto;
+  max-width: 600;
+}
 
 
 .beeswarm {
@@ -632,7 +642,13 @@ h2 {
      pointer: cursor;
 }
 
+.divider {
+  text-align: center;
+}
 
+.last {
+  margin-bottom: 30px;
+}
 
 @media only screen and (max-width: 600px) { 
 

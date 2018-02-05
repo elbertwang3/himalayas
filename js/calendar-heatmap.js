@@ -2,7 +2,7 @@
 function calendarHeatmap() {
   // defaults
   var innerWidth = window.innerWidth;
-  var width = 675;
+  var width = 700;
   var height = 110;
   var legendWidth = 192;
   var selector = 'body';
@@ -127,6 +127,7 @@ function calendarHeatmap() {
       var svg = d3.select(".calendar")
         .style('position', 'relative')
         .append('svg')
+        .attr("viewBox", "0 0 " + (width) + " " + (height))
         .attr('width', width)
         .attr('class', 'calendar-heatmap')
         .attr('height', height)
@@ -193,19 +194,19 @@ function calendarHeatmap() {
             .attr('class', 'calendar-heatmap-legend')
             .attr('width', SQUARE_LENGTH)
             .attr('height', SQUARE_LENGTH)
-            .attr('x', function (d, i) { return (width - legendWidth) + (i + 1) * 13 + 60; })
+            .attr('x', function (d, i) { return (width - legendWidth) + (i + 1) * 13 + 40; })
             .attr('y', height + SQUARE_PADDING)
             .attr('fill', function (d) { return d; });
 
         legendGroup.append('text')
           .attr('class', 'calendar-heatmap-legend-text calendar-heatmap-legend-text-less')
-          .attr('x', width - legendWidth - 13 + 60)
+          .attr('x', width - legendWidth - 13 + 40)
           .attr('y', height + SQUARE_LENGTH)
           .text(locale.Less);
 
         legendGroup.append('text')
           .attr('class', 'calendar-heatmap-legend-text calendar-heatmap-legend-text-more')
-          .attr('x', (width - legendWidth + SQUARE_PADDING) + (colorRange.length + 1) * 13 + 60)
+          .attr('x', (width - legendWidth + SQUARE_PADDING) + (colorRange.length + 1) * 13 + 40)
           .attr('y', height + SQUARE_LENGTH)
           .text(locale.More);
       }

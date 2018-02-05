@@ -1,6 +1,7 @@
-var ocdiameter = 500;
+var ocdiameter = 600;
 
 var ocsvg = d3.select(".occupationsdiv").append("svg")
+.attr("viewBox", "0 0 " + (ocdiameter) + " " + (ocdiameter))
     .attr("width", ocdiameter)
     .attr("height", ocdiameter)
     .attr("class", "ocsvg")
@@ -79,7 +80,7 @@ d3.json("data/oc2.json", function(error, root) {
         });
 
     octransition.selectAll(".ocsvg .label")
-      .filter(function(d) { console.log(d); return d.parent === focus || this.style.display === "inline"; })
+      .filter(function(d) { return d.parent === focus || this.style.display === "inline"; })
         .style("fill-opacity", function(d) { return d.parent === focus ? 1 : 0; })
         .on("start", function(d) { if (d.parent === focus) this.style.display = "inline"; })
         .on("end", function(d) { if (d.parent !== focus) this.style.display = "none"; });
@@ -91,4 +92,18 @@ d3.json("data/oc2.json", function(error, root) {
     occircle.attr("r", function(d) { return d.r * k; });
   }
 });
+
+var chart = $(".ocsvg");
+    ocaspect = chart.width() / chart.height(),
+     ocsvgcontainer = chart.parent();
+     console.log(chart);
+     console.log(ocsvgcontainer);
+$(window).on("resize", function() {
+
+   var targetWidth = ocsvgcontainer.width();
+   
+    chart.attr("width", targetWidth);
+    chart.attr("height", Math.round(targetWidth / ocaspect));
+
+}).trigger("resize");
   

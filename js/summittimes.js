@@ -6,6 +6,7 @@ var cut = 'Successful ascent';
 var prevcut = 'Successful ascent';
 var beesvg = d3.select(".beeswarm")
 	.append("svg")
+	.attr("viewBox", "0 0 " + (beewidth) + " " + (beeheight))
 	.attr("class", "beesvg")
 	.attr("width", beewidth)
 	.attr("height", beeheight)
@@ -301,5 +302,20 @@ function wrap(text, width) {
     }
   });
 }
+
+var beechart = $(".beesvg");
+
+    beeaspect = beechart.width() / beechart.height(),
+     stsvgcontainer = beechart.parent();
+
+$(window).on("resize", function() {
+
+
+   var targetWidth = stsvgcontainer.width();
+   
+    beechart.attr("width", targetWidth);
+    beechart.attr("height", Math.round(targetWidth / beeaspect));
+
+}).trigger("resize");
 
 
