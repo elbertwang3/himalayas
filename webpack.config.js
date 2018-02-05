@@ -40,6 +40,14 @@ const CONFIG = {
       'mapbox-gl$': resolve('./node_modules/mapbox-gl/dist/mapbox-gl.js')
     }
   },
+  output: {
+   
+
+
+      // Tweak this to match your GitHub project name
+      publicPath: "/himalayas/"
+
+    },
 
 
   // Optional: Enables reading mapbox token from environment variable

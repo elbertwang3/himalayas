@@ -1,7 +1,9 @@
 {
   "scripts": {
     "start-local": "webpack-dev-server --env.local --progress --hot --port 3030 --open",
-    "start": "webpack-dev-server --progress --hot --port 3030 --open"
+    "start": "webpack-dev-server --progress --hot --port 3030 --open",
+     "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "d3": "^4.12.2",
@@ -19,6 +21,7 @@
   "devDependencies": {
     "buble-loader": "^0.4.0",
     "css-loader": "^0.28.7",
+    "gh-pages": "^1.1.0",
     "style-loader": "^0.19.1",
     "webpack": "^2.2.0",
     "webpack-dev-server": "^2.2.0"
