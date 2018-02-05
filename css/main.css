@@ -26,7 +26,7 @@ body, html {
 	position: relative;
 	width: 100%;
 	height:100vh;
-	/*background-image: url("../images/background-lossy-cropped.gif");*/
+	background-image: url("../images/background-lossy-cropped.gif");
 
 
 }

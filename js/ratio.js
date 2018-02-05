@@ -2,6 +2,7 @@
 ratiodiv = d3.select(".ratiodiv")
 ratiowidth = 1440
 ratioheight = 800
+barlength = 20
 ratiomargin = {top: 60, bottom: 20, left: 20, right: 20}
 togglesdiv = d3.select(".ratiodiv").append("div")
     .attr("class","histogram-chart-toggle-wrapper2")
@@ -13,7 +14,7 @@ ratiosvg = ratiodiv.append("svg")
 				.attr("height", ratioheight)
 
 
-d3.csv('data/ratio.csv', function(data){
+d3.csv('data/ratio.csv', cast, function(data){
 	togglesdiv
     .append("div")
     .attr("class","histogram-chart-toggle-type")
@@ -107,12 +108,46 @@ d3.csv('data/ratio.csv', function(data){
 	ratiowidthscale = d3.scaleLinear()
 					.domain([0, d3.max(data, function(d) { return d['ratio']})*100])
 					.range([0,ratiowidth/2 -ratiomargin.left])
+  ratiog = ratiosvg.append("g")
+	ratiogs = ratiog.selectAll("g")
+					.data(data)
+          .enter()
+          .append("g")
+          //.attr("class", "summit-g")
+  summitg = ratiogs.append("g")
+        .attr("class", "summit-g")
+        .attr("transform", function(d, i) { return "translate(" + ratiowidth/2 + ", " + (ratiomargin.top + i*barlength) +")";})
+  summitg.append("rect")
+          .attr("class", "summit bar")
+          .attr("fill", "red")
+          .attr("width", function(d) { return totalwidthscale(d.countssummits)})
+          .attr("height", barlength - 1);
+  deathg = ratiogs.append("g")
+        .attr("class", "death-g")
+      
+          .attr("transform", function(d,i) { return "translate(" + (ratiowidth/2 - totalwidthscale(d.countsdeaths)) +", " + (ratiomargin.top + i*barlength) + ")";})
+          //.attr("transform", "translate(")
+	deathg.append("rect")
+        .attr("class", "death bar")
+        .attr("fill", "blue")
+         .attr("width", function(d) { return totalwidthscale(d.countsdeaths)})
+    .attr("height", barlength - 1);
 
-	summitbars = ratiosvg.selectAll(".bar.summit")
-					.data(data)
-	deathbars = ratiosvg.selectAll(".bar.death")
-					.data(data)
+
 
 
 
 })
+
+function cast(d) {
+
+  d.countssummits = +d.countssummits;
+  d.countsdeaths = +d.countsdeaths;
+  d.ratio = +d.ratio;
+
+
+
+
+
+  return d;
+}
